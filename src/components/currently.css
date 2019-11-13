@@ -1,0 +1,25 @@
+.currently{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-color: #7B7A61;
+    padding: 2rem;
+}
+
+.currently h5{
+    margin-bottom: 1rem;
+}
+
+.currently--list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.currently--list-item{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2rem;
+}
+.currently--list-item img{
+    margin-right: 0.5rem;
+}
