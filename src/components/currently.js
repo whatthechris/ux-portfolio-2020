@@ -1,4 +1,5 @@
 import React from "react"
+import '../data/global_styles.scss'
 
 import './currently.css'
 

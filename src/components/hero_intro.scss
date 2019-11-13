@@ -1,0 +1,47 @@
+@import '../data/global_styles.scss';
+@import '../../node_modules/sass-mq/_mq.scss';
+
+.homepage--hero{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: $dark-grey;
+
+  &-intro{
+    padding: 0 1.5rem;
+    max-width: 680px;
+
+    @include mq(tablet){
+      padding: 0 7.5rem;
+    }
+
+    & h1{
+      margin-bottom: 1rem;
+    }
+
+    & p{
+      margin-bottom: 4rem;
+      max-width: 400px;
+      @include mq(tablet){
+        max-width: 550px;
+      }
+    }
+  }
+}
+
+.homepage--hero-bgvideo{
+  position: absolute;
+  left: 50%; /* % of surrounding element */
+  top: 50%;
+  width: 100%;
+  height: 100vh;
+  transform: translate(-50%, -50%);
+  z-index: -100;
+  overflow: hidden;
+}
+
+.homepage--hero-bgvideo iframe{
+  width: 100%;
+  height: 100vh;
+}

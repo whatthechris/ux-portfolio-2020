@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Muli|Poppins:700&display=swap');
+
+// font variables
+$heading-font-stack: 'Poppins', sans-serif;
+$body-font-stack: 'Muli', sans-serif;
+
+// neutral color variables
+$darker-grey: #2D3435;
+$dark-grey: #373D3E;
+$light-grey: #96999A;
+$lighter-grey: #C7C7C7;
+$off-white: #FAFAFA;
+
+//brand colors variables
+$sand: #A59E86;
+$moss: #7B7A61;
+$earth: #837668;
+$yellow: #FECC01;
+
+//media queries
+$mobile:  320px;
+$tablet:  740px;
+$desktop: 980px;
+$wide:    1300px;
+
+
+body {
+  background-color: $darker-grey;
+  font-family: $body-font-stack;
+  -webkit-font-smoothing: antialiased;
+  color: $off-white;
+  margin: 0;
+}
+h1{
+  margin: 0;
+  font-weight: 700;
+  font-family: $heading-font-stack;
+}
+
+h2{
+  margin: 0;
+  font-weight: 700;
+  font-family: $heading-font-stack;
+}
+
+h3{
+  margin: 0;
+  font-weight: 700;
+  font-family: $heading-font-stack;
+  line-height: 2.5rem;
+}
+
+h4{
+  margin: 0;
+  font-weight: 700;
+  font-family: $heading-font-stack;
+}
+
+h5{
+  margin:0 ;
+  font-weight: 700;
+  font-family: $heading-font-stack;
+}
+
+p{
+  margin: 0;
+  font-family: $body-font-stack;
+  line-height: 1.625rem;
+}
+
+a {
+  font-family: $heading-font-stack;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: $yellow;
+}
+
+.large-p{
+  font-size: 1.25rem;
+  font-family: $body-font-stack;
+  line-height: 2rem;
+}
+
+.caption{
+  font-size: 0.875rem;
+  font-family: $body-font-stack;
+  line-height: 1.25rem;
+}
+
+@media (min-width: $desktop){
+  h1{
+    font-size: 3.998rem;
+    line-height: 5rem;
+  }
+
+  h2{
+    font-size: 2.827rem;
+    line-height: 3.5rem;
+  }
+
+  h3{
+    font-size: 1.999rem;
+    line-height: 2.5rem;
+  }
+
+  h4{
+    font-size: 1.414rem;
+    line-height: 2rem;
+  }
+
+  h5{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@media (max-width: $desktop){
+  h1{
+    font-size: 2.827rem;
+  }
+
+
+}
