@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
-import "../components/hero_intro.scss"
+import "./styles/homepage_hero.scss"
 import Currently from "./currently"
 
 const HomepageHero = () => (
@@ -12,7 +12,7 @@ const HomepageHero = () => (
         <Link to="/page-2/">Say Hello :)</Link>
       </div>
       <Currently />
-      <div className="homepage--hero-bgvideo">
+      <div className="bgvideo">
         {/* 
         <iframe src="https://player.vimeo.com/video/341269351?background=1" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
         */}

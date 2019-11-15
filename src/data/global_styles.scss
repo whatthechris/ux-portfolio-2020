@@ -82,6 +82,13 @@ a {
   line-height: 2rem;
 }
 
+.pull-quote{
+  font-size: 1.999rem;
+  font-family: $body-font-stack;
+  line-height: 3rem;
+  color: $lighter-grey;
+}
+
 .caption{
   font-size: 0.875rem;
   font-family: $body-font-stack;
@@ -118,6 +125,15 @@ a {
 @media (max-width: $desktop){
   h1{
     font-size: 2.827rem;
+  }
+
+  h2{
+    font-size: 1.999rem;
+  }
+
+  .pull-quote{
+    font-size: 1.25rem;
+    line-height: 2rem;
   }
 
 

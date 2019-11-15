@@ -1,0 +1,11 @@
+@import '../../data/global_styles.scss';
+@import '../../../node_modules/sass-mq/_mq.scss';
+
+.intro--text{
+    margin: 60px 0;
+    grid-column: 1/5;
+    @include mq(tablet){
+        margin: 160px 0;
+        grid-column: 1/10;
+    }
+}

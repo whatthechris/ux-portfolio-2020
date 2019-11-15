@@ -1,10 +1,11 @@
-@import '../data/global_styles.scss';
+@import '../../data/global_styles.scss';
+@import '../../../node_modules/sass-mq/_mq.scss';
 
 .currently{
     position: absolute;
     bottom: 0px;
     right: 0px;
-    background-color: #7B7A61;
+    background-color: $moss;
     padding: 2rem;
 }
 
@@ -21,6 +22,16 @@
     display: flex;
     flex-direction: row;
     margin-right: 2rem;
+    margin-bottom: 0px;
+    &:last-of-type{
+        margin-bottom:0px;
+    }
+    @include mq($until: tablet){
+        margin-bottom: 8px;
+        &:last-of-type{
+            margin-bottom:0px;
+        }
+    }
 }
 .currently--list-item img{
     margin-right: 0.5rem;

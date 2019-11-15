@@ -1,12 +1,11 @@
-@import '../data/global_styles.scss';
-@import '../../node_modules/sass-mq/_mq.scss';
+@import '../../data/global_styles.scss';
+@import '../../../node_modules/sass-mq/_mq.scss';
 
 .homepage--hero{
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
-  background-color: $dark-grey;
 
   &-intro{
     padding: 0 1.5rem;
@@ -30,15 +29,15 @@
   }
 }
 
-.homepage--hero-bgvideo{
+.bgvideo{
   position: absolute;
-  left: 50%; /* % of surrounding element */
-  top: 50%;
   width: 100%;
-  height: 100vh;
-  transform: translate(-50%, -50%);
+  height: 100%;
+  background-image: url("../../images/bgvideo.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   z-index: -100;
-  overflow: hidden;
 }
 
 .homepage--hero-bgvideo iframe{

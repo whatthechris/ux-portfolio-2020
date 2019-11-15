@@ -1,0 +1,18 @@
+@import '../../node_modules/sass-mq/_mq.scss';
+
+.page--container{
+    margin: 0 32px;
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 16px;
+
+    @include mq(wide){
+        margin: 0 auto;
+    }
+
+    @include mq(desktop){
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 24px;
+    }
+}

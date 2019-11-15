@@ -1,7 +1,7 @@
 import React from "react"
 import '../data/global_styles.scss'
 
-import './currently.css'
+import './styles/currently.scss'
 
 const Currently = ({ siteTitle }) => (
   <div className="currently">
