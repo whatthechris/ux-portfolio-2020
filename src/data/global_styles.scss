@@ -68,7 +68,12 @@ p{
   line-height: 1.625rem;
 }
 
-a {
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.text-link {
   font-family: $heading-font-stack;
   text-transform: uppercase;
   text-decoration: none;

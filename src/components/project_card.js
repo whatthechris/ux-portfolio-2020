@@ -4,27 +4,30 @@ import { Link } from "gatsby"
 import "./styles/project_card.scss"
 
 const ProjectCard = () => (
-    <div className="projectcard">
-        <div className="content">
-            <div className="content--text">
-                <div className="content--text-heading">
-                    <p>Wayfinder Web App</p>
+    <div className="project-card">
+        <Link to="/page-2/">
+        <div className="project-card__content">
+            <div className="project-card__text">
+                <div className="project-card__top-text">
+                    <p className="project-card__eyebrow">Wayfinder Web App</p>
                     <h2>Helping hard working people save for the good life</h2>
                 </div>
-                <div className="content--text-bottom">
-                    <ul className="content--text-bottomlist">
+                <div className="project-card__bottom-text">
+                    <ul className="project-card__roles">
                         <h5>Roles</h5>
                         <p>Motion Design</p>
                         <p>UI/ UX Design</p>
                     </ul>
-                    <Link>View Case Study</Link>
+                    <a className="text-link">View Case Study</a>
+                    <img src={require('../images/svgs/arrow-right.svg')} />
                 </div>
             </div>
-            <div className="content--image">
+            <div className="project-card__image">
                 <img src={require('../images/homepage/wayfinder_thumb.png')} />
             </div>
         </div>
-        <div className="colorhighlight"></div>
+        <div className="project-card__highlight"></div>
+        </Link>
     </div>
 )
 
