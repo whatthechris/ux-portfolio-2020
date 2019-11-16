@@ -1,5 +1,4 @@
 @import '../../data/global_styles.scss';
-@import '../../../node_modules/sass-mq/_mq.scss';
 
 .currently{
     position: absolute;
@@ -26,7 +25,7 @@
     &:last-of-type{
         margin-bottom:0px;
     }
-    @include mq($until: tablet){
+    @media (max-width: $desktop){
         margin-bottom: 8px;
         &:last-of-type{
             margin-bottom:0px;

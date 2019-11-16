@@ -1,5 +1,4 @@
 @import '../../data/global_styles.scss';
-@import '../../../node_modules/sass-mq/_mq.scss';
 
 .homepage--hero{
   display: flex;
@@ -8,11 +7,11 @@
   height: 100vh;
 
   &-intro{
-    padding: 0 1.5rem;
+    padding: 0 7.5rem;
     max-width: 680px;
 
-    @include mq(tablet){
-      padding: 0 7.5rem;
+    @media (max-width: $desktop){
+      padding: 0 1.5rem;
     }
 
     & h1{
@@ -21,9 +20,9 @@
 
     & p{
       margin-bottom: 4rem;
-      max-width: 400px;
-      @include mq(tablet){
-        max-width: 550px;
+      max-width: 550px;
+      @media (max-width: $desktop){
+        max-width: 400px;
       }
     }
   }
