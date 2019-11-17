@@ -5,6 +5,7 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
+    margin-bottom: 60px;
     @media (max-width: $tablet){
         grid-column: 1/ span 4;
     }

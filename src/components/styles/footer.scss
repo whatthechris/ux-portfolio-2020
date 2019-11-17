@@ -1,0 +1,9 @@
+@import '../../data/global_styles.scss';
+
+.footer{
+    background-color: $dark-grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 320px;
+}

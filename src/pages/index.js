@@ -6,6 +6,7 @@ import "./styles/homepage.scss"
 import HomepageHero from "../components/homepage_hero.js"
 import PullQuote from "../components/pull_quote.js"
 import ProjectCard from "../components/project_card.js"
+import Footer from "../components/footer.js"
 
 const IndexPage = () => (
     <div>
@@ -46,6 +47,7 @@ const IndexPage = () => (
           />
         </div>
       </div>
+      <Footer />
     </div>
 )
 
