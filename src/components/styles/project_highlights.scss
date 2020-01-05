@@ -63,6 +63,7 @@
   &__image-section{
     grid-column: 9/ span 4;
     @media (max-width: $tablet){
+       display: none;
         grid-column: 1/ span 4;
     }
     & img{

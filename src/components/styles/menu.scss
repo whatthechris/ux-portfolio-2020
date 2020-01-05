@@ -4,7 +4,6 @@
     position: fixed;
     top: 0;
     right: 0;
-    background-color: $sand;
     width: 50px;
     height: 50px;
     z-index: 2;
@@ -43,7 +42,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: $dark-grey;
+        background-color: $sand;
         width: 30px;
         height: 30px;
         border-radius: 50%;

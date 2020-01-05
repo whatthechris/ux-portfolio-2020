@@ -3,7 +3,7 @@ import React from "react"
 import "./styles/project_highlights.scss"
 
 const ProjectHighlights = props => (
-  <div className="project-highlights container">
+  <div className="project-highlights grid">
     <div className="project-highlights__title"><p>Project Highlights</p></div>
     <div className="project-highlights__text-section">
       <div 

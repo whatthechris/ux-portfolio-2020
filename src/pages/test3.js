@@ -3,7 +3,7 @@ import React from "react"
 import "./styles/test3.scss"
 
 const TestPage3 = () => (
-    <div className="highlights2 container">
+    <div className="highlights2 grid">
       <div className="highlights2__title"><p>Project Highlights</p></div>
       <div className="highlights2__text">
         <h3 className="highlights2__heading">New year, new venue, new look</h3>

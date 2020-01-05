@@ -4,7 +4,7 @@ import "./styles/project_hero2.scss"
 
 const ProjectHero2 = props => (
     <div className="project-hero2">
-      <div className="project-hero2__content container">
+      <div className="project-hero2__content grid">
         <div className="project-hero2__heading">
             <p>{props.eyebrow}</p>
             <h1>{props.title}</h1>
