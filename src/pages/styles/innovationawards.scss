@@ -1,0 +1,18 @@
+@import '../../data/global_styles.scss';
+
+.cia{
+    background-color: $off-white;
+}
+.cia-project{
+    &__sticky{
+        grid-column: 1/ span 12;
+    }
+    &__highlights-title{
+        grid-column: 1/ span 1;
+        position: sticky;
+        top: 20px;
+        transform-origin: 0 0;
+        transform: rotate(90deg);
+        
+    }
+}

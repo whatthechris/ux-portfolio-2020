@@ -1,0 +1,33 @@
+@import '../../data/global_styles.scss';
+
+.project-wide{
+  position: relative;
+  display: grid;
+  &__photo-section{
+    grid-column: 4/ span 9;
+    position: absolute;
+    z-index: -2;
+    @media (max-width: $tablet){
+      grid-column: 1/ span 4;
+      position: static;
+    }
+  }
+  &__photo{
+    max-width: 100%;
+  }
+  &__text{
+    grid-column: 2/ span 8;
+    padding: 64px 80px;
+    margin-top: 300px;
+    max-width: 700px;
+    background-color: $darker-grey;
+    @media (max-width: $tablet){
+      grid-column: 1/ span 4;
+      padding: 24px;
+      margin-top: 0px;
+    }
+  }
+  &__heading{
+    margin-bottom: 16px;
+  }
+}

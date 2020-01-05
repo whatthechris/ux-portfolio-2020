@@ -1,0 +1,51 @@
+{
+    "projectsleft":[
+        {
+            "eyebrow": "Wayfinder Web App",
+            "heading": "Helping hard working people save for the good life",
+            "thumbnail": "wayfinder_thumb.png",
+            "link": "/wayfinder/"
+        },
+        {
+            "eyebrow": "The Canadian Innovation Awards",
+            "heading": "Celebrating Canadian Tech Innovation",
+            "thumbnail": "cia_thumb.png",
+            "link": "/innovationawards/"
+        }
+    ],
+    "projectsright":[
+        {
+            "eyebrow": "PC Optimum Web App",
+            "heading": "Levelling up Loblaw's loyalty point game",
+            "thumbnail": "pcoptimum_thumb.png",
+            "link": "/pcoptimum/"
+        },
+        {
+            "eyebrow": "Various Motion Projects",
+            "heading": "Communicating ideas through motion",
+            "thumbnail": "motion_thumb.png",
+            "link": "/motion/"
+        }
+    ],
+    "awardscontent": [
+        {
+            "hero__eyebrow": "Celebrating Canadian tech innovation",
+            "hero__title": "The Canadian Innovation Awards",
+            "hero__role1": "Design Lead",
+            "hero__role2": "Motion Design",
+            "hero__role3": "Front-End Dev",
+            "hero__client": "Techvibes",
+            "highlights__icon1": "balloon.svg",
+            "highlights__heading1": "New year, new venue, new look",
+            "highlights__paragraph1": "After 8 years, the awards were renamed to the Canadian Innovation Awards. Having upgraded the venue to the Royal Ontario Museum, the awards needed a more sophisticated look that mirrored the unique event space. ",
+            "highlights__icon2": "balloon.svg",
+            "highlights__heading2": "MoGraphs that get you movin’",
+            "highlights__paragraph2": "On top of putting together a complete awards show package, the team created contextual environmental graphics that sparked conversation and coded reactive motion graphics that moved to the sound of the live band. ",
+            "highlights__icon3": "balloon.svg",
+            "highlights__heading3": "Big Brand Win",
+            "highlights__paragraph3": "Not only was this a big win for the Techvibes brand but the awards also drew in generous sponsorships and sold out all entry tickets. The support from the Canadian tech community was amazing!",
+            "highlights__image": "cia/cia_photo2.png",
+            "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats"
+        }
+    ]
+}

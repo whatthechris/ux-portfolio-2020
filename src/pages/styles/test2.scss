@@ -1,0 +1,36 @@
+@import '../../data/global_styles.scss';
+
+.highlights{
+    background-color: $off-white;
+    margin: 0px auto;
+    padding: 1000px 0;
+    max-width: 1200px;
+    position: relative;
+    display: flex;
+
+    &__title{
+        flex-basis: 10%;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 30px;
+        display: flex;
+        height: 10px;
+        & p{
+            -webkit-transform-origin: 20% 140%;
+            transform-origin: 20% 140%;
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+            position: absolute;
+            width: 150px;
+        }
+    }
+    &__text{
+        flex-basis: 60%;
+    }
+    &__image-section{
+        flex-basis: 30%;
+    }
+    & img{
+        width: 100%;
+    }
+}

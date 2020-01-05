@@ -1,0 +1,48 @@
+@import '../../data/global_styles.scss';
+
+.highlights2{
+    background-color: $off-white;
+    margin: 0px auto;
+    padding: 1000px 24px;
+    max-width: 1200px;
+
+    &__title{
+        grid-column: 1/ span 1;
+        position: sticky;
+        top: 30px;
+        height: 140px;
+        @media (max-width: $tablet){
+            grid-column: 1/ span 4;
+            position: static;
+            height: auto;
+        }
+        & p{
+            -webkit-transform-origin: 10% 90%;
+            transform-origin: 10% 90%;
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+            position: absolute;
+            width: 150px;
+            @media (max-width: $tablet){
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+                position: static;
+            }
+        }
+    }
+    &__text{
+        grid-column: 2/ span 7;
+        @media (max-width: $tablet){
+            grid-column: 1/ span 4;
+        }
+    }
+    &__image-section{
+        grid-column: 9/ span 4;
+        @media (max-width: $tablet){
+            grid-column: 1/ span 4;
+        }
+    }
+    & img{
+        width: 100%;
+    }
+}

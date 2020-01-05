@@ -1,0 +1,85 @@
+@import '../../data/global_styles.scss';
+
+.menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: $sand;
+    width: 50px;
+    height: 50px;
+    z-index: 2;
+
+    &__text{
+        position: absolute;
+        top: 50px;
+        right: 50px;
+        width: 500px;
+        color: $off-white;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+        @media (max-width: $tablet){
+            width: 420px;
+        }
+
+        li{
+            //animation delay sass loop below
+            opacity: 0;
+            animation: $fadein;
+        }
+    }
+
+    &__bottom-links{
+        display: flex;
+        margin-left: 5.5rem;
+        padding-top: 2rem;
+        border-top: 1px solid $off-white;
+        justify-content: space-between;
+    }
+
+    &__circle{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: $dark-grey;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transition: width 0.2s, height 0.2s, background-color 1s;
+        transition-timing-function: ease-in-out;
+        &:hover{
+            width: 35px;
+            height: 35px;
+            transition: width 0.2s, height 0.2s;
+            transition-timing-function: ease-in-out;
+        }
+        &-open{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: $sand;
+            width: 1500px;
+            height: 1500px;
+            border-radius: 50%;
+            z-index: -1;
+            transition: width 0.2s, height 0.2s, background-color 0.2s;
+            transition-timing-function: ease-in-out;
+            
+            @media (max-width: $tablet){
+                width: 1300px;
+                height: 1300px;
+            }
+        }
+    }
+}
+
+@for $i from 1 through 5 {
+    .menu__text li {
+      &:nth-child(#{$i}) {
+        animation-delay: 0.08s * $i;
+        }
+    }
+}

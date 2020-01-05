@@ -1,149 +1,70 @@
 @import '../../data/global_styles.scss';
 
 .project-card{
-    grid-column: 1/ span 12;
-    background-color: $dark-grey;
-    position: relative;
-    z-index: 2;
-    transform: translate(0px, 0px);
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    -webkit-transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
-    transition: box-shadow 0.3s, background-color 0.3s, transform 0.3s;
+    border: 1px solid $sand;
+    padding: 10%;
+    transition: background-color 0.2s;
     transition-timing-function: ease-in-out;
-    &:hover{
-        background-color: lighten($dark-grey, 2%);
-        transform: translate(0px, -10px);
-        box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
-        & .text-link{
-            -webkit-transition: margin-right 0.3s;
-            transition: margin-right 0.3s;
-            transition-timing-function: ease-in-out;
-            margin-right: 16px;
-        }
-    }
     @media (max-width: $tablet){
-        grid-column: 1/ span 4;
+        padding: 24px;
     }
 
-    &--small{
-        flex: 1;
-        margin-right: 24px;
-        margin-bottom: 0px;
-        &:last-of-type{
-            margin-right:0px;
-        }
-        @media (max-width: $tablet){
-            flex-basis: 100%;
-            margin-right: 0px;
-            margin-bottom: 24px;
-        }
+    h2{
+        margin-bottom: 16px;
     }
 
-    &__content{
-        display: flex;
-        flex-direction: row;
-        padding: 4rem;
-        @media (max-width: $tablet){
-            flex-direction: column;
-            padding: 1.5rem;
-        }
-        &--small{
-            flex-direction: column;
-            padding: 2rem;
-            @media (max-width: $desktop){
-                padding: 1.5rem;
-            }
-        }
+    h4{
+        color: $sand;
+        margin-bottom: 16px;
     }
 
-    &__text{
-        flex: 1;
-        order: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        @media (max-width: $tablet){
-            order: 2;
-        }
-        &--small{
-            order: 2;
-            & h2{
-                font-size: 1.414rem;
-                line-height: 2rem;
-            }
-        }
-    }
+    &:hover{
+        background-color: $dark-grey;
+        border-color: $dark-grey;
 
-    &__top-text{
-        margin-bottom: 32px;
-    }
+        & h2, h4, p{
+            color: $off-white;
+        }
 
-    &__eyebrow{
-        color: $light-grey;
-    }
-
-    &__roles{
-        padding: 0;
-        margin-bottom: 2rem;
-        @media (max-width: $tablet){
-            display: none;
-        }
-        &--small{
-            display: none;
-        }
-    }
-
-    &__image{
-        flex: 1;
-        order: 2;
-        margin-left: 32px;
-        position: relative;
-        @media (max-width: $tablet){
-            order: 1;
-            margin: 32px auto;
-        }
-        &--small{
-            order: 1;
-            margin: 32px auto;
-        }
-        &--smallimg{
-            position: static !important;
-        }
         & img{
-            position: absolute;
-            bottom: 0px;
-            align-self: flex-start;
-            max-width: 100%;
-            @media (max-width: $tablet){
-                position: static;
-            }
+            filter: grayscale(0%);
         }
+
+        & .project-card__circle{
+            height: 350px;
+            width: 350px;
+            transition: width 0.2s, height 0.2s;
+            transition-timing-function: ease-in-out;
+        }
+    }     
+
+    &__image-section{
+        position: relative;
+        margin-top: 16px;
+        height: 350px;
+        padding: auto;
+        display: flex;
+        justify-content: center;
     }
-    &__highlight{
+
+    & img{
         position: absolute;
-        height: 100%;
-        width: 25%;
-        top: 0;
-        right: 0;
-        z-index: -1;
-        @media (max-width: $tablet){
-            right: auto;
-            width: 100%;
-            height: 30%;
-        }
-        &--small{
-            right: auto;
-            width: 100%;
-            height: 30%;
-        }
-        &--sand{
-            background-color: $sand;
-        }
-        &--moss{
-            background-color: $moss;
-        }
-        &--earth{
-            background-color: $earth;
-        }
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: block;
+        max-width: 80%;
+        filter: grayscale(100%);
+        transition: filter 0.5s;
+        transition-timing-function: ease-in-out;
+    }
+    &__circle{
+        margin: auto;
+        background-color: $sand;
+        height: 320px;
+        width: 320px;
+        border-radius: 50%;
+        transition: width 0.2s, height 0.2s;
+        transition-timing-function: ease-in-out;
     }
 }

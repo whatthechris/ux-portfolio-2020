@@ -1,0 +1,75 @@
+@import '../../data/global_styles.scss';
+
+.project-highlights{
+  &__title{
+    grid-column: 1/ span 1;
+    position: sticky;
+    top: 30px;
+    height: 210px;
+    @media (max-width: $tablet){
+        grid-column: 1/ span 4;
+        position: static;
+        height: auto;
+    }
+    & p{
+        -webkit-transform-origin: 10% 90%;
+        transform-origin: 10% 90%;
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        width: 150px;
+        @media (max-width: $tablet){
+            -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+            position: static;
+        }
+    }
+  }
+  &__text-section{
+    grid-column: 2/ span 7;
+    @media (max-width: $tablet){
+        grid-column: 1/ span 4;
+    }
+  }
+  &__highlight{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 56px;
+    @media (max-width: $tablet){
+      margin-bottom: 32px;
+    }
+  }
+  &__icon{
+    align-self: flex-start;
+    flex-basis: 40px;
+    width: 24px;
+    margin-right: 16px;
+    @media (max-width: $tablet){
+      flex-basis: 5%;
+    }
+  }
+  &__text{
+    flex-basis: 80%;
+    @media (max-width: $tablet){
+      flex-basis: 90%;
+    }
+  }
+  &__heading{
+    margin-bottom: 16px;
+    @media (max-width: $tablet){
+      margin-bottom: 8px;
+    }
+  }
+  &__image-section{
+    grid-column: 9/ span 4;
+    @media (max-width: $tablet){
+        grid-column: 1/ span 4;
+    }
+    & img{
+      width: 100%;
+      @media (max-width: $tablet){
+        width: 50%;
+      }
+    }
+  }
+}

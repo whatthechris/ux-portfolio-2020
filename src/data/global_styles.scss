@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Muli|Poppins:700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Muli|Poppins:700,900&display=swap');
 
 // font variables
 $heading-font-stack: 'Poppins', sans-serif;
@@ -9,7 +9,9 @@ $darker-grey: #2D3435;
 $dark-grey: #373D3E;
 $light-grey: #96999A;
 $lighter-grey: #C7C7C7;
-$off-white: #FAFAFA;
+$off-white: #FFFEF2;
+$beige: #FFFEF2;
+$dark-beige: #F0EFE1;
 
 //brand colors variables
 $sand: #A59E86;
@@ -23,12 +25,30 @@ $tablet:  740px;
 $desktop: 980px;
 $wide:    1300px;
 
+//animation
+$fadein: FadeInAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
+@keyframes FadeInAnimation {
+  0%{
+    opacity: 0;
+    transform: translateY(20px)
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px)
+  }
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+// typography
 body {
   background-color: $darker-grey;
   font-family: $body-font-stack;
   -webkit-font-smoothing: antialiased;
-  color: $off-white;
+  color: $darker-grey;
   margin: 0;
 }
 h1{
@@ -75,8 +95,11 @@ a{
 
 .text-link {
   font-family: $heading-font-stack;
+  font-size: 1rem;
   text-transform: uppercase;
   text-decoration: none;
+  border: none;
+  background: none;
   letter-spacing: 1px;
   color: $yellow;
   margin-right: 8px;
@@ -137,10 +160,36 @@ a{
     font-size: 1.999rem;
   }
 
+  h3{
+    font-size: 1.414rem;
+    line-height: 2rem;
+  }
+
+  h4{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .pull-quote{
     font-size: 1.25rem;
     line-height: 2rem;
   }
+}
 
+// general purpose styles
+.container{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 24px;
 
+  @media (max-width: $wide){
+      margin: 0 32px;
+  }
+
+  @media (max-width: $tablet){
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 16px;
+  }
 }

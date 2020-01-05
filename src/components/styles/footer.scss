@@ -1,9 +1,11 @@
 @import '../../data/global_styles.scss';
 
 .footer{
-    background-color: $dark-grey;
+    background-color: $darker-grey;
+    color: $off-white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 320px;
+    width: 100%;
 }
