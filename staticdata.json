@@ -45,7 +45,12 @@
             "highlights__heading3": "Big Brand Win",
             "highlights__paragraph3": "Not only was this a big win for the Techvibes brand but the awards also drew in generous sponsorships and sold out all entry tickets. The support from the Canadian tech community was amazing!",
             "highlights__image": "cia/cia_photo2.png",
-            "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats"
+            "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats",
+            "project__heading1": "01 – Humble beginnings",
+            "project__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
+            "project__image1": "cia/cia_photo3.png",
+            "project__caption1": "As the attendees arrived, a countdown was project on the walls until they were directed to take their seats",
+            "project__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"\n– Mayor John Tory"
         }
     ]
 }

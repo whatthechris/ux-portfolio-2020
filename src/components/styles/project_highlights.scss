@@ -1,6 +1,10 @@
 @import '../../data/global_styles.scss';
 
 .project-highlights{
+  padding-bottom: 10rem;
+  @media (max-width: $desktop){
+    padding-bottom: 2rem;
+  }
   &__title{
     grid-column: 1/ span 1;
     position: sticky;

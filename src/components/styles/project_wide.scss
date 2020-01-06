@@ -1,33 +1,95 @@
 @import '../../data/global_styles.scss';
 
 .project-wide{
-  position: relative;
-  display: grid;
-  &__photo-section{
-    grid-column: 4/ span 9;
-    position: absolute;
-    z-index: -2;
-    @media (max-width: $tablet){
-      grid-column: 1/ span 4;
-      position: static;
-    }
+  background-color: $off-white;
+  grid-template-rows: repeat(6, 1fr);
+  padding: 0px 24px;
+  margin: 0px auto;
+  @media (max-width: $tablet){
+    padding: 0;
+    display: block !important;
   }
   &__photo{
-    max-width: 100%;
+    grid-column: 4/ span 9;
+    grid-row: 1/ span 4;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (max-width: $desktop){
+        grid-column: 3/ span 10;
+        grid-row: 1/ span 3;
+    }
+    @media (max-width: $tablet){
+        display: block;
+    }
+    & img {
+      position: absolute;
+      height: 100%;
+      @media (max-width: $tablet){
+          position: static;
+          width: 100%;
+      }
+    }
   }
   &__text{
-    grid-column: 2/ span 8;
     padding: 64px 80px;
-    margin-top: 300px;
-    max-width: 700px;
-    background-color: $darker-grey;
+    background-color: $off-white;
+    grid-column: 1/ span 9;
+    grid-row: 4/ span 3;
+    z-index: 2;
+    @media (max-width: $desktop){
+        grid-row: 3/ span 4;
+    }
     @media (max-width: $tablet){
-      grid-column: 1/ span 4;
-      padding: 24px;
-      margin-top: 0px;
+        padding: 0px;
+        margin-bottom: 2rem;
     }
   }
   &__heading{
     margin-bottom: 16px;
   }
+  &__caption{
+    margin-top: 2rem;
+    grid-column: 10/ span 3;
+    grid-row: 5/ span 2;
+    @media (max-width: $desktop){
+        grid-row: 4/ span 3;
+    }
+  }
 }
+
+// .project-wide{
+//   position: relative;
+//   grid-template-rows: repeat(6, 1fr);
+//   &__photo-section{
+//     grid-column: 4/ span 9;
+//     grid-row: 1/ span 4;
+//     position: absolute;
+//     @media (max-width: $tablet){
+//       grid-column: 1/ span 4;
+//       position: static;
+//     }
+//   }
+//   &__photo{
+//     max-width: 100%;
+//   }
+//   &__text{
+//     grid-column: 1/ span 8;
+//     grid-row: 2/ span 3;
+//     padding: 64px 80px;
+//     margin-top: 300px;
+//     max-width: 700px;
+//     background-color: $off-white;
+//     z-index: 2;
+//     @media (max-width: $tablet){
+//       grid-column: 1/ span 4;
+//       padding: 0px;
+//       margin-top: 0px;
+//     }
+//   }
+//   &__heading{
+//     margin-bottom: 16px;
+//   }
+// }

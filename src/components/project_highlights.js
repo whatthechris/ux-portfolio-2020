@@ -43,7 +43,11 @@ const ProjectHighlights = props => (
         </div>
       </div>
     </div>
-    <div className="project-highlights__image-section">
+    <div 
+      className="project-highlights__image-section"
+      data-sal="slide-up"
+      data-sal-duration="500"
+      data-sal-easing="ease">
       <img src={require(`../images/${props.image}`)} />
       <p className="caption">{props.caption}</p>
     </div>

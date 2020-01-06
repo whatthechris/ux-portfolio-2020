@@ -8,6 +8,7 @@ import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
 import ProjectWide from "../components/project_wide.js"
 import Menu from "../components/menu"
+import PullQuote from "../components/pull_quote"
 
 const CIAPage = () => (
     <div className="cia">
@@ -37,13 +38,20 @@ const CIAPage = () => (
         caption={data.highlights__caption}
       />
       ))}
-        <div className="cia-project__highlights-title">Full Case Study</div>
+      <div className="cia__section-title">Full Case Study</div>
+      {staticdata.awardscontent.map(data =>(
       <ProjectWide
-        photo={require('../images/cia/cia_photo3.png')}
-        caption="As the attendees arrived, a countdown was project on the walls until they were directed to take their seats"
-        heading="01 – Humble beginnings"
-        paragraph="In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning..."
+        heading={data.project__heading1}
+        paragraph={data.project__paragraph1}
+        image={data.project__image1}
+        caption={data.project__caption1}
       />
+      ))}
+      {staticdata.awardscontent.map(data =>(
+      <PullQuote
+        pullquote={data.project__pullquote1}
+      />
+      ))}
     </div>
 )
 
