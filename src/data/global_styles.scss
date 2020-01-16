@@ -167,7 +167,7 @@ a{
   margin: 0 auto;
   max-width: 1200px;
   @media (max-width: $wide){
-      margin: 0 32px;
+      margin: 0 16px;
   }
 }
 
@@ -208,6 +208,7 @@ a{
           -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
           position: static;
+          text-align: left;
       }
   }
     
