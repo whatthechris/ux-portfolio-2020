@@ -1,9 +1,9 @@
 @import '../../data/global_styles.scss';
 
 .pull-quote{
-    padding: 6rem 0;
+    margin-bottom: 10rem;
     @media (max-width: $tablet){
-        padding: 2rem 0;
+        margin-bottom: 4rem;
     }
     & p{
         grid-column: 5/ span 8;

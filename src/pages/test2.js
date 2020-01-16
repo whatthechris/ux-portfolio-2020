@@ -3,22 +3,18 @@ import React from "react"
 import "./styles/test2.scss"
 
 const TestPage2 = () => (
-    <div className="highlights">
-      <div className="highlights__title">
-        <p>Project Highlights</p>
+  <div className="page-container">
+    <div className="responsive-video grid">
+      <div className="responsive-video__container responsive-video__container-top">
+        <iframe src="https://player.vimeo.com/video/350862568" width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <p className="caption">As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.</p>
       </div>
-      <div className="highlights__text">
-        <h3 className="highlights__heading">New year, new venue, new look</h3>
-        <p className="highlights__paragraph">After 8 years, the awards were renamed to the Canadian Innovation Awards. Having upgraded the venue to the Royal Ontario Museum, the awards needed a more sophisticated look that mirrored the unique event space. </p>
-        <h3 className="highlights__heading">New year, new venue, new look</h3>
-        <p className="highlights__paragraph">After 8 years, the awards were renamed to the Canadian Innovation Awards. Having upgraded the venue to the Royal Ontario Museum, the awards needed a more sophisticated look that mirrored the unique event space. </p>
-        <h3 className="highlights__heading">New year, new venue, new look</h3>
-        <p className="highlights__paragraph">After 8 years, the awards were renamed to the Canadian Innovation Awards. Having upgraded the venue to the Royal Ontario Museum, the awards needed a more sophisticated look that mirrored the unique event space. </p>
+      <div className="responsive-video__container responsive-video__container-bottom">
+        <iframe src="https://player.vimeo.com/video/350860713" width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <p className="caption">As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.</p>
       </div>
-      <div className="highlights__image-section">
-          <img className="highlights__image" src={require('../images/homepage/cia_thumb.png')}/>
-        </div>
     </div>
+  </div>
 );
 
 export default TestPage2

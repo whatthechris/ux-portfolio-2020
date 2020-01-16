@@ -35,22 +35,100 @@
             "hero__role2": "Motion Design",
             "hero__role3": "Front-End Dev",
             "hero__client": "Techvibes",
-            "highlights__icon1": "balloon.svg",
+            "hero__thumbnail": "cia_thumb.png",
+            "highlights__icon1": "star.svg",
             "highlights__heading1": "New year, new venue, new look",
             "highlights__paragraph1": "After 8 years, the awards were renamed to the Canadian Innovation Awards. Having upgraded the venue to the Royal Ontario Museum, the awards needed a more sophisticated look that mirrored the unique event space. ",
-            "highlights__icon2": "balloon.svg",
+            "highlights__icon2": "laughing.svg",
             "highlights__heading2": "MoGraphs that get you movin’",
             "highlights__paragraph2": "On top of putting together a complete awards show package, the team created contextual environmental graphics that sparked conversation and coded reactive motion graphics that moved to the sound of the live band. ",
-            "highlights__icon3": "balloon.svg",
+            "highlights__icon3": "cup.svg",
             "highlights__heading3": "Big Brand Win",
             "highlights__paragraph3": "Not only was this a big win for the Techvibes brand but the awards also drew in generous sponsorships and sold out all entry tickets. The support from the Canadian tech community was amazing!",
             "highlights__image": "cia/cia_photo2.png",
             "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats",
-            "project__heading1": "01 – Humble beginnings",
-            "project__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
-            "project__image1": "cia/cia_photo3.png",
-            "project__caption1": "As the attendees arrived, a countdown was project on the walls until they were directed to take their seats",
-            "project__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"\n– Mayor John Tory"
+            "section1__heading1": "01 – Humble beginnings",
+            "section1__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
+            "section1__image1": "cia/cia_photo3.png",
+            "section1__caption1": "Toronto's mayor John Tory addressed the awards show attendees",
+            "section2__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"\n– Toronto's mayor, John Tory",
+            "section3__heading2": "02 – Bigger, better, even more badass",
+            "section3__paragraph2": "In 2018, the venue was upgraded to the Royal Ontario Museum and the awards needed a new look to match. Acutely aware of the geometric event space, I proposed a visual language that incorporated 3D models with a wireframe shader. The wireframe geometry mirrored the sharp angles of the crystal’s interior while the shallow depth of field and unhinged camera added a sense of exploration and mystery.",
+            "section3__embed1" : "https://player.vimeo.com/video/341269351",
+            "section3__caption1" : "A wireframed model animation was designed for each corresponding award providing a visual icon which could be used in the awards titles as well as projected on the walls of the reception area.",
+            "section3__button_link1" : "https://vimeo.com/341269393/38e3717cc6",
+            "section3__button1" : "See all the award titles",
+            "section4__embed1" : "https://player.vimeo.com/video/350860713?loop=1",
+            "section4__caption1" : "As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.",
+            "section4__embed2" : "https://player.vimeo.com/video/350600804?loop=1",
+            "section4__caption2" : "As the live band began playing, the award's logo was projected above and moved along to the beat.",
+            "section4__embed3" : "https://player.vimeo.com/video/350862568?loop=1",
+            "section4__caption3" : "After the awards ceremony, the ROM transformed into party mode. The award winners were projected onto the walls and the lighting changed to match the celebratory vibe.",
+            "section4__heading1": "03 – Prehistoric and tech giants",
+            "section4__paragraph1": "The initial scope of the project was to create a fully animated awards package that included title sequences for each award, the looping videos for the winners and general videos for transitional moments in the show.Working closely with the ROM's AV team, we were able to choreograph the lighting and projected contextural graphics to sync with the phases of the awards show.Matching the massive dinosaur skeletons in size, the graphics represented an intriguing contrast between the prehistoric and the new technological future. Overall, the environmental graphics added compelling ways to engage the attendees, spark conversation and compliment the energy of the room.",
+            "section5__embed1": "https://player.vimeo.com/video/341269351",
+            "section5__caption1": "This is a prototype of the 3D projection that reacted to the music from the live band. It uses the p5 sound library to access the computer's microphone. Snap your fingers and drag the background to test it out",
+            "section6__heading1": "04 – The party’s over but there's more to celebrate",
+            "section6__paragraph1": "The initial scope of the project was to create a fully animated awards package that included title sequences for each award, the looping videos for the winners and general videos for transitional moments in the show. Working closely with the ROM's AV team, we were able to choreograph the lighting and projected contextural graphics to sync with the phases of the awards show. Matching the massive dinosaur skeletons in size, the graphics represented an intriguing contrast between the prehistoric and the new technological future. Overall, the environmental graphics added compelling ways to engage the attendees, spark conversation and compliment the energy of the room."
+        }
+    ],
+    "motioncontent": [
+        {
+            "hero__eyebrow": "Communicating complex ideas through motion",
+            "hero__title": "Various Motion Projects",
+            "hero__thumbnail": "motion_thumb.png"
+        }
+    ],
+    "motionclients": [
+        {
+            "motion__heading": "EQ Bank - Brand Video",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://player.vimeo.com/video/212916088",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+        },
+        {
+            "motion__heading": "CST Spark - What is an RESP?",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://www.youtube.com/embed/r_3tW_rNX2c",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+        },
+        {
+            "motion__heading": "Deloitte - Designing Great Experiences",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://player.vimeo.com/video/212916107",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+        }
+    ],
+    "motionfun": [
+        {
+            "motion__heading": "The Red Oneroi",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://player.vimeo.com/video/164171274?loop=1",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+        },
+        {
+            "motion__heading": "Derek Wise/ 88 Glam Album Art",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://player.vimeo.com/video/201760018?loop=1",
+            "motion__embed2": "https://player.vimeo.com/video/385168537?loop=1",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+        },
+        {
+            "motion__heading": "Stormtrooper Helmet 3D Model",
+            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__embed1": "https://sketchfab.com/models/cf6ff6583b044bec9db24f9b7a7ce27f/embed",
+            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
+            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
         }
     ]
 }

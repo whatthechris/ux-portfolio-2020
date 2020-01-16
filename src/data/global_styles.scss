@@ -25,7 +25,7 @@ $tablet:  740px;
 $desktop: 980px;
 $wide:    1300px;
 
-//animation
+//fade animation
 $fadein: FadeInAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
 @keyframes FadeInAnimation {
@@ -55,18 +55,23 @@ h1{
   margin: 0;
   font-weight: 700;
   font-family: $heading-font-stack;
+  font-size: 3.998rem;
+  line-height: 5rem;
 }
 
 h2{
   margin: 0;
   font-weight: 700;
   font-family: $heading-font-stack;
+  font-size: 2.827rem;
+  line-height: 3.5rem;
 }
 
 h3{
   margin: 0;
   font-weight: 700;
   font-family: $heading-font-stack;
+  font-size: 1.999rem;
   line-height: 2.5rem;
 }
 
@@ -74,12 +79,16 @@ h4{
   margin: 0;
   font-weight: 700;
   font-family: $heading-font-stack;
+  font-size: 1.414rem;
+  line-height: 2rem;
 }
 
 h5{
   margin:0 ;
   font-weight: 700;
   font-family: $heading-font-stack;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 p{
@@ -124,52 +133,29 @@ a{
   line-height: 1.25rem;
 }
 
-@media (min-width: $desktop){
+@media (max-width: $desktop){
   h1{
-    font-size: 3.998rem;
-    line-height: 5rem;
-  }
-
-  h2{
     font-size: 2.827rem;
     line-height: 3.5rem;
   }
 
-  h3{
+  h2{
     font-size: 1.999rem;
     line-height: 2.5rem;
   }
 
-  h4{
+  h3{
     font-size: 1.414rem;
     line-height: 2rem;
   }
 
-  h5{
+  h4{
     font-size: 1rem;
     line-height: 1.5rem;
   }
 }
 
-@media (max-width: $desktop){
-  h1{
-    font-size: 2.827rem;
-  }
-
-  h2{
-    font-size: 1.999rem;
-  }
-
-  h3{
-    font-size: 1.414rem;
-    line-height: 2rem;
-  }
-
-  h4{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
+@media (max-width: $tablet){
   .pull-quote__global{
     font-size: 1.25rem;
     line-height: 2rem;
@@ -177,19 +163,52 @@ a{
 }
 
 // general purpose styles
-.grid{
+.page-container{
   margin: 0 auto;
   max-width: 1200px;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  column-gap: 24px;
-
   @media (max-width: $wide){
       margin: 0 32px;
   }
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 24px;
 
   @media (max-width: $tablet){
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 16px;
   }
+}
+
+.section-title{
+  grid-column: 1/ span 1;
+  position: sticky;
+  top: 30px;
+  margin-bottom: 10rem;
+  @media (max-width: $tablet){
+      grid-column: 1/ span 4;
+      position: static;
+      margin-bottom: 1rem;
+  }
+  & h5{
+      text-align: right;
+      color: $sand;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      position: absolute;
+      width: 205px;
+      -webkit-transform-origin: 50% 390%;
+      transform-origin: 50% 390%;
+      -webkit-transform: rotate(270deg);
+      transform: rotate(270deg);
+      @media (max-width: $tablet){
+          -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+          position: static;
+      }
+  }
+    
 }

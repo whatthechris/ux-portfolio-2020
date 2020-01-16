@@ -4,9 +4,35 @@
     position: fixed;
     top: 0;
     right: 0;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 100px;
     z-index: 100;
+    background: none; //removes default button styling
+    border: none; //removes default button styling
+    text-align: left; //removes default button styling
+    cursor: pointer;
+    &:hover .menu__circle{
+        width: 40px;
+        height: 40px;
+        transition: width 0.2s, height 0.2s;
+        transition-timing-function: ease-in-out;
+    }
+    &:focus{
+        outline: none;
+    }
+    &:focus .menu__circle{
+        border: 4px solid rgba(0, 103, 244, 0.3);
+        box-shadow: 0px 0px 0px 4px rgba(0, 103, 244, 0.8);
+        width: 50px;
+        height: 50px;
+    }
+
+    &__icon{
+        position: absolute;
+        top: 38px;
+        left: 38px;
+        z-index: 20;
+    }
 
     &__text{
         position: absolute;
@@ -43,17 +69,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: $sand;
-        width: 30px;
-        height: 30px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         transition: width 0.2s, height 0.2s, background-color 1s;
         transition-timing-function: ease-in-out;
-        &:hover{
-            width: 35px;
-            height: 35px;
-            transition: width 0.2s, height 0.2s;
-            transition-timing-function: ease-in-out;
-        }
         &-open{
             position: absolute;
             top: 50%;

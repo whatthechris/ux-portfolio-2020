@@ -22,6 +22,8 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 1000px;
+    opacity: 0;
+    animation: $fadein;
     @media (max-width: $desktop){
       padding-top: 120px;
       max-width: 80%;
@@ -52,6 +54,9 @@
   }
   & img{
     max-width: 56vw;
+    opacity: 0;
+    animation: $fadein;
+    animation-delay: 0.2s;
     @media (max-width: $tablet){
       max-width: 50vw;
     }

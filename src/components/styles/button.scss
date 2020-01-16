@@ -1,0 +1,22 @@
+@import '../../data/global_styles.scss';
+
+.button{
+    color: $sand;
+    padding: 1.5rem;
+    border: 2px solid $sand;
+    width: fit-content;
+    display: block;
+    cursor: pointer;
+    &:hover{
+        background-color: $sand;
+        color: $off-white;
+    }
+    &:focus{
+        background-color: $sand;
+        color: $off-white;
+    }
+    &:active{
+        background-color: $sand;
+        color: $off-white;
+    }
+}

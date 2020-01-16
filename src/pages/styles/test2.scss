@@ -1,36 +1,74 @@
 @import '../../data/global_styles.scss';
 
-.highlights{
-    background-color: $off-white;
-    margin: 0px auto;
-    padding: 1000px 0;
-    max-width: 1200px;
-    position: relative;
-    display: flex;
+$video-width: 640; //get from embed code
+$video-height: 852; //get from embed code
+$video-aspect: $video-height/ $video-width;
 
-    &__title{
-        flex-basis: 10%;
-        position: -webkit-sticky;
-        position: sticky;
-        top: 30px;
-        display: flex;
-        height: 10px;
-        & p{
-            -webkit-transform-origin: 20% 140%;
-            transform-origin: 20% 140%;
-            -webkit-transform: rotate(90deg);
-            transform: rotate(90deg);
-            position: absolute;
-            width: 150px;
+$small-video-columns: 3;
+$big-video-columns: 5;
+
+//convert px into vw
+@function get-vw($target) { 
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
+//get vw of one gutter and all gutters
+$gutter-width: get-vw(24px);
+$all-gutter-width: $gutter-width * 11;
+
+//get vw of one column
+$column-width: (100vw - get-vw(64px) - $all-gutter-width) / 12;
+
+$small-video-width: ($column-width * $small-video-columns) + (($small-video-columns - 1) * $gutter-width);
+$big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 1) * $gutter-width);
+
+.responsive-video{
+    grid-template-rows: repeat(5, 1fr);
+    margin-bottom: 8rem;
+        @media (max-width: $tablet){
+            display: block;
+            margin-bottom: 4rem;
+        }
+    &__container{
+        &-top{
+            width: $small-video-width;
+            grid-column: 2/ span $small-video-columns;
+            grid-row: 1/span 3;
+            @media (max-width: $tablet){
+                width: 100%;
+                margin-bottom: 4rem;
+            }
+            iframe{
+                width: 100%;
+                height: $small-video-width * $video-aspect;
+                background-color: $dark-grey;
+                @media (max-width: $tablet){
+                    height: $big-video-width * $video-aspect;
+                }
+            }
+        }
+        &-bottom{
+            width: $big-video-width;
+            grid-column: 7/ span $big-video-columns;
+            grid-row: 2/span 4;
+            @media (max-width: $tablet){
+                width: 100%;
+            }
+            iframe{
+                width: 100%;
+                height: $big-video-width * $video-aspect;
+                background-color: $dark-grey;
+            }
         }
     }
-    &__text{
-        flex-basis: 60%;
-    }
-    &__image-section{
-        flex-basis: 30%;
-    }
-    & img{
-        width: 100%;
+    p{
+        max-width: 350px;
+        margin-top: 1rem !important;
+        color: white;
+        @media (max-width: $tablet){
+            max-width: 100%;
+        }
     }
 }
+

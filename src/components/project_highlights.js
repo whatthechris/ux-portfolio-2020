@@ -1,10 +1,11 @@
 import React from "react"
+import Zoom from 'react-medium-image-zoom'
+import 'react-medium-image-zoom/dist/styles.css'
 
 import "./styles/project_highlights.scss"
 
 const ProjectHighlights = props => (
   <div className="project-highlights grid">
-    <div className="project-highlights__title"><p>Project Highlights</p></div>
     <div className="project-highlights__text-section">
       <div 
         className="project-highlights__highlight"
@@ -48,8 +49,10 @@ const ProjectHighlights = props => (
       data-sal="slide-up"
       data-sal-duration="500"
       data-sal-easing="ease">
-      <img src={require(`../images/${props.image}`)} />
-      <p className="caption">{props.caption}</p>
+      <Zoom>
+        <img src={require(`../images/${props.image}`)} style={{width:'100%'}}/>
+      </Zoom>
+      <p className="project-highlights__caption caption">{props.caption}</p>
     </div>
   </div>
 )

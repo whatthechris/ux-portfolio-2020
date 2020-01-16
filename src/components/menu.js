@@ -1,4 +1,4 @@
-import React, {useState} from "react"
+import React from "react"
 import { Link } from "gatsby"
 
 import staticdata from "../../staticdata.json"
@@ -15,8 +15,10 @@ class Menu extends React.Component {
     }
     render(){
     return(
-        <div className="menu" onClick={() => this.setState({isMenuOpen: !this.state.isMenuOpen})}>
+        <button className="menu" onClick={() => this.setState(
+        {isMenuOpen: !this.state.isMenuOpen})}>
             {this.state.isMenuOpen && 
+            <nav>
             <ul className="menu__text">
                 {staticdata.projectsleft.map(project =>(
                     <MenuItem
@@ -39,9 +41,11 @@ class Menu extends React.Component {
                         <p>hello@peopleoverpixels.ca</p>
                     </div>
                 </li>
-            </ul>}
+            </ul>
+            </nav>}
+            <img className="menu__icon"src={require(`../images/svgs/menu.svg`)}/>  
             <div className={this.state.isMenuOpen ? "menu__circle-open" : "menu__circle"}></div>
-        </div>
+        </button>
     )
     };
 }

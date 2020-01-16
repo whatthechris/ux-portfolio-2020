@@ -23,7 +23,7 @@ const ProjectHero = props => (
             </ul>
           </div>
         </div>
-        <img src={require('../images/homepage/cia_thumb.png')} className="project-hero__image"/>
+        <img src={require(`../images/homepage/${props.thumbnail}`)} className="project-hero__image"/>
       </div>
       <div className="project-hero__bg"></div>
     </div>

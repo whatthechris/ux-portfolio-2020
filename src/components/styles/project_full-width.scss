@@ -1,0 +1,74 @@
+@import '../../data/global_styles.scss';
+
+.full-width{
+    margin-bottom: 8rem;
+    grid-template-rows: repeat(4, 1fr);
+    @media (max-width: $tablet){
+        margin-bottom: 4rem;
+        display: block !important;
+    }
+    &-notext{
+        margin-bottom: 6rem;
+        @media (max-width: $tablet){
+            margin-bottom: 4rem;
+            display: block !important;
+        }
+    }
+    &__container{
+        grid-column: 2/ span 11;
+        grid-row: 1/ span 3;
+        @media (max-width: $desktop){
+            grid-row: 1/ span 3;
+        }
+    }
+    &__container-embed{
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 */
+        iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__caption{
+        grid-column: 2/ span 4;
+        grid-row: 4/ span 2;
+        margin-top: 2rem;
+        @media (max-width: $desktop){
+            grid-column: 2/ span 3;
+            grid-row: 4/ span 2;
+        }
+        @media (max-width: $tablet){
+            grid-column: 1/ span 4;
+            margin-top: 1rem;
+        }
+        &-right{
+            grid-column: 8/ span 5;
+        }
+    }
+    &__text{
+        margin-top: 2rem;
+        padding: 64px 40px 0px 80px;
+        background-color: $off-white;
+        grid-column: 6/ span 7;
+        grid-row: 3/ span 3;
+        z-index: 2;
+        @media (max-width: $desktop){
+            padding: 64px 0px 0px 80px;
+            grid-column: 5/ span 8;
+            grid-row: 3/ span 3;
+        }
+        @media (max-width: $tablet){
+            margin-bottom: 2rem;
+            padding: 0;
+        }
+    }
+    &__heading{
+        margin-bottom: 1rem;
+    }
+    &__paragraph{
+        margin-bottom: 2rem;
+    }
+}

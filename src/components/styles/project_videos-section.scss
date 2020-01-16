@@ -1,0 +1,117 @@
+@import '../../data/global_styles.scss';
+
+$video-width: 640; //get from embed code
+$video-height: 852; //get from embed code
+$video-aspect: $video-height/ $video-width;
+
+$small-video-columns: 3;
+$big-video-columns: 4;
+
+//convert px into vw
+@function get-vw($target) { 
+    $vw-context: (1000*.01) * 1px;
+    @return ($target/$vw-context) * 1vw;
+}
+
+//get vw of one gutter and all gutters
+$gutter-width: get-vw(24px);
+$all-gutter-width: $gutter-width * 11;
+
+//get vw of one column
+$column-width: (100vw - get-vw(64px) - $all-gutter-width) / 12;
+
+$small-video-width: ($column-width * $small-video-columns) + (($small-video-columns - 1) * $gutter-width);
+$big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 1) * $gutter-width);
+
+.videos-section{
+    grid-template-rows: repeat(8, 180px);
+    margin-bottom: 8rem;
+        @media (max-width: $tablet){
+            display: block !important;
+            margin-bottom: 4rem;
+        }
+    &__container{
+        &-top{
+            width: $small-video-width;
+            grid-column: 3/ span $small-video-columns;
+            grid-row: 1/span 3;
+            @media (max-width: $desktop){
+                width: $big-video-width;
+                grid-column: 2/ span $big-video-columns;
+            }
+            @media (max-width: $tablet){
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            iframe{
+                width: 100%;
+                height: $small-video-width * $video-aspect;
+                background-color: $darker-grey;
+                @media (max-width: $desktop){
+                    height: $big-video-width * $video-aspect;
+                }
+            }
+        }
+        &-middle{
+            width: $big-video-width;
+            grid-column: 8/ span $big-video-columns;
+            grid-row: 2/span 4;
+            @media (max-width: $tablet){
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            iframe{
+                width: 100%;
+                height: $big-video-width * $video-aspect;
+                background-color: $darker-grey;
+            }
+        }
+        &-bottom{
+            width: $small-video-width;
+            grid-column: 2/ span $small-video-columns;
+            grid-row: 5/span 3;
+            @media (max-width: $desktop){
+                width: $big-video-width;
+                grid-column: 2/ span $big-video-columns;
+                grid-row: 4/span 3;
+            }
+            @media (max-width: $tablet){
+                width: 100%;
+                margin-bottom: 4rem;
+            }
+            iframe{
+                width: 100%;
+                height: $small-video-width * $video-aspect;
+                background-color: $darker-grey;
+                @media (max-width: $desktop){
+                    height: $big-video-width * $video-aspect;
+                }
+            }
+        }
+    }
+    &__text{
+        margin-top: 2rem;
+        padding: 64px 40px 0px 80px;
+        background-color: $off-white;
+        grid-column: 6/ span 7;
+        grid-row: 6/ span 3;
+        z-index: 2;
+        @media (max-width: $desktop){
+            grid-row: 5/ span 3;
+        }
+        @media (max-width: $tablet){
+            margin-bottom: 2rem;
+            padding: 0;
+        }
+    }
+    &__heading{
+        margin-bottom: 1rem;
+      }
+    &__caption{
+        max-width: 350px;
+        margin-top: 1rem;
+        @media (max-width: $tablet){
+            max-width: 100%;
+        }
+    }
+}
