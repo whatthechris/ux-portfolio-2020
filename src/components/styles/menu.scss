@@ -45,7 +45,8 @@
         flex-direction: column;
 
         @media (max-width: $tablet){
-            width: 420px;
+            width: 400px;
+            right: 32px;
         }
 
         li{
@@ -92,8 +93,8 @@
                 height: 1300px;
             }
             @media (max-width: $tablet){
-                width: 1300px;
-                height: 1300px;
+                width: 1100px;
+                height: 1100px;
             }
         }
     }
