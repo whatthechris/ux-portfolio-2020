@@ -12,8 +12,6 @@
     text-align: left; //removes default button styling
     cursor: pointer;
     @media (max-width: $tablet){
-        width: 70px;
-        height: 70px;
         top: auto;
         bottom: 0;
     }
@@ -38,10 +36,6 @@
         top: 38px;
         left: 38px;
         z-index: 20;
-        @media (max-width: $tablet){
-            top: 24px;
-            left: 24px;
-        }
     }
 
     &__text{
@@ -54,9 +48,9 @@
         display: flex;
         flex-direction: column;
         @media (max-width: $tablet){
-            width: 87vw;
+            width: 84vw;
             top: -400px;
-            right: 24px;
+            right: 32px;
         }
         li{
             //animation delay sass loop below

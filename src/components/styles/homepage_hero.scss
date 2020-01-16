@@ -45,6 +45,10 @@
     opacity: 0;
     animation: $fadein;
     @media (max-width: $desktop){
+      font-size: 10rem;
+      text-indent: -3px;
+    }
+    @media (max-width: $tablet){
       font-size: 5rem;
       text-indent: -3px;
     }
@@ -56,9 +60,11 @@
   padding: 0 7.5rem 7.5rem 0;
   opacity: 0;
   animation: $fadein;
-
   @media (max-width: $desktop){
     padding: 0 1.5rem 3rem 1.5rem;
+  }
+  @media (max-height: 568px){
+    display: none;
   }
   & h5{
     color: $off-white;

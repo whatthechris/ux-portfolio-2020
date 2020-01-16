@@ -11,7 +11,8 @@ const VideosSection = props => (
         data-sal-easing="ease"
         >
         <h3 className="videos-section__heading">{props.heading}</h3>
-        <p>{props.paragraph}</p>
+        <p>{props.paragraph1}</p><br/>
+        <p>{props.paragraph2}</p>
       </div>
       <div 
         className="videos-section__container videos-section__container-top"

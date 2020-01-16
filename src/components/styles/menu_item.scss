@@ -8,13 +8,19 @@
     &:hover{
         text-decoration: underline;
     }
+    h3{
+        @media (max-width: $tablet){
+            font-size: 1.3rem;
+        }
+    }
     & img{
          width: 3.5rem;
          height: 100%;
          filter: grayscale(100%);
          margin-right: 2rem;
          @media (max-width: $tablet){
-            display: none;
+            width: 2.5rem;
+            margin-right: 1rem;
         }
     }
 }

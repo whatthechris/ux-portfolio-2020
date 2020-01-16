@@ -94,7 +94,8 @@ const CIAPage = () => (
             embed3={data.section4__embed3}
             caption3={data.section4__caption3}
             heading={data.section4__heading1}
-            paragraph={data.section4__paragraph1}
+            paragraph1={data.section4__paragraph1}
+            paragraph2={data.section4__paragraph2}
           />
           ))}
           {staticdata.awardscontent.map(data =>(

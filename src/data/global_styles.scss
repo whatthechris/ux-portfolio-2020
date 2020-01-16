@@ -135,10 +135,9 @@ a{
 
 @media (max-width: $desktop){
   h1{
-    font-size: 2.1rem;
-    line-height: 3rem;
+    font-size: 3.4rem;
+    line-height: 4rem;
   }
-
   h2{
     font-size: 1.999rem;
     line-height: 2.5rem;
@@ -156,6 +155,10 @@ a{
 }
 
 @media (max-width: $tablet){
+  h1{
+    font-size: 2.1rem;
+    line-height: 3rem;
+  }
   .pull-quote__global{
     font-size: 1.25rem;
     line-height: 2rem;
