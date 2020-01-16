@@ -11,6 +11,12 @@
     border: none; //removes default button styling
     text-align: left; //removes default button styling
     cursor: pointer;
+    @media (max-width: $tablet){
+        width: 70px;
+        height: 70px;
+        top: auto;
+        bottom: 0;
+    }
     &:hover .menu__circle{
         width: 40px;
         height: 40px;
@@ -32,6 +38,10 @@
         top: 38px;
         left: 38px;
         z-index: 20;
+        @media (max-width: $tablet){
+            top: 24px;
+            left: 24px;
+        }
     }
 
     &__text{
@@ -44,8 +54,9 @@
         display: flex;
         flex-direction: column;
         @media (max-width: $tablet){
-            width: 400px;
-            right: 32px;
+            width: 87vw;
+            top: -400px;
+            right: 24px;
         }
         li{
             //animation delay sass loop below
@@ -60,6 +71,9 @@
         padding-top: 2rem;
         border-top: 1px solid $off-white;
         justify-content: space-between;
+        @media (max-width: $tablet){
+            margin-left: 0;
+        }
     }
 
     &__circle{
@@ -91,8 +105,8 @@
                 height: 1300px;
             }
             @media (max-width: $tablet){
-                width: 1100px;
-                height: 1100px;
+                width: 1150px;
+                height: 1150px;
             }
         }
     }

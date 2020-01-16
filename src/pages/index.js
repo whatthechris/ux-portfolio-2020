@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
       <div className={this.state.hasScrolled ? "homepage__intro fixed" : "homepage__intro"}>
         <p className="pull-quote__global" data-sal="slide-up" data-sal-duration="500" data-sal-easing="ease">I’ve worked with a variety of clients including <a href="http://eqbank.ca">banks,</a> <a href="http://moneris.com">payment processors,</a> <a href="">awards shows,</a> <a href="">consumer-facing products</a> and many more. <br/><br/>Take a look at some of my favourite projects below.</p>
         <div className="homepage__video-grid">
-          <video loop="true" autoplay="true" src={require(`../images/homepage/cia_finalist_loop.mp4`)}/>
+          <video muted loop autoplay src={require(`../images/homepage/cia_finalist_loop.mp4`)}/>
         </div>
       </div>
       <div className="homepage__cards">   
