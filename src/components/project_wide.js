@@ -1,6 +1,5 @@
 import React from "react"
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import ImageZoom from 'react-medium-image-zoom'
 
 import "./styles/project_wide.scss"
 
@@ -20,9 +19,14 @@ class ProjectWide extends React.Component {
         data-sal="slide-up"
         data-sal-duration="500"
         data-sal-easing="ease">
-          <Zoom>
-            <img src={require(`../images/${this.props.image}`)} style={{width:'100%'}}/>
-          </Zoom>
+          <ImageZoom
+        image={{
+          src: require('../images/' + this.props.image),
+          alt: '',
+          style: { width:'100%' }
+        }}
+        zoomMargin="0"
+      />
         </div>
       }
       <p className={"caption " + (this.props.leftlayout ? 'project-wide__caption' : 'project-wide__caption project-wide__caption-right')}

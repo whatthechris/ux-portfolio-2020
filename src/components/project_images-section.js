@@ -1,6 +1,5 @@
 import React from "react"
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import ImageZoom from 'react-medium-image-zoom'
 
 import "./styles/project_images-section.scss"
 
@@ -11,9 +10,14 @@ const ImagesSection = props => (
         <div className={props.leftlayout ? 'images-section__top-container' : 'images-section__top-container images-section__top-container-right'} data-sal="slide-up"
         data-sal-duration="500"
         data-sal-easing="ease">
-          <Zoom>
-            <img src={require(`../images/${props.image1}`)} style={{width:'100%'}}/>
-          </Zoom>
+          <ImageZoom
+        image={{
+          src: require('../images/' + props.image),
+          alt: '',
+          style: { width:'100%' }
+        }}
+        zoomMargin="0"
+      />
           <p className="images-section__caption caption">{props.caption1}</p>
         </div>
       }
@@ -32,9 +36,18 @@ const ImagesSection = props => (
         data-sal-duration="500"
         data-sal-delay="200"
         data-sal-easing="ease">
-          <Zoom>
-            <img src={require(`../images/${props.image2}`)} style={{width:'100%'}}/>
-          </Zoom>
+          <ImageZoom
+        image={{
+          src: props.image,
+          alt: 'Golden Gate Bridge',
+          className: 'img',
+          style: { width:'100%' }
+        }}
+        zoomImage={{
+          src: props.image,
+          alt: 'Golden Gate Bridge'
+        }}
+      />
           <p className="images-section__caption caption">{props.caption2}</p>
         </div>
       }
