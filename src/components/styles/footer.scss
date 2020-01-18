@@ -3,9 +3,23 @@
 .footer{
     background-color: $darker-grey;
     color: $off-white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 320px;
-    width: 100%;
+    &__content{
+        padding: 4rem;
+        @media (max-width: $tablet){
+            padding: 4rem 1rem;
+        }
+        &-left{
+            grid-column: 1/ span 6;
+            @media (max-width: $tablet){
+                grid-column: 1/ span 4;
+                margin-bottom: 1rem;
+            }
+        }
+        &-right{
+            grid-column: 7/ span 6;
+            @media (max-width: $tablet){
+                grid-column: 1/ span 4;
+            }
+        }
+    }
 }
