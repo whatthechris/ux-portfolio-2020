@@ -30,8 +30,6 @@
         justify-content: center;
         align-items: center;
         z-index: -1;
-        filter: brightness(20%);
-        opacity: 0.4;
         & video {
             object-fit: cover;
             width: 100%;
