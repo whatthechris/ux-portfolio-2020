@@ -14,13 +14,16 @@
         }
     }
     & img{
-         width: 3.5rem;
-         height: 100%;
-         filter: grayscale(100%);
-         margin-right: 2rem;
-         @media (max-width: $tablet){
-            width: 2.5rem;
-            margin-right: 1rem;
+        width: 3.5rem;
+        height: 100%;
+        filter: grayscale(100%);
+        margin-right: 2rem;
+        @media (max-width: $tablet){
+        width: 2.5rem;
+        margin-right: 1rem;
+        }
+        @media (max-height: 568px){
+            display: none;
         }
     }
 }

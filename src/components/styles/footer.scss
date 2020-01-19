@@ -3,7 +3,10 @@
 .footer{
     background-color: $darker-grey;
     color: $off-white;
-    width: 100%;
+    grid-column: span 2;
+    @media (max-width: $tablet){
+        grid-column: span 1;
+    }
     &__content{
         padding: 4rem;
         @media (max-width: $desktop){

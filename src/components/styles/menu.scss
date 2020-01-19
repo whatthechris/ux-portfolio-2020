@@ -52,6 +52,9 @@
             top: -400px;
             right: 32px;
         }
+        @media (max-height: 568px){
+            width: 280px;
+        }
         li{
             //animation delay sass loop below
             opacity: 0;

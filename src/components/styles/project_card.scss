@@ -3,10 +3,11 @@
 .project-card{
     border: 1px solid $sand;
     padding: 10%;
+    width: 100%;
     transition: background-color 0.2s;
     transition-timing-function: ease-in-out;
     @media (max-width: $tablet){
-        padding: 24px;
+        padding: 48px 24px;
     }
 
     h2{
@@ -31,10 +32,8 @@
         }
 
         & .project-card__circle{
-            height: 350px;
-            width: 350px;
-            transition: width 0.2s, height 0.2s;
-            transition-timing-function: ease-in-out;
+            transform: scale(1.1);
+            transition: all .2s ease-in-out;
         }
     }     
 
@@ -60,15 +59,21 @@
         filter: grayscale(100%);
         transition: filter 0.5s;
         transition-timing-function: ease-in-out;
+        z-index: 2;
     }
     &__circle{
         margin: auto;
         background-color: $sand;
-        height: 320px;
-        width: 320px;
+        height: 22vw;
+        width: 22vw;
+        max-width: 350px;
+        max-height: 350px;
         border-radius: 50%;
-        transition: width 0.2s, height 0.2s;
-        transition-timing-function: ease-in-out;
+        transition: all .2s ease-in-out;
+        @media (max-width: $desktop){
+            height: 30vw;
+            width: 30vw;
+        }
         @media (max-width: $tablet){
             height: 60vw;
             width: 60vw;

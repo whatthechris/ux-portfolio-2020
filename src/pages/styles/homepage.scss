@@ -36,52 +36,24 @@
             height: 100%;
             }
     }
-    &__cards{
+    &__card-section{
         background-color: $beige;
         top: 200vh;
         position: absolute;
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-    &__column{
-        flex-basis: 50%;
-        display: flex;
-        flex-wrap: wrap;
+        display: grid;
+        @media (min-width: $tablet){
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(12, 1fr);
+        }
         @media (max-width: $tablet){
-            flex-basis: 100%;
-        }     
+            display: static;
+        }
     }
     &__card{
-        border: 1px solid $sand;
-        padding: 10%;
-        transition: background-color 0.2s;
-        transition-timing-function: ease-in-out;
-        @media (max-width: $tablet){
-            padding: 24px;
-        }
-
-        &:hover{
-            background-color: $darker-grey;
-            border-color: $darker-grey;
-
-            & h2, h4, p{
-                color: $off-white;
-            }
-
-            & img{
-                filter: grayscale(0%);
-            }
-        }     
-
-        & img{
-            display: block;
-            margin: auto;
-            max-width: 80%;
-            filter: grayscale(100%);
-            transition: filter 0.5s;
-            transition-timing-function: ease-in-out;
-        }
+        display: flex;
+        grid-column: span 1;
+        grid-row: span 6;
     }
 }
 

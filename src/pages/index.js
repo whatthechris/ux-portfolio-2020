@@ -36,30 +36,20 @@ class IndexPage extends React.Component {
       <div className={this.state.hasScrolled ? "homepage__intro fixed" : "homepage__intro"}>
         <p className="pull-quote__global">I’ve worked with a variety of clients including <a href="http://eqbank.ca">banks,</a> <a href="http://moneris.com">payment processors,</a> <a href="">awards shows,</a> <a href="">consumer-facing products</a> and many more. <br/><br/>Take a look at some of my favourite projects below.</p>
         <div className="homepage__video-grid">
-          <video muted loop autoplay="true" src={require(`../images/homepage/intro_bg.mp4`)}/>
+          <video muted loop autoplay src={require(`../images/homepage/intro_bg.mp4`)}/>
         </div>
       </div>
-      <div className="homepage__cards">   
-        <div className="homepage__column">    
-          {staticdata.projectsleft.map(project =>(
-            <ProjectCard
-            eyebrow={project.eyebrow}
-            heading={project.heading}
-            thumbnail={project.thumbnail}
-            link={project.link}
-          />
+      <div className="homepage__card-section">     
+          {staticdata.projects.map(project =>(
+            <div className="homepage__card">
+              <ProjectCard
+              eyebrow={project.eyebrow}
+              heading={project.heading}
+              thumbnail={project.thumbnail}
+              link={project.link}
+              />
+            </div>
           ))}
-        </div>  
-        <div className="homepage__column">  
-        {staticdata.projectsright.map(project =>(
-            <ProjectCard
-            eyebrow={project.eyebrow}
-            heading={project.heading}
-            thumbnail={project.thumbnail}
-            link={project.link}
-          />
-          ))}
-        </div>
         <Footer />
       </div>
     </div>
