@@ -99,15 +99,9 @@
             "section6__paragraph1": "It was an honour to have been in the same room with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech community events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
         }
     ],
-    "motioncontent": [
-        {
-            "hero__eyebrow": "Communicating complex ideas through motion",
-            "hero__title": "Various Motion Projects",
-            "hero__thumbnail": "motion_thumb.png"
-        }
-    ],
     "motionclients": [
         {
+            "motion__id": "eq",
             "motion__heading": "EQ Bank - Brand Video",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://player.vimeo.com/video/212916088",
@@ -116,6 +110,7 @@
             "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
         },
         {
+            "motion__id": "spark",
             "motion__heading": "CST Spark - What is an RESP?",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://www.youtube.com/embed/r_3tW_rNX2c",
@@ -124,6 +119,7 @@
             "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
         },
         {
+            "motion__id": "dge",
             "motion__heading": "Deloitte - Designing Great Experiences",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://player.vimeo.com/video/212916107",
@@ -134,6 +130,7 @@
     ],
     "motionfun": [
         {
+            "motion__id": "red",
             "motion__heading": "The Red Oneroi",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://player.vimeo.com/video/164171274?loop=1",
@@ -142,6 +139,7 @@
             "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
         },
         {
+            "motion__id": "88glam",
             "motion__heading": "Derek Wise/ 88 Glam Album Art",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://player.vimeo.com/video/201760018?loop=1",
@@ -151,6 +149,7 @@
             "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
         },
         {
+            "motion__id": "stormtrooper",
             "motion__heading": "Stormtrooper Helmet 3D Model",
             "motion__subheading": "A quick video explining the EQ Bank brand",
             "motion__embed1": "https://sketchfab.com/models/cf6ff6583b044bec9db24f9b7a7ce27f/embed",

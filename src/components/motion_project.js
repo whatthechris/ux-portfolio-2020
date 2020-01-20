@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 import "./styles/motion-project.scss"
 
 const MotionProject = props => (
-  <div className="motion-project grid">
+  <div className="motion-project grid" id={props.id}>
       <Fade bottom>
         <div className="motion-project__heading">
           <h2>{props.heading}</h2>

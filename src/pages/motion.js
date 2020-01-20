@@ -4,7 +4,6 @@ import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
 
 import "./styles/motion.scss"
-import ProjectHero from "../components/project_hero.js"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
 import Footer from "../components/footer.js"
@@ -12,16 +11,16 @@ import Footer from "../components/footer.js"
 const MotionPage = () => (
     <div className="motion">
       <Menu/>
-      {staticdata.motioncontent.map(data =>(
-        <ProjectHero
-          eyebrow={data.hero__eyebrow}
-          title={data.hero__title}
-          role1={data.hero__role1}
-          role2={data.hero__role2}
-          client={data.hero__client}
-          thumbnail={data.hero__thumbnail}
-      />
-      ))}
+      <div className="motion-hero">
+        <div className='motion-hero__content'>
+          <div className="motion-hero__text">
+            <p>Communicating ideas through motion</p>
+            <h1>Various Motion Projects</h1>
+            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#dge">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#88glam">photo parallax animations,</a> <a href="#stormtrooper">3D models, </a>composited videos, motion identities, educational video series and many more in between. Take a look at some of my favourite projects below.</p>
+          </div>
+        </div>
+        <div className="motion-hero__bg"></div>
+      </div>
       <div className="page-container">
         <div>
           <Fade bottom>
@@ -31,6 +30,7 @@ const MotionPage = () => (
           </Fade>
           {staticdata.motionclients.map(data =>(
           <MotionProject
+            id={data.motion__id}
             heading={data.motion__heading}
             subheading={data.motion__subheading}
             embed1={data.motion__embed1}
