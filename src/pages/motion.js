@@ -1,4 +1,5 @@
 import React from "react"
+import Fade from 'react-reveal/Fade'
 
 import staticdata from "../../staticdata.json"
 
@@ -6,8 +7,6 @@ import "./styles/motion.scss"
 import ProjectHero from "../components/project_hero.js"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
-import FullWidth from "../components/project_full-width"
-import VideosSection from "../components/project_videos-section"
 import Footer from "../components/footer.js"
 
 const MotionPage = () => (
@@ -25,13 +24,11 @@ const MotionPage = () => (
       ))}
       <div className="page-container">
         <div>
-          <div className="section-title"
-          data-sal="slide-up"
-          data-sal-duration="500"
-          data-sal-delay="500"
-          data-sal-easing="ease">
-            <h5>Client Work</h5>
-          </div>
+          <Fade bottom>
+            <div className="section-title">
+              <h5>Client Work</h5>
+            </div>
+          </Fade>
           {staticdata.motionclients.map(data =>(
           <MotionProject
             heading={data.motion__heading}
@@ -45,13 +42,11 @@ const MotionPage = () => (
           ))}
         </div>
         <div>
-          <div className="section-title"
-          data-sal="slide-up"
-          data-sal-duration="500"
-          data-sal-delay="500"
-          data-sal-easing="ease">
-            <h5>Fun Projects</h5>
-          </div>
+          <Fade bottom>
+            <div className="section-title">
+              <h5>Fun Projects</h5>
+            </div>
+          </Fade>
           {staticdata.motionfun.map(data =>(
           <MotionProject
             heading={data.motion__heading}

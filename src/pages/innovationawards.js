@@ -1,6 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
-
+import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
 
 import "./styles/innovationawards.scss"
@@ -9,7 +8,6 @@ import ProjectHighlights from "../components/project_highlights.js"
 import Menu from "../components/menu"
 import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
-import ImagesSection from "../components/project_images-section"
 import VideosSection from "../components/project_videos-section"
 import Footer from "../components/footer.js"
 
@@ -29,12 +27,11 @@ const CIAPage = () => (
       ))}
       <div className="page-container">
         <div className="cia__highlights">
-          <div className="section-title"
-          data-sal="slide-up"
-          data-sal-duration="500"
-          data-sal-delay="500"
-          data-sal-easing="ease"
-          ><h5>Project Highlights</h5></div>
+          <Fade bottom>
+            <div className="section-title">
+              <h5>Project Highlights</h5>
+            </div>
+          </Fade>
           {staticdata.awardscontent.map(data =>(
             <ProjectHighlights 
               icon1={data.highlights__icon1}
@@ -52,13 +49,11 @@ const CIAPage = () => (
           ))}
         </div>
         <div className="cia__case-study">
-          <div className="section-title"
-          data-sal="slide-up"
-          data-sal-duration="500"
-          data-sal-delay="500"
-          data-sal-easing="ease">
-            <h5>Full Case Study</h5>
-          </div>
+          <Fade bottom>
+            <div className="section-title">
+              <h5>Full Case Study</h5>
+            </div>
+          </Fade>
           {staticdata.awardscontent.map(data =>(
           <FullWidth
             leftlayout={true}
