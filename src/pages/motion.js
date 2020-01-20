@@ -4,7 +4,6 @@ import staticdata from "../../staticdata.json"
 
 import "./styles/motion.scss"
 import ProjectHero from "../components/project_hero.js"
-import ProjectWide from "../components/project_wide.js"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
 import FullWidth from "../components/project_full-width"

@@ -6,7 +6,6 @@ import staticdata from "../../staticdata.json"
 import "./styles/innovationawards.scss"
 import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
-import ProjectWide from "../components/project_wide.js"
 import Menu from "../components/menu"
 import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
@@ -61,8 +60,9 @@ const CIAPage = () => (
             <h5>Full Case Study</h5>
           </div>
           {staticdata.awardscontent.map(data =>(
-          <ProjectWide
+          <FullWidth
             leftlayout={true}
+            small_image={true}
             heading={data.section1__heading1}
             paragraph={data.section1__paragraph1}
             image={data.section1__image1}
@@ -76,7 +76,6 @@ const CIAPage = () => (
           ))}
           {staticdata.awardscontent.map(data =>(
           <FullWidth
-            leftlayout={true}
             heading={data.section3__heading2}
             paragraph={data.section3__paragraph2}
             embed={data.section3__embed1}
@@ -105,8 +104,7 @@ const CIAPage = () => (
           />
           ))}
           {staticdata.awardscontent.map(data =>(
-          <ProjectWide
-            leftlayout="true"
+          <FullWidth
             heading={data.section6__heading1}
             paragraph={data.section6__paragraph1}
           />
