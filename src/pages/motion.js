@@ -44,7 +44,7 @@ const MotionPage = () => (
         <div>
           <Fade bottom>
             <div className="section-title">
-              <h5>Fun Projects</h5>
+              <h5>Personal Projects</h5>
             </div>
           </Fade>
           {staticdata.motionfun.map(data =>(

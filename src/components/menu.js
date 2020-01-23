@@ -20,14 +20,7 @@ class Menu extends React.Component {
             {this.state.isMenuOpen && 
             <nav>
             <ul className="menu__text">
-                {staticdata.projectsleft.map(project =>(
-                    <MenuItem
-                        eyebrow={project.eyebrow}
-                        thumbnail={project.thumbnail}
-                        link={project.link}
-                    />
-                ))}
-                {staticdata.projectsright.map(project =>(
+                {staticdata.projects.map(project =>(
                     <MenuItem
                         eyebrow={project.eyebrow}
                         thumbnail={project.thumbnail}

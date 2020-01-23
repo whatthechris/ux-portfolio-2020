@@ -18,7 +18,9 @@
 
         a{
             color: $yellow;
-            border-bottom: 2px solid $yellow;
+            &:hover{
+                border-bottom: 2px solid $yellow;
+            }
         }
     }
     &__video-grid{

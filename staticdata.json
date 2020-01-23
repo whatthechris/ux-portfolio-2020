@@ -25,34 +25,6 @@
             "link": "/motion/"
         }
     ],
-    "projectsleft":[
-        {
-            "eyebrow": "Wayfinder Web App",
-            "heading": "Helping hard working people save for the good life",
-            "thumbnail": "wayfinder_thumb.png",
-            "link": "/wayfinder/"
-        },
-        {
-            "eyebrow": "The Canadian Innovation Awards",
-            "heading": "Celebrating Canadian Tech Innovation",
-            "thumbnail": "cia_thumb.png",
-            "link": "/innovationawards/"
-        }
-    ],
-    "projectsright":[
-        {
-            "eyebrow": "PC Optimum Web App",
-            "heading": "Levelling up Loblaw's loyalty point game",
-            "thumbnail": "pcoptimum_thumb.png",
-            "link": "/pcoptimum/"
-        },
-        {
-            "eyebrow": "Various Motion Projects",
-            "heading": "Communicating ideas through motion",
-            "thumbnail": "motion_thumb.png",
-            "link": "/motion/"
-        }
-    ],
     "awardscontent": [
         {
             "hero__eyebrow": "Celebrating Canadian tech innovation",
@@ -96,52 +68,43 @@
             "section5__embed1": "https://whatthechris.github.io",
             "section5__caption1": "This is a prototype of the 3D projection that reacted to the music from the live band. It uses the p5 sound library to access the computer's microphone. Snap your fingers and drag the background to test it out",
             "section6__heading1": "04 – The party’s over but there's more to celebrate",
-            "section6__paragraph1": "It was an honour to have been in the same room with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech community events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
+            "section6__paragraph1": "It was an honour to have brushed shoulders with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
         }
     ],
     "motionclients": [
         {
+            "motion__id": "spark",
+            "motion__heading": "CST Spark – Learning Series",
+            "motion__subheading": "Teaching Canadian's the basics of RESPs",
+            "motion__embed1": "https://player.vimeo.com/video/386331414",
+            "motion__caption": "Working with producers in Toronto and another designer in New York, I was in charge of art direction, illustration, animation, editing and sound design. Additionally, I helped with script writing and defining the brand's voice.",
+            "motion__paragraph1": "CST Spark came to Konrad looking to create a video series that would teach Canadians about saving for their child’s post-secondary education and more importantly why they should trust CST Spark with their child’s future. As the first in the series, they needed a video that was informative but also warm and playful in a way that felt like their brand. After many requirements gathering and brand positioning meetings with their marketing team, we crafted a script using characters and a common scenario their target audience could relate to. ",
+            "motion__paragraph2": "Always referring back to the goals and tone of voice of the video, I paid special attention to how the audience would perceive the imagery and carefully considered how we were using characters. Audio plays a big role in any video project but to achieve the level of warmth that the client was going for, a larger emphasis was placed on sound design and voice actor selection. In the end everything came together harmoniously to created a video that really pulls at the audience’s heart strings."
+        },
+        {
             "motion__id": "eq",
             "motion__heading": "EQ Bank - Brand Video",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__subheading": "Introducing EQ Bank to the world",
+            "motion__embed1": "https://player.vimeo.com/video/212916088",
+            "motion__caption": "For this project, I was responsible for art direction, illustration and animation.",
+            "motion__paragraph1": "EQ Bank is a purely digital bank; meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app that launched their business, I lead the design and animation of their brand video.",
+            "motion__paragraph2": "Working closely with the client and a producer while leading a team of designers in Costa Rica, I carried the project through initial concept, script writing, storyboarding, style frames and final animation delivery. While sticking closely to the hard numbers and benefits of banking with EQ, the video presents the information in a fun and inviting way that stays true to the brand identity."
+        },
+        {
+            "motion__id": "brainstation",
+            "motion__heading": "BrainStation Online – Video Graphics",
+            "motion__subheading": "Designing educational graphics that wow, aid in comprehension and scale up",
             "motion__embed1": "https://player.vimeo.com/video/212916088",
             "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
             "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
             "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
-        },
-        {
-            "motion__id": "spark",
-            "motion__heading": "CST Spark - What is an RESP?",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
-            "motion__embed1": "https://www.youtube.com/embed/r_3tW_rNX2c",
-            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
-            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
-            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
-        },
-        {
-            "motion__id": "dge",
-            "motion__heading": "Deloitte - Designing Great Experiences",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
-            "motion__embed1": "https://player.vimeo.com/video/212916107",
-            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
-            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
-            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
-        }
+        } 
     ],
     "motionfun": [
         {
-            "motion__id": "red",
-            "motion__heading": "The Red Oneroi",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
-            "motion__embed1": "https://player.vimeo.com/video/164171274?loop=1",
-            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
-            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
-            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
-        },
-        {
             "motion__id": "88glam",
             "motion__heading": "Derek Wise/ 88 Glam Album Art",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__subheading": "",
             "motion__embed1": "https://player.vimeo.com/video/201760018?loop=1",
             "motion__embed2": "https://player.vimeo.com/video/385168537?loop=1",
             "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
