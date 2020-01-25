@@ -10,7 +10,7 @@ const ImagesSection = props => (
         <Fade bottom>
           <div className={props.leftlayout ? 'images-section__top-container' : 'images-section__top-container images-section__top-container-right'}>
             <ImageZoom image={{
-              src: require('../images/' + props.image),
+              src: require('../images/' + props.image1),
               alt: '',
               style: { width:'100%' }
               }}
@@ -33,7 +33,7 @@ const ImagesSection = props => (
         <Fade bottom>
           <div className={props.leftlayout ? 'images-section__bottom-container' : 'images-section__bottom-container images-section__bottom-container-right'}>
             <ImageZoom image={{
-                src: props.image,
+                src: require('../images/' + props.image2),
                 alt: 'Golden Gate Bridge',
                 className: 'img',
                 style: { width:'100%' }
