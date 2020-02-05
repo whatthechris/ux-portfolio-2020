@@ -2,10 +2,6 @@
 
 .project-hero{
   position: relative;
-  margin-bottom: 160px;
-  @media (max-width: $desktop){
-    margin-bottom: 25vw;
-  }
   &__content{
     position: absolute;
     display: flex;
@@ -68,14 +64,5 @@
     @media (max-width: $desktop){
       max-width: 80vw;
     }
-  }
-  &__bg{
-    display: block;
-    background-image: url('../../images/cia/cia_photo1.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 90vh;
-    filter: brightness(20%);
   }
 }

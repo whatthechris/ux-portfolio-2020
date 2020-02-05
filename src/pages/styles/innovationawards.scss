@@ -13,4 +13,17 @@
             height: 100%;
         }
     }
+    &__hero-bg{
+        display: block;
+        background-image: url('../../images/cia/cia_photo1.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 90vh;
+        filter: brightness(20%);
+        margin-bottom: 160px;
+        @media (max-width: $desktop){
+          margin-bottom: 25vw;
+        }
+    }
 }

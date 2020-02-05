@@ -25,6 +25,7 @@ const CIAPage = () => (
           thumbnail={data.hero__thumbnail}
       />
       ))}
+      <div className="cia__hero-bg"></div>
       <div className="page-container">
         <div className="cia__highlights">
           <Fade bottom>

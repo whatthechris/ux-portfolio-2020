@@ -7,7 +7,7 @@ const Footer = () => (
         <div className="footer__content page-container grid">
             <div className="footer__content-left">
                 <h2>Let's grab a coffee!</h2>
-                <p>hello@peoploverpixels.ca</p>
+                <p>hello@cwdigital.ca</p>
             </div>
             <div className="footer__content-right">
                 <h4>A bit about this site</h4>

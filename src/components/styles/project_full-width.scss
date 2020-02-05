@@ -15,7 +15,7 @@
         }
     }
     &__container{
-        grid-column: 2/ span 11;
+        grid-column: 2/ span 10;
         @media (max-width: $tablet){
             order: 2;
         }
@@ -26,7 +26,7 @@
             order: 2;
         }
         &-left{
-            grid-column: 4/ span 9; 
+            grid-column: 3/ span 9; 
             @media (max-width: $tablet){
             order: 2;
             }
@@ -64,7 +64,7 @@
         margin-top: -12rem;
         padding: 64px 40px 0px 80px;
         background-color: $off-white;
-        grid-column: 6/ span 7;
+        grid-column: 5/ span 7;
         z-index: 2;
         @media (max-width: $desktop){
             padding: 64px 24px 0px 80px;
