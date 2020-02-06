@@ -11,7 +11,7 @@
     border: none; //removes default button styling
     text-align: left; //removes default button styling
     cursor: pointer;
-    @media (max-width: $tablet){
+    @media (max-width: $desktop){
         top: auto;
         bottom: 0;
     }
@@ -47,6 +47,11 @@
         list-style: none;
         display: flex;
         flex-direction: column;
+        @media (max-width: $desktop){
+            width: 400px;
+            top: -420px;
+            right: 32px;
+        }
         @media (max-width: $tablet){
             width: 320px;
             top: -400px;
@@ -68,7 +73,7 @@
         padding-top: 2rem;
         border-top: 1px solid $off-white;
         justify-content: space-between;
-        @media (max-width: $tablet){
+        @media (max-width: $desktop){
             margin-left: 0;
         }
     }

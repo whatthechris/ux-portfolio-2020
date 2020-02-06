@@ -168,16 +168,22 @@ a{
 // general purpose styles
 .page-container{
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1120px;
   @media (max-width: $wide){
-      margin: 0 16px;
+    margin: 0 64px;
+  }
+  @media (max-width: $desktop){
+    margin: 0 64px;
+  }
+  @media (max-width: $tablet){
+    margin: 0 16px;
   }
 }
 
 .grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  column-gap: 24px;
+  column-gap: 48px;
 
   @media (max-width: $tablet){
       grid-template-columns: repeat(4, 1fr);
@@ -186,14 +192,17 @@ a{
 }
 
 .section-title{
-  grid-column: 1/ span 1;
   position: sticky;
   top: 30px;
   margin-bottom: 10rem;
+  margin-left: 2rem;
+  @media (max-width: $wide){
+    margin-left: 0rem;
+  }
   @media (max-width: $tablet){
-      grid-column: 1/ span 4;
       position: static;
       margin-bottom: 1rem;
+      margin-left: 1rem;
   }
   & h5{
       text-align: right;

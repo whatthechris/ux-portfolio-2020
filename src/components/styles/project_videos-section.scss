@@ -33,11 +33,11 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
     &__container{
         &-top{
             width: $small-video-width;
-            grid-column: 3/ span $small-video-columns;
+            grid-column: 2/ span $small-video-columns;
             grid-row: 1/span 3;
             @media (max-width: $desktop){
                 width: $big-video-width;
-                grid-column: 2/ span $big-video-columns;
+                grid-column: 1/ span $big-video-columns;
             }
             @media (max-width: $tablet){
                 width: 100%;
@@ -54,7 +54,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
         }
         &-middle{
             width: $big-video-width;
-            grid-column: 8/ span $big-video-columns;
+            grid-column: 7/ span $big-video-columns;
             grid-row: 2/span 4;
             @media (max-width: $tablet){
                 width: 100%;
@@ -68,11 +68,11 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
         }
         &-bottom{
             width: $small-video-width;
-            grid-column: 2/ span $small-video-columns;
+            grid-column: 1/ span $small-video-columns;
             grid-row: 5/span 3;
             @media (max-width: $desktop){
                 width: $big-video-width;
-                grid-column: 2/ span $big-video-columns;
+                grid-column: 1/ span $big-video-columns;
                 grid-row: 4/span 3;
             }
             @media (max-width: $tablet){
@@ -93,7 +93,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
         margin-top: 2rem;
         padding: 64px 40px 0px 80px;
         background-color: $off-white;
-        grid-column: 6/ span 7;
+        grid-column: 5/ span 8;
         grid-row: 6/ span 3;
         z-index: 2;
         @media (max-width: $desktop){

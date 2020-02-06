@@ -26,13 +26,13 @@ const CIAPage = () => (
       />
       ))}
       <div className="cia__hero-bg"></div>
-      <div className="page-container">
         <div className="cia__highlights">
           <Fade bottom>
             <div className="section-title">
               <h5>Project Highlights</h5>
             </div>
           </Fade>
+          <div className="page-container">
           {staticdata.awardscontent.map(data =>(
             <ProjectHighlights 
               icon1={data.highlights__icon1}
@@ -48,6 +48,7 @@ const CIAPage = () => (
               caption={data.highlights__caption}
             />
           ))}
+          </div>
         </div>
         <div className="cia__case-study">
           <Fade bottom>
@@ -55,6 +56,7 @@ const CIAPage = () => (
               <h5>Full Case Study</h5>
             </div>
           </Fade>
+          <div className="page-container">
           {staticdata.awardscontent.map(data =>(
           <FullWidth
             leftlayout={true}

@@ -21,13 +21,13 @@ const MotionPage = () => (
         </div>
         <div className="motion-hero__bg"></div>
       </div>
-      <div className="page-container">
         <div>
           <Fade bottom>
             <div className="section-title">
               <h5>Client Work</h5>
             </div>
           </Fade>
+          <div className="page-container">
           {staticdata.motionclients.map(data =>(
           <MotionProject
             id={data.motion__id}
@@ -40,6 +40,7 @@ const MotionPage = () => (
             paragraph2={data.motion__paragraph2}
           />
           ))}
+          </div>
         </div>
         <div>
           <Fade bottom>
@@ -47,6 +48,7 @@ const MotionPage = () => (
               <h5>Personal Projects</h5>
             </div>
           </Fade>
+          <div className="page-container">
           {staticdata.motionfun.map(data =>(
           <MotionProject
             heading={data.motion__heading}
@@ -58,7 +60,7 @@ const MotionPage = () => (
             paragraph2={data.motion__paragraph2}
           />
           ))}
-        </div>
+          </div>
       </div>
       <Footer />
     </div>

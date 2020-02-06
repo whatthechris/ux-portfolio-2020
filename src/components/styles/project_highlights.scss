@@ -3,7 +3,7 @@
 .project-highlights{
   margin-bottom: 4rem;
   &__text-section{
-    grid-column: 2/ span 7;
+    grid-column: 1/ span 7;
     @media (max-width: $tablet){
         grid-column: 1/ span 4;
     }
@@ -40,7 +40,7 @@
     }
   }
   &__image-section{
-    grid-column: 9/ span 4;
+    grid-column: 8/ span 5;
     @media (max-width: $tablet){
       display: none;
         grid-column: 1/ span 4;
