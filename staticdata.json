@@ -99,6 +99,8 @@
             "section2__image1": "wayfinder/wayfinder_photo4.jpg",
             "section3__image1" : "wayfinder/wayfinder_photo5.png",
             "section3__caption1" : "A wireframed model animation was designed for each corresponding award providing a visual icon which could be used in the awards titles as well as projected on the walls of the reception area.",
+            "section4__heading" : "Like a crystal ball for your finances",
+            "section4__paragraph" : "From our research findings, we created three user personas Normal users, Pre-Retirees and H.E.N.R.Y.s (High Earners, Not Yet Rich). After many iterations of user journey maps, user stories, information architecture, wire framing, hi-fidelity designs, user testing and collaboration with our devs to work within technological constraints, Wayfinder was born!",
             "section4__image1" : "wayfinder/wayfinder_photo6.png",
             "section4__caption1" : "As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.",
             "section4__image2" : "wayfinder/wayfinder_photo7.png",

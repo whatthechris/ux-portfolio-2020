@@ -6,9 +6,15 @@ import "./styles/project_images-section.scss"
 
 const ImagesSection = props => (
   <div className="images-section grid">
+      <Fade bottom distance="100px">
+        <div className="images-section__text">
+          <h3 className="images-section__heading">{props.heading}</h3>
+          <p>{props.paragraph}</p>
+        </div>
+      </Fade>
       {props.image1 &&
         <Fade bottom>
-          <div className={props.leftlayout ? 'images-section__top-container' : 'images-section__top-container images-section__top-container-right'}>
+          <div className="images-section__container-top">
             <ImageZoom image={{
               src: require('../images/' + props.image1),
               alt: '',
@@ -20,38 +26,31 @@ const ImagesSection = props => (
           </div>
         </Fade>
       }
-
-      {props.embed1 &&
-        <Fade bottom>
-          <div className={props.leftlayout ? 'images-section__top-container' : 'images-section__top-container images-section__top-container-right'}>
-            <iframe src={props.embed1} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            <p className="images-section__caption caption">{props.caption1}</p>
-          </div>
-        </Fade>
-      }
       {props.image2 &&
         <Fade bottom>
-          <div className={props.leftlayout ? 'images-section__bottom-container' : 'images-section__bottom-container images-section__bottom-container-right'}>
+          <div className="images-section__container-middle">
             <ImageZoom image={{
                 src: require('../images/' + props.image2),
-                alt: 'Golden Gate Bridge',
+                alt: '',
                 className: 'img',
                 style: { width:'100%' }
-              }}
-              zoomImage={{
-              src: props.image,
-              alt: 'Golden Gate Bridge'
               }}
             />
             <p className="images-section__caption caption">{props.caption2}</p>
           </div>
         </Fade>
       }
-      {props.embed2 &&
+      {props.image3 &&
         <Fade bottom>
-          <div className={props.leftlayout ? 'images-section__bottom-container' : 'images-section__bottom-container images-section__bottom-container-right'}>
-            <iframe src={props.embed2} frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-            <p className="images-section__caption caption">{props.caption2}</p>
+          <div className="images-section__container-bottom">
+            <ImageZoom image={{
+                src: require('../images/' + props.image3),
+                alt: '',
+                className: 'img',
+                style: { width:'100%' }
+              }}
+            />
+            <p className="images-section__caption caption">{props.caption3}</p>
           </div>
         </Fade>
       }

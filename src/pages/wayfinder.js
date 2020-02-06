@@ -82,6 +82,8 @@ const WayfinderPage = () => (
           ))}
           {staticdata.wayfindercontent.map(data =>(
           <ImageSection
+            heading={data.section4__heading}
+            paragraph={data.section4__paragraph}
             image1={data.section4__image1}
             caption1="First, users are taken through a natural language onboarding process where they fill out their account information, set a retirement goal and complete an Investment Personality Questionnaire (IPQ) to determine their investment risk appetite."
             image2={data.section4__image2}
@@ -94,7 +96,7 @@ const WayfinderPage = () => (
           ))}
           {staticdata.awardscontent.map(data =>(
           <FullWidth
-            heading="Results"
+            heading="04 - "
             paragraph="Throughout the testing of the final designs, the users clearly felt empowered and more confident about planning their retirement. GWL's business also benefits by positioning itself as the financial provider for wealth products and eventually protection, retirement income and cash flow products as well. This was mainly due to our successfully integration of low-touch self-directed and high-touch advisor guidance into one cohesive experience. Finally, all our efforts paid off as Wayfinder was well received by both GWL stakeholders and members at launch. The Wayfinder functionality has since been absorbed by the main GWL app."
           />
           ))}
