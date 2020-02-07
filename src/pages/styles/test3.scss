@@ -1,7 +1,7 @@
 @import '../../data/global_styles.scss';
 
 .highlights2{
-    background-color: $off-white;
+    background-color: $white;
     margin: 0px auto;
     padding: 300px 24px;
 
@@ -47,7 +47,7 @@
 }
 
 .wide-section{
-    background-color: $off-white;
+    background-color: $white;
     grid-template-rows: repeat(6, 1fr);
     padding: 0px 24px;
     margin: 0px auto;
@@ -80,7 +80,7 @@
     }
     &__text{
         padding: 64px 80px;
-        background-color: $off-white;
+        background-color: $white;
         grid-column: 1/ span 8;
         grid-row: 4/ span 3;
         z-index: 2;

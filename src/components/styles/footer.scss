@@ -1,20 +1,14 @@
 @import '../../data/global_styles.scss';
 
 .footer{
-    background-color: $darker-grey;
-    color: $off-white;
+    background-color: $black;
+    color: $white;
     grid-column: span 2;
     @media (max-width: $tablet){
         grid-column: span 1;
     }
     &__content{
-        padding: 4rem;
-        @media (max-width: $desktop){
-            padding: 4rem 2rem;
-        }
-        @media (max-width: $tablet){
-            padding: 4rem 1rem;
-        }
+        padding: 4rem 0rem;
         &-left{
             grid-column: 1/ span 6;
             @media (max-width: $desktop){

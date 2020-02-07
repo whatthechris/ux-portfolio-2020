@@ -3,27 +3,27 @@
         {
             "eyebrow": "Wayfinder Web App",
             "heading": "Helping hard working people save for the good life",
-            "thumbnail": "wayfinder_thumb.png",
+            "thumbnail": "wayfinder_thumb2.png",
             "link": "/wayfinder/"
         },
         {
             "eyebrow": "The Canadian Innovation Awards",
             "heading": "Celebrating Canadian Tech Innovation",
-            "thumbnail": "cia_thumb.png",
+            "thumbnail": "cia_thumb2.png",
             "link": "/innovationawards/"
-        },
-        {
-            "eyebrow": "PC Optimum Web App",
-            "heading": "Levelling up Loblaw's loyalty point game",
-            "thumbnail": "pcoptimum_thumb.png",
-            "link": "/pcoptimum/"
         },
         {
             "eyebrow": "Various Motion Projects",
             "heading": "Communicating ideas through motion",
-            "thumbnail": "motion_thumb.png",
+            "thumbnail": "motion_thumb2.png",
             "link": "/motion/"
-        }
+        },
+        {
+            "eyebrow": "PC Optimum Web App",
+            "heading": "Levelling up Loblaw's loyalty point game",
+            "thumbnail": "pcoptimum_thumb2.png",
+            "link": "/pcoptimum/"
+        }  
     ],
     "awardscontent": [
         {

@@ -43,7 +43,7 @@
         top: 50px;
         right: 50px;
         width: 500px;
-        color: $off-white;
+        color: $white;
         list-style: none;
         display: flex;
         flex-direction: column;
@@ -71,7 +71,7 @@
         display: flex;
         margin-left: 5.5rem;
         padding-top: 2rem;
-        border-top: 1px solid $off-white;
+        border-top: 1px solid $white;
         justify-content: space-between;
         @media (max-width: $desktop){
             margin-left: 0;
@@ -83,7 +83,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        background-color: $sand;
+        background-color: $grey;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -94,7 +94,7 @@
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            background-color: $sand;
+            background-color: $black;
             width: 1500px;
             height: 1500px;
             border-radius: 50%;

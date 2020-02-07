@@ -9,14 +9,14 @@
     cursor: pointer;
     &:hover{
         background-color: $sand;
-        color: $off-white;
+        color: $white;
     }
     &:focus{
         background-color: $sand;
-        color: $off-white;
+        color: $white;
     }
     &:active{
         background-color: $sand;
-        color: $off-white;
+        color: $white;
     }
 }

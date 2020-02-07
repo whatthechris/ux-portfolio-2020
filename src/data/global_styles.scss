@@ -5,13 +5,11 @@ $heading-font-stack: 'Poppins', sans-serif;
 $body-font-stack: 'Muli', sans-serif;
 
 // neutral color variables
-$darker-grey: #2D3435;
-$dark-grey: #373D3E;
-$light-grey: #96999A;
-$lighter-grey: #C7C7C7;
-$off-white: #FFFEF2;
-$beige: #FFFEF2;
-$dark-beige: #F0EFE1;
+$black: #000000;
+$dark-grey: #2e2e2e;
+$grey: #8D8D8D;
+$light-grey: #C7C7C7;
+$white: #FFFFFF;
 
 //brand colors variables
 $sand: #A59E86;
@@ -45,10 +43,10 @@ $fadein: FadeInAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
 // typography
 body {
-  background-color: $darker-grey;
+  background-color: $black;
   font-family: $body-font-stack;
   -webkit-font-smoothing: antialiased;
-  color: $darker-grey;
+  color: $black;
   margin: 0;
 }
 h1{
@@ -124,7 +122,7 @@ a{
   font-size: 1.999rem;
   font-family: $body-font-stack;
   line-height: 3rem;
-  color: $lighter-grey;
+  color: $grey;
 }
 
 .caption{
@@ -206,7 +204,7 @@ a{
   }
   & h5{
       text-align: right;
-      color: $sand;
+      color: $grey;
       text-transform: uppercase;
       letter-spacing: 1px;
       word-spacing: 3px;

@@ -42,7 +42,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
             iframe{
                 width: 100%;
                 height: $small-video-width * $video-aspect;
-                background-color: $dark-grey;
+                background-color: $black;
                 @media (max-width: $tablet){
                     height: $big-video-width * $video-aspect;
                 }
@@ -58,7 +58,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
             iframe{
                 width: 100%;
                 height: $big-video-width * $video-aspect;
-                background-color: $dark-grey;
+                background-color: $black;
             }
         }
     }

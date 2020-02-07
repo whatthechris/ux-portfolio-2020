@@ -1,7 +1,7 @@
 @import '../../data/global_styles.scss';
 
 .motion{
-    background-color: $off-white;
+    background-color: $white;
     &-hero{
         position: relative;
         @media (max-width: $desktop){
@@ -18,7 +18,7 @@
           z-index: 1;
         }
         &__text{
-          color: $off-white;
+          color: $white;
           display: flex;
           flex-wrap: wrap;
           max-width: 1000px;

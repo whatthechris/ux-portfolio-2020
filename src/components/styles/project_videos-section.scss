@@ -46,7 +46,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
             iframe{
                 width: 100%;
                 height: $small-video-width * $video-aspect;
-                background-color: $darker-grey;
+                background-color: $black;
                 @media (max-width: $desktop){
                     height: $big-video-width * $video-aspect;
                 }
@@ -63,7 +63,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
             iframe{
                 width: 100%;
                 height: $big-video-width * $video-aspect;
-                background-color: $darker-grey;
+                background-color: $black;
             }
         }
         &-bottom{
@@ -82,7 +82,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
             iframe{
                 width: 100%;
                 height: $small-video-width * $video-aspect;
-                background-color: $darker-grey;
+                background-color: $black;
                 @media (max-width: $desktop){
                     height: $big-video-width * $video-aspect;
                 }
@@ -92,7 +92,7 @@ $big-video-width: ($column-width * $big-video-columns) + (($big-video-columns - 
     &__text{
         margin-top: 2rem;
         padding: 64px 40px 0px 80px;
-        background-color: $off-white;
+        background-color: $white;
         grid-column: 5/ span 8;
         grid-row: 6/ span 3;
         z-index: 2;
