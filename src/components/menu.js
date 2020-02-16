@@ -35,8 +35,12 @@ class Menu extends React.Component {
                     </div>
                 </li>
             </ul>
-            </nav>}
-            <img className="menu__icon"src={require(`../images/svgs/menu.svg`)}/>  
+            <img className="menu__icon"src={require(`../images/svgs/close.svg`)}></img>
+            </nav>
+            }
+            {!this.state.isMenuOpen &&
+                <img className="menu__icon"src={require(`../images/svgs/menu.svg`)}/>  
+            }
             <div className={this.state.isMenuOpen ? "menu__circle-open" : "menu__circle"}></div>
         </button>
     )

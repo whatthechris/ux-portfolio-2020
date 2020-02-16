@@ -30,6 +30,9 @@
         background: none; //removes default button styling
         border: none; //removes default button styling
         text-align: left; //removes default button styling
+        @media (max-width: $desktop){
+            left: 1rem;
+        }
         img{
             width: 24px;
             height: 24px;
