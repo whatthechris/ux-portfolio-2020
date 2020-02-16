@@ -8,7 +8,7 @@ $body-font-stack: 'Muli', sans-serif;
 $black: #000000;
 $dark-grey: #2e2e2e;
 $grey: #8D8D8D;
-$light-grey: #C7C7C7;
+$light-grey: #F8F8F8;
 $white: #FFFFFF;
 
 //brand colors variables
@@ -192,7 +192,7 @@ a{
 .section-title{
   position: sticky;
   top: 30px;
-  margin-bottom: 10rem;
+  margin-bottom: 16rem;
   margin-left: 2rem;
   @media (max-width: $wide){
     margin-left: 0rem;

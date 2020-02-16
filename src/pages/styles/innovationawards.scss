@@ -1,7 +1,10 @@
 @import '../../data/global_styles.scss';
 
 .cia{
-    background-color: $white;
+    background-color: $light-grey;
+    &__container{
+        margin-top: -16rem !important;
+    }
     &__video-container {
         position: relative;
         height: 56.25vw; /* 16:9 */
@@ -25,5 +28,9 @@
         @media (max-width: $desktop){
           margin-bottom: 25vw;
         }
+    }
+    &__case-study{
+        background-color: $white;
+        padding-top: 80px;
     }
 }

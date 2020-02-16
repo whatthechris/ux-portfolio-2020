@@ -7,6 +7,12 @@
     margin-bottom: 2rem;
     &:hover{
         text-decoration: underline;
+        & img{
+            filter: grayscale(0%);
+        }
+        & h3{
+            color: $yellow;
+        }
     }
     h3{
         @media (max-width: $tablet){

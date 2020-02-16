@@ -16,18 +16,18 @@ const MotionPage = () => (
           <div className="motion-hero__text">
             <p>Communicating ideas through motion</p>
             <h1>Various Motion Projects</h1>
-            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#dge">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#88glam">photo parallax animations,</a> <a href="#stormtrooper">3D models, </a>composited videos, motion identities, educational video series and many more in between. Take a look at some of my favourite projects below.</p>
+            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#88glam">photo parallax animations,</a> <a href="#stormtrooper">3D models, </a>composited videos, <a href="#brainstation">motion identities, educational video series</a> and many more in between. Take a look at some of my favourite projects below.</p>
           </div>
         </div>
         <div className="motion-hero__bg"></div>
       </div>
-        <div>
+        <div className="motion__client-section">
           <Fade bottom>
             <div className="section-title">
               <h5>Client Work</h5>
             </div>
           </Fade>
-          <div className="page-container">
+          <div className="page-container motion__container">
           {staticdata.motionclients.map(data =>(
           <MotionProject
             id={data.motion__id}
@@ -51,6 +51,7 @@ const MotionPage = () => (
           <div className="page-container">
           {staticdata.motionfun.map(data =>(
           <MotionProject
+            id={data.motion__id}
             heading={data.motion__heading}
             subheading={data.motion__subheading}
             embed1={data.motion__embed1}

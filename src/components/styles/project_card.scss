@@ -5,6 +5,9 @@
     width: 100%;
     transition: background-color 0.2s;
     transition-timing-function: ease-in-out;
+    @media (max-width: $wide){
+        border: solid 1px grey;
+    }
     @media (max-width: $tablet){
         padding: 48px 24px;
     }
@@ -43,12 +46,17 @@
     &__image-section{
         position: relative;
         margin-top: 16px;
+        margin-bottom: 4rem;
         height: 350px;
         padding: auto;
         display: flex;
         justify-content: center;
+        @media (max-width: $wide){
+            margin-bottom: 0rem;
+        }
         @media (max-width: $tablet){
             height: auto;
+            margin-bottom: 4rem;
         }
     }
 
@@ -63,23 +71,24 @@
         transition: filter 0.5s;
         transition-timing-function: ease-in-out;
         z-index: 2;
+        @media (max-width: $tablet){
+            max-width: 70%;
+        }
     }
     &__circle{
         margin: auto;
         background-color: $black;
-        height: 22vw;
-        width: 22vw;
-        max-width: 350px;
-        max-height: 350px;
+        height: 19vw;
+        width: 19vw;
         border-radius: 50%;
         transition: all .2s ease-in-out;
         @media (max-width: $desktop){
-            height: 30vw;
-            width: 30vw;
+            height: 25vw;
+            width: 25vw;
         }
         @media (max-width: $tablet){
-            height: 60vw;
-            width: 60vw;
+            height: 45vw;
+            width: 45vw;
         }
     }
 }

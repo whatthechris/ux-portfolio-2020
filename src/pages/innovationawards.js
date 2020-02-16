@@ -26,7 +26,7 @@ const CIAPage = () => (
       />
       ))}
       <div className="cia__hero-bg"></div>
-        <div className="cia__highlights">
+        <div>
           <Fade bottom>
             <div className="section-title">
               <h5>Project Highlights</h5>
@@ -56,7 +56,7 @@ const CIAPage = () => (
               <h5>Full Case Study</h5>
             </div>
           </Fade>
-          <div className="page-container">
+          <div className="page-container cia__container">
           {staticdata.awardscontent.map(data =>(
           <FullWidth
             leftlayout={true}
@@ -70,6 +70,7 @@ const CIAPage = () => (
           {staticdata.awardscontent.map(data =>(
           <PullQuote
             pullquote={data.section2__pullquote1}
+            name={data.section2__name1}
           />
           ))}
           {staticdata.awardscontent.map(data =>(

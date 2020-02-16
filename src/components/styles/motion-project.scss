@@ -49,17 +49,23 @@
     }
     &__caption{
         grid-column: 1/ span 3;
+        @media (max-width: $desktop){
+            grid-column: 1/ span 10;
+            margin-bottom: 2rem;
+        }
         @media (max-width: $tablet){
             grid-column: 1/ span 4;
-            margin-bottom: 2rem;
         }
     }
     &__paragraph{
-        grid-column: 6/ span 7;
+        grid-column: 4/ span 8;
         margin-bottom: 1rem;
+        @media (max-width: $desktop){
+            grid-column: 1/ span 10;
+            margin-bottom: 0rem;
+        }
         @media (max-width: $tablet){
             grid-column: 1/ span 4;
-            margin-bottom: 0rem;
         }
     }
 }

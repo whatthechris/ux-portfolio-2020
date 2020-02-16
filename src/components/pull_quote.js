@@ -8,6 +8,8 @@ const PullQuote = props => (
         <div className="pull-quote grid">
             <p className="pull-quote__global">
                 {props.pullquote}
+                <br/><br/>
+                {props.name}
             </p>
         </div>
     </Fade>

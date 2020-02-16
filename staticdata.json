@@ -4,26 +4,27 @@
             "eyebrow": "Wayfinder Web App",
             "heading": "Helping hard working people save for the good life",
             "thumbnail": "wayfinder_thumb2.png",
-            "link": "/wayfinder/"
+            "link": "/wayfinder/",
+            "role1": "UX/UI Design",
+            "role2": "Interaction Design"
         },
         {
             "eyebrow": "The Canadian Innovation Awards",
             "heading": "Celebrating Canadian Tech Innovation",
             "thumbnail": "cia_thumb2.png",
-            "link": "/innovationawards/"
+            "link": "/innovationawards/",
+            "role1": "Design Lead",
+            "role2": "Motion Design",
+            "role3": "Front-End Dev"
         },
         {
             "eyebrow": "Various Motion Projects",
             "heading": "Communicating ideas through motion",
             "thumbnail": "motion_thumb2.png",
-            "link": "/motion/"
-        },
-        {
-            "eyebrow": "PC Optimum Web App",
-            "heading": "Levelling up Loblaw's loyalty point game",
-            "thumbnail": "pcoptimum_thumb2.png",
-            "link": "/pcoptimum/"
-        }  
+            "link": "/motion/",
+            "role1": "Design Lead",
+            "role2": "Motion Design"
+        }
     ],
     "awardscontent": [
         {
@@ -44,13 +45,12 @@
             "highlights__icon3": "cup.svg",
             "highlights__heading3": "Big Brand Win",
             "highlights__paragraph3": "Not only was this a big win for the Techvibes brand but the awards also drew in generous sponsorships and sold out all entry tickets. The support from the Canadian tech community was amazing!",
-            "highlights__image": "cia/cia_photo2.png",
-            "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats",
             "section1__heading1": "01 – Humble beginnings",
             "section1__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
             "section1__image1": "cia/cia_photo3.png",
             "section1__caption1": "Toronto's mayor John Tory addressed the awards show attendees",
-            "section2__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"\n– Toronto's mayor, John Tory",
+            "section2__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"",
+            "section2__name1": "Toronto's mayor, John Tory",
             "section3__heading2": "02 – Bigger, better, even more badass",
             "section3__paragraph2": "In 2018, the venue was upgraded to the Royal Ontario Museum and the awards needed a new look to match. Acutely aware of the geometric event space, I proposed a visual language that incorporated 3D models with a wireframe shader. The wireframe geometry mirrored the sharp angles of the crystal’s interior while the shallow depth of field and unhinged camera added a sense of exploration and mystery.",
             "section3__embed1" : "https://player.vimeo.com/video/341269351",
@@ -77,7 +77,7 @@
             "hero__eyebrow": "Helping hard working people save for the good life",
             "hero__title": "Wayfinder Web App",
             "hero__role1": "UX/ UI Design",
-            "hero__role2": "Motion Design",
+            "hero__role2": "Interaction Design",
             "hero__client": "Great West Life",
             "hero__thumbnail": "wayfinder_thumb.png",
             "hero__image": "wayfinder/wayfinder_photo1.png",
@@ -90,30 +90,27 @@
             "highlights__icon3": "shield-ok.svg",
             "highlights__heading3": "Peace of mind and reassurance",
             "highlights__paragraph3": "Wayfinder empowers users to see their future finances more clearly through informative and transparent graphs, easy to understand language and actionable context-aware recommendations, such as reminders to maximize their RESP matching benefits. If they are ever uncertain or confused, a financial advisor is just one click away.",
-            "highlights__image": "cia/cia_photo2.png",
-            "highlights__caption": "As the attendees arrived, a countdown was projected on the walls until they were directed to take their seats",
-            "section1__heading1": "01 – Humble beginnings",
-            "section1__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
+            "section1__heading1": "01 - That's a future me problem",
+            "section1__paragraph1": "Great West Life is one of Canada’s largest group retirement and benefit providers allowing millions of Canadians to use their employer’s benefits packages. However, they noticed that many of their plan members weren’t taking advantage of their company’s RRSP contribution matching program thereby leaving “free money” on the table. Upon future investigation this seemed to stem from a larger problem which was that many plan members either weren’t saving for their retirement or didn’t have access to good financial advice to help with their retirement planning.",
             "section1__image1": "wayfinder/wayfinder_photo3.jpg",
-            "section1__caption1": "Conducting inital market scan",
+            "section1__caption1": "Initial research was conducted to determine the desirability, feasibility and viability of the proposed solution.",
+            "section2__heading1": "02 - Let's talk money",
+            "section2__paragraph1": "Working concurrently with Deloitte’s Doblin team, we gathered user research in two waves of plan member and sponsor interviews. In these interviews, we asked questions about how Canadians view their finances/ retirement and how they seek financial advice. We found that some were getting generic advice from their bank while others were even turned down by financial advisors because they didn’t have enough savings to be considered a worthwhile client. Alternatively, some took matters into their own hands by creating their own spreadsheets but many felt like they didn’t have time to educate themselves, do research, create a plan or shop around and compare advisors. The process of planning for their retirement seemed full of pain points so it was clear that we could design a better solution.",
             "section2__image1": "wayfinder/wayfinder_photo4.jpg",
             "section3__image1" : "wayfinder/wayfinder_photo5.png",
-            "section3__caption1" : "A wireframed model animation was designed for each corresponding award providing a visual icon which could be used in the awards titles as well as projected on the walls of the reception area.",
-            "section4__heading" : "Like a crystal ball for your finances",
-            "section4__paragraph" : "From our research findings, we created three user personas Normal users, Pre-Retirees and H.E.N.R.Y.s (High Earners, Not Yet Rich). After many iterations of user journey maps, user stories, information architecture, wire framing, hi-fidelity designs, user testing and collaboration with our devs to work within technological constraints, Wayfinder was born!",
-            "section4__image1" : "wayfinder/wayfinder_photo6.png",
-            "section4__caption1" : "As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.",
-            "section4__image2" : "wayfinder/wayfinder_photo7.png",
-            "section4__caption2" : "As the live band began playing, the award's logo was projected above and moved along to the beat.",
-            "section4__image3" : "wayfinder/wayfinder_photo8.png",
-            "section4__caption3" : "After the awards ceremony, the ROM transformed into party mode. The award winners were projected onto the walls and the lighting changed to match the celebratory vibe.",
-            "section4__heading1": "03 – Prehistoric and tech giants",
-            "section4__paragraph1": "The initial scope of the project was to create a fully animated awards package that included title sequences for each award, the looping videos for the winners and general videos for transitional moments in the show. Working closely with the ROM's AV team, we were able to choreograph the lighting and projected contextural graphics to sync with the phases of the awards show.",
-            "section4__paragraph2": "Matching the massive dinosaur skeletons in size, the graphics represented an intriguing contrast between the prehistoric and the new technological future. Overall, the environmental graphics added compelling ways to engage the attendees, spark conversation and compliment the energy of the room.",
-            "section5__embed1": "https://whatthechris.github.io",
-            "section5__caption1": "This is a prototype of the 3D projection that reacted to the music from the live band. It uses the p5 sound library to access the computer's microphone. Snap your fingers and drag the background to test it out",
-            "section6__heading1": "04 – The party’s over but there's more to celebrate",
-            "section6__paragraph1": "It was an honour to have brushed shoulders with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
+            "section3__caption1" : "A user journey for the proposed solution was created to demonstrate how users would be engaged in and outside of the platform. As part of the ideation phase, our user research findings and quotes were paired to proposed product features.",
+            "section4__pullquote1" : "\"Seeing things visually over time and having a comprehensive snapshot of the impact of my decisions today and what it means in the future is helpful to see\"",
+            "section4__name1" : "Danielle (H.E.N.R.Y)",
+            "section5__heading1" : "03 - Like a crystal ball for your finances",
+            "section5__paragraph1" : "From our research findings, we created three user personas Normal users, Pre-Retirees and H.E.N.R.Y.s (High Earners, Not Yet Rich). After many iterations of user journey maps, user stories, information architecture, wire framing, hi-fidelity designs, user testing and collaboration with our devs to work within technological constraints, Wayfinder was born!",
+            "section5__image1" : "wayfinder/wayfinder_photo6.png",
+            "section5__caption1" : "First, users are taken through a natural language onboarding process where they fill out their account information, set a retirement goal and complete an Investment Personality Questionnaire (IPQ) to determine their investment risk appetite.",
+            "section5__image2" : "wayfinder/wayfinder_photo7.png",
+            "section5__caption2" : "The Wealth Curve on the dashboard tracks the user’s retirement goal, along with other life goals and takes into account a variety of circumstantial changes in the market including shortfalls and surpluses.  The recommendations cards prompt users to maximize their employer’s RESP matching benefit and provide other self-directed advice.",
+            "section5__image3" : "wayfinder/wayfinder_photo8.png",
+            "section5__caption3" : "If a user is ever uncertain, confused or unsure, a financial advisor is accessible via a floating action button. Once given permission from the user, the advisor can see the user’s screen in real time thereby reducing miscommunication.",
+            "section6__heading1": "04 - Retirement ready",
+            "section6__paragraph1": "Throughout the testing of the final designs, the users clearly felt empowered and more confident about planning their retirement. GWL's business also benefits by positioning itself as the financial provider for wealth products and eventually protection, retirement income and cash flow products as well. This was mainly due to our successfully integration of low-touch self-directed and high-touch advisor guidance into one cohesive experience. Finally, all our efforts paid off as Wayfinder was well received by both GWL stakeholders and members at launch. The Wayfinder functionality has since been absorbed by the main GWL app."
         }
     ],
     "motionclients": [
@@ -131,8 +128,8 @@
             "motion__heading": "EQ Bank - Brand Video",
             "motion__subheading": "Introducing EQ Bank to the world",
             "motion__embed1": "https://player.vimeo.com/video/212916088",
-            "motion__caption": "For this project, I was responsible for art direction, illustration and animation.",
-            "motion__paragraph1": "EQ Bank is a purely digital bank; meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app that launched their business, I lead the design and animation of their brand video.",
+            "motion__caption": "For this project, I was responsible for art direction, illustration and animation. I worked with a team of Costa Rican designers to execute this project",
+            "motion__paragraph1": "EQ Bank is a purely digital bank meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app that launched their business, I lead the design and animation of their brand video.",
             "motion__paragraph2": "Working closely with the client and a producer while leading a team of designers in Costa Rica, I carried the project through initial concept, script writing, storyboarding, style frames and final animation delivery. While sticking closely to the hard numbers and benefits of banking with EQ, the video presents the information in a fun and inviting way that stays true to the brand identity."
         },
         {
@@ -140,9 +137,9 @@
             "motion__heading": "BrainStation Online – Video Graphics",
             "motion__subheading": "Designing educational graphics that wow, aid in comprehension and scale up",
             "motion__embed1": "https://player.vimeo.com/video/212916088",
-            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
-            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video.",
-            "motion__paragraph2": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+            "motion__caption": "Leading a team of four motion designers, I created a set of extensive motion guidelines and a visual language that could be used to produce a variety of visuals while maintaining an acceptable level of consistency.",
+            "motion__paragraph1": "BrainStation is one of Canada’s leading educators of digital skills, offering in-person classes and online live classes. As a way to fill another untapped space, they sought out to create a self-directed learning platform for students to take courses at their own pace and on their own time. BrainStation Online was created to fill this need and quickly needed video content.",
+            "motion__paragraph2": "Every week we learned new concepts ranging from very technical (ie. machine learning and data analytics) to more abstract (ie. user experience design and digital marketing). We then taught the concepts through motion graphics and edited them into a mix of stock video and live action footage to aid in student comprehension and recall. Over many months I collaborated with the team to solidify a process that included whiteboarding, presenting and defending ideas, peer reviewing and conducting retrospectives in a way that produced high quality videos and made every team member take ownership over their work. At the time that I left the project, we had produced over 15 courses, 540 hrs of video, 360 animated scenes. Now thousands of people around the world are learning digital skills online through the videos that my team created."
         } 
     ],
     "motionfun": [

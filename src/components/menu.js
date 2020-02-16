@@ -31,7 +31,7 @@ class Menu extends React.Component {
                     <Link><h4>Back to intro</h4></Link>
                     <div>
                         <h4>Let's grab a coffee!</h4>
-                        <p>hello@peopleoverpixels.ca</p>
+                        <p>hello@cwdigital.ca</p>
                     </div>
                 </li>
             </ul>

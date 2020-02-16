@@ -1,9 +1,9 @@
 @import '../../data/global_styles.scss';
 
 .full-width{
-    margin-bottom: 8rem;
+    padding-bottom: 8rem;
     @media (max-width: $tablet){
-        margin-bottom: 4rem;
+        padding-bottom: 4rem;
         display: flex !important;
         flex-wrap: wrap;
     }
@@ -47,7 +47,7 @@
         max-width: 300px;
         margin-top: 2rem;
         @media (max-width: $desktop){
-            max-width: 180px;
+            max-width: 200px;
         }
         @media (max-width: $tablet){
             margin-top: 1rem;
@@ -64,7 +64,7 @@
         margin-top: -12rem;
         padding: 64px 40px 0px 80px;
         background-color: $white;
-        grid-column: 4/ span 9;
+        grid-column: 5/ span 8;
         z-index: 2;
         @media (max-width: $desktop){
             padding: 64px 24px 0px 80px;
@@ -76,7 +76,7 @@
             padding: 0;
         }
         &-left{
-            grid-column: 1/ span 9;
+            grid-column: 1/ span 8;
             padding: 64px 80px 0px 0px;
             @media (max-width: $desktop){
                 grid-column: 1/ span 8;
