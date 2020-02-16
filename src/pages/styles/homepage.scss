@@ -6,21 +6,37 @@
         height: 100vh;
         display: flex;
         align-items: center;
-
-        p{
-            padding: 0 7.5rem;
-            max-width: 830px;
-            
-            @media (max-width: $desktop){
-                padding: 0 1.5rem;
-              }
-        }
-
         a{
             color: $yellow;
             &:hover{
                 border-bottom: 2px solid $yellow;
             }
+        }
+    }
+    &__pull-quote{
+        padding: 0 7.5rem;
+        max-width: 830px;
+        
+        @media (max-width: $desktop){
+            padding: 0 1.5rem;
+          }
+    }
+    &__pause{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+        display: flex;
+        flex-direction: row;
+        background: none; //removes default button styling
+        border: none; //removes default button styling
+        text-align: left; //removes default button styling
+        img{
+            width: 24px;
+            height: 24px;
+            margin-right: 1rem;
+        }
+        p{
+            color: $grey;
         }
     }
     &__video-grid{
