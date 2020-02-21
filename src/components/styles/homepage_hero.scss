@@ -77,13 +77,18 @@
     }
     @media (max-width: $tablet){
       right: 0px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
     }
     img {
       height: 120vh;
       margin-top: -100px;
+      opacity: 0.8;
       @media (max-width: $tablet){
         height: 100vh;
         margin-top: 10px;
+        opacity: 0.5;
       }
     }
   }
