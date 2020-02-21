@@ -2,7 +2,7 @@
 
 .homepage-hero{
   display: flex;
-  height: 92vh;
+  height: 95vh;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -17,6 +17,7 @@
 
   &__intro{
     margin-top: 4rem;
+    z-index: 2;
     @media (max-width: $desktop){
       margin-top: 2rem;
     }
@@ -35,6 +36,9 @@
       animation: $fadein;
       @media (max-width: $desktop){
         max-width: 400px;
+      }
+      @media (max-width: $tablet){
+        max-width: 300px;
       }
     }
     & a{
@@ -60,6 +64,31 @@
       text-indent: -3px;
     }
   }
+  &__portrait{
+    position: absolute;
+    height: inherit;
+    overflow: hidden;
+    right: 15vw;
+    @media (max-width: $wide){
+      right: -10vw;
+    }
+    @media (max-width: $desktop){
+      right: -20vw;
+    }
+    @media (max-width: $tablet){
+      right: 0px;
+    }
+    img {
+      height: 120vh;
+      margin-top: -100px;
+      opacity: 80%;
+      @media (max-width: $tablet){
+        height: 100vh;
+        margin-top: 10px;
+        opacity: 50%;
+      }
+    }
+  }
 }
 
 .currently{
@@ -67,6 +96,7 @@
   opacity: 0;
   animation: $fadein;
   margin-bottom: 4rem;
+  z-index: 2;
   @media (max-width: $tablet){
     margin-bottom: 2rem;
   }

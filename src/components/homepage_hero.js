@@ -16,13 +16,16 @@ const HomepageHero = () => (
       <div className="currently__list">
         <div className="currently__item">
           <img src={require('../images/svgs/location-pin.svg')} />
-          <p className="caption">Toronto, Canada</p>
+          <a href="" className="caption">Toronto, Canada</a>
         </div>
         <div className="currently__item">
           <img src={require('../images/svgs/brief-case.svg')} />
           <p className="caption">Looking for oppportunities overseas</p>
         </div>
       </div>
+    </div>
+    <div className="homepage-hero__portrait">
+      <img src={require('../images/homepage/portrait.jpg')} />
     </div>
   </div>
 )

@@ -28,7 +28,7 @@ const MotionProject = props => (
           {props.caption}
         </div>
       </Fade>
-      <Fade bottom distance="100px">
+      <Fade bottom distance="100px" delay="200">
         <p className="motion-project__paragraph">
           {props.paragraph1}<br/><br/>
           {props.paragraph2}

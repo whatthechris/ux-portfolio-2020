@@ -36,27 +36,20 @@
         }
         &__paragraph{
             margin-top: 1rem;
+            color: $light-grey !important;
         }
-        &__pause{
+        &__play-pause{
           position: absolute;
           bottom: 4rem;
           right: 4rem;
-          display: flex;
-          flex-direction: row;
-          background: none; //removes default button styling
-          border: none; //removes default button styling
-          text-align: left; //removes default button styling
+          z-index: 2;
           @media (max-width: $desktop){
-              left: 1rem;
+            right: auto;
+            left: 4rem;
           }
-        img{
-            width: 24px;
-            height: 24px;
-            margin-right: 1rem;
-        }
-        p{
-            color: $grey;
-        }
+          @media (max-width: $tablet){
+            left: 6%;
+          }
         }
         &__video{
           display: block;

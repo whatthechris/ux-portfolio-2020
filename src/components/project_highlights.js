@@ -6,39 +6,27 @@ import "./styles/project_highlights.scss"
 
 const ProjectHighlights = props => (
   <div className="project-highlights grid">
-      <Fade bottom>
+      <Fade bottom distance="100px">
         <div className="project-highlights__highlight" id="highlight1">
           <img className="project-highlights__icon" src={require(`../images/svgs/${props.icon1}`)} />
           <h3 className="project-highlights__heading">{props.heading1}</h3>
           <p className="project-highlights__paragraph">{props.paragraph1}</p>
         </div>
       </Fade>
-      <Fade bottom delay="200">
+      <Fade bottom delay="200" distance="100px">
         <div className="project-highlights__highlight" id="highlight2">
           <img className="project-highlights__icon" src={require(`../images/svgs/${props.icon2}`)} />
           <h3 className="project-highlights__heading">{props.heading2}</h3>
           <p className="project-highlights__paragraph">{props.paragraph2}</p>
         </div>
       </Fade>
-      <Fade bottom delay="400">
+      <Fade bottom delay="400" distance="100px">
         <div className="project-highlights__highlight" id="highlight3">
           <img className="project-highlights__icon" src={require(`../images/svgs/${props.icon3}`)} />
           <h3 className="project-highlights__heading">{props.heading3}</h3>
           <p className="project-highlights__paragraph">{props.paragraph3}</p>
         </div>
       </Fade>
-    <Fade bottom distance="100px" delay={500}>
-    {/* <div className="project-highlights__image-section">
-      <ImageZoom
-        image={{
-          src: require('../images/' + props.image),
-          alt: '',
-          style: { width:'100%' }
-        }}
-        zoomMargin="0"
-      />
-    </div> */}
-    </Fade>
   </div>
 )
 

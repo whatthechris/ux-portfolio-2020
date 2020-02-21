@@ -14,32 +14,23 @@
         }
     }
     &__pull-quote{
-        padding: 0 7.5rem;
+        padding: 0 5rem;
         max-width: 830px;
-        
+        color: $light-grey !important;
         @media (max-width: $desktop){
+            padding: 0 4rem;
+        }
+        @media (max-width: $tablet){
             padding: 0 1.5rem;
-          }
+        }
     }
-    &__pause{
+    &__play-pause{
         position: absolute;
         top: 4rem;
         left: 4rem;
-        display: flex;
-        flex-direction: row;
-        background: none; //removes default button styling
-        border: none; //removes default button styling
-        text-align: left; //removes default button styling
-        @media (max-width: $desktop){
-            left: 1rem;
-        }
-        img{
-            width: 24px;
-            height: 24px;
-            margin-right: 1rem;
-        }
-        p{
-            color: $grey;
+        @media (max-width: $tablet){
+            left: auto;
+            right: 1rem;
         }
     }
     &__video-grid{
@@ -86,7 +77,7 @@
                 color: $grey;
             }
             @media (max-width: $wide){
-                border: solid 1px grey;
+                border: solid 1px $medium-grey;
             }
             @media (max-width: $tablet){
                 padding: 10rem 3rem;

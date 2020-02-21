@@ -35,23 +35,6 @@
       margin-bottom: 8px;
     }
   }
-  &__image-section{
-    position: absolute;
-    right: -26vw;
-    bottom: -30rem;
-    z-index: 0;
-    @media (max-width: $wide){
-      position: static;
-      grid-column: 7/ span 6;
-    }
-    @media (max-width: $tablet){
-      position: static;
-      grid-column: 1/ span 4;
-    }
-  }
-  &__caption{
-    margin-top: 2rem;
-  }
 }
 
 #highlight1{

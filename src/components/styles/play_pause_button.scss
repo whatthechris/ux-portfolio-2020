@@ -1,0 +1,32 @@
+@import '../../data/global_styles.scss';
+
+
+.play-pause-button{
+    background: none; //removes default button styling
+    border: none; //removes default button styling
+    text-align: left; //removes default button styling
+    &:hover {
+        cursor: pointer;
+        & p{
+            color: $yellow;
+        }
+        & svg{
+            fill: $yellow;
+        }
+    }
+    @media (max-width: $desktop){
+        left: 1rem;
+    }
+    &__content{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        svg{
+            fill: $medium-grey;
+            margin-right: 0.5rem;
+        }
+        p{
+            color: $medium-grey;
+        }
+    }
+}

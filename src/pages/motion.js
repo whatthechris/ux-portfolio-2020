@@ -7,23 +7,38 @@ import "./styles/motion.scss"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
 import Footer from "../components/footer.js"
+import PlayPauseButton from "../components/play_pause_button.js"
 
-const MotionPage = () => (
+class MotionPage extends React.Component {
+  constructor(props){
+    super(props)
+    this.pausePlayClick = this.pausePlayClick.bind(this);
+  }
+  pausePlayClick() {
+    if (this.refs.vidRef.paused == true) {
+      this.refs.vidRef.play();
+    } else {
+      this.refs.vidRef.pause();
+    }
+  }
+  render() {
+
+    return(
     <div className="motion">
       <Menu/>
       <div className="motion-hero">
-        <button className="motion-hero__pause" onClick={() => console.log('paused')}>
-          <img src={require('../images/svgs/pause.svg')} /><p>Pause background video</p> 
-        </button>
+        <div className="motion-hero__play-pause">
+          <PlayPauseButton onClick={this.pausePlayClick}/>
+        </div>
         <div className='motion-hero__content'>
           <div className="motion-hero__text">
             <p>Communicating ideas through motion</p>
             <h1>Various Motion Projects</h1>
-            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#88glam">photo parallax animations,</a> <a href="#stormtrooper">3D models, </a>composited videos, <a href="#brainstation">motion identities, educational video series</a> and many more in between. Take a look at some of my favourite projects below.</p>
+            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#wise">photo parallax animations,</a> <a href="#stormtrooper">3D models, </a>composited videos, <a href="#brainstation">motion identities, educational video series</a> and many more in between. Take a look at some of my favourite projects below.</p>
           </div>
         </div>
         <div className="motion-hero__video">
-          <video muted loop autoplay="true" src={require(`../images/homepage/intro_bg.mp4`)}/>
+          <video ref="vidRef" muted loop autoplay="true" src={require(`../images/homepage/intro_bg.mp4`)}/>
         </div>
       </div>
         <div className="motion__client-section">
@@ -70,6 +85,7 @@ const MotionPage = () => (
       </div>
       <Footer />
     </div>
-)
+    )}
+}
 
 export default MotionPage
