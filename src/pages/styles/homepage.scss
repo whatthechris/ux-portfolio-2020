@@ -80,20 +80,25 @@
                 border: solid 1px $medium-grey;
             }
             @media (max-width: $tablet){
-                padding: 10rem 3rem;
+                padding: 6rem 3rem;
             }
         }
     }
-    &__dots{
+    &__dot{
         margin-top: 2rem;
+        position: relative;
         display: flex;
-        justify-content: space-between;
-        width: 60px;
+        justify-content: center;
+        width: 100px;
         &-circle{
+            position: absolute;
             height: 16px;
             width: 16px;
             background-color: $grey;
             border-radius: 10px;
+            animation: dotanimation 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function:ease;
         }
     }
 }
@@ -104,3 +109,18 @@
     width: 100%;
     z-index: -1;
 }
+
+@keyframes dotanimation {
+    0% {top: 0px;}
+    20% {top: -10px;}
+    40% {top: 0px;}
+}
+
+@for $i from 1 through 3 {
+    .homepage__dot *{
+      &:nth-child(#{$i}) {
+        animation-delay: 0.25s * $i;
+        left: 22px * $i;
+        }
+    }
+  }

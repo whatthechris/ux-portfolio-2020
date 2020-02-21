@@ -69,11 +69,11 @@ class IndexPage extends React.Component {
           <div className="homepage__card homepage__card-empty">
               <h4>That's it for now</h4>
               <h2>Stay tuned for more case studies</h2>
-              <div className="homepage__dots">
-                <div className="homepage__dots-circle"></div>
-                <div className="homepage__dots-circle"></div>
-                <div className="homepage__dots-circle"></div>
-              </div>
+                <div className="homepage__dot">
+                  <div className="homepage__dot-circle"></div>
+                  <div className="homepage__dot-circle"></div>
+                  <div className="homepage__dot-circle"></div>
+                </div>
           </div>
         <Footer />
       </div>
