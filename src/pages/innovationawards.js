@@ -67,6 +67,7 @@ const CIAPage = () => (
             heading={data.section1__heading1}
             paragraph={data.section1__paragraph1}
             image={data.section1__image1}
+            imagealt={data.section1__image1alt}
             caption={data.section1__caption1}
           />
           ))}

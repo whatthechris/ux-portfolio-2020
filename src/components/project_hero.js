@@ -14,19 +14,19 @@ const ProjectHero = props => (
             <div className="project-hero__details">
               <ul className="project-hero__list">
                   <h5>Project Roles</h5>
-                  <p>{props.role1}</p>
-                  <p>{props.role2}</p>
-                  <p>{props.role3}</p>
+                  <li><p>{props.role1}</p></li>
+                  <li><p>{props.role2}</p></li>
+                  <li><p>{props.role3}</p></li>
               </ul>
               <ul className="project-hero__list">
                   <h5>Client</h5>
-                  <p>{props.client}</p>
+                  <li><p>{props.client}</p></li>
               </ul>
             </div>
           }
         </div>
         {props.thumbnail &&
-          <img src={require(`../images/homepage/${props.thumbnail}`)} className="project-hero__image"/>
+          <img src={require(`../images/homepage/${props.thumbnail}`)} className="project-hero__image" alt=""/>
         }
       </div>
     </div>

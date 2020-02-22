@@ -17,10 +17,9 @@ const ImagesSection = props => (
           <div className="images-section__container-top">
             <ImageZoom image={{
               src: require('../images/' + props.image1),
-              alt: '',
+              alt: props.image1alt,
               style: { width:'100%' }
               }}
-              zoomMargin="0"
             />
               <p className="images-section__caption caption">{props.caption1}</p>
           </div>
@@ -31,7 +30,7 @@ const ImagesSection = props => (
           <div className="images-section__container-middle">
             <ImageZoom image={{
                 src: require('../images/' + props.image2),
-                alt: '',
+                alt: props.image2alt,
                 className: 'img',
                 style: { width:'100%' }
               }}
@@ -45,7 +44,7 @@ const ImagesSection = props => (
           <div className="images-section__container-bottom">
             <ImageZoom image={{
                 src: require('../images/' + props.image3),
-                alt: '',
+                alt: props.image3alt,
                 className: 'img',
                 style: { width:'100%' }
               }}

@@ -18,7 +18,7 @@ class Menu extends React.Component {
         <button className="menu" onClick={() => this.setState(
         {isMenuOpen: !this.state.isMenuOpen})}>
             {this.state.isMenuOpen && 
-            <nav>
+            <nav role="menu">
             <ul className="menu__text">
                 {staticdata.projects.map(project =>(
                     <MenuItem
@@ -27,7 +27,7 @@ class Menu extends React.Component {
                         link={project.link}
                     />
                 ))}
-                <li className="menu__bottom-links">
+                <li className="menu__bottom-links" role="menuitem">
                     <Link><h4>Back to intro</h4></Link>
                     <div>
                         <h4>Let's grab a coffee!</h4>
@@ -35,11 +35,11 @@ class Menu extends React.Component {
                     </div>
                 </li>
             </ul>
-            <img className="menu__icon"src={require(`../images/svgs/close.svg`)}></img>
+            <img className="menu__icon" src={require(`../images/svgs/close.svg`)} alt="Close icon"/>
             </nav>
             }
             {!this.state.isMenuOpen &&
-                <img className="menu__icon"src={require(`../images/svgs/menu.svg`)}/>  
+                <img className="menu__icon" src={require(`../images/svgs/menu.svg`)} alt="Menu icon"/>  
             }
             <div className={this.state.isMenuOpen ? "menu__circle-open" : "menu__circle"}></div>
         </button>

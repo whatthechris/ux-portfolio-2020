@@ -13,19 +13,19 @@ const HomepageHero = () => (
     </div>
     <div className="currently">
       <h5>Currently</h5>
-      <div className="currently__list">
-        <div className="currently__item">
-          <img src={require('../images/svgs/location-pin.svg')} />
+      <ul className="currently__list">
+        <li className="currently__item">
+          <img src={require('../images/svgs/location-pin.svg')} alt=""/>
           <a href="https://www.google.ca/search?q=toronto+canada&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm3diPx-XnAhXTjp4KHWkIAagQ_AUoAnoECBoQBA&biw=1440&bih=798" className="caption" target="_blank" rel="noopener noreferrer">Toronto, Canada</a>
-        </div>
-        <div className="currently__item">
-          <img src={require('../images/svgs/brief-case.svg')} />
+        </li>
+        <li className="currently__item">
+          <img src={require('../images/svgs/brief-case.svg')} alt=""/>
           <p className="caption">Looking for oppportunities overseas</p>
-        </div>
-      </div>
+        </li>
+      </ul>
     </div>
     <div className="homepage-hero__portrait">
-      <img src={require('../images/homepage/portrait.jpg')} />
+      <img src={require('../images/homepage/portrait.jpg')} alt=""/>
     </div>
   </div>
 )

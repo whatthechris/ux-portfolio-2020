@@ -29,6 +29,10 @@
       padding-top: 120px;
       max-width: 90%;
     }
+    @media (max-width: $tablet){
+      margin: 0 1rem;
+      max-width: auto;
+    }
   }
   &__heading{
     flex: 2;
@@ -44,11 +48,14 @@
     flex-direction: row;
     @media (max-width: $desktop){
       flex-basis: 100%;
+      padding-top: 0rem;
     }
   }
   &__list{
     padding: 0;
     margin-right: 30px;
+    list-style-type: none;
+    padding: 0;
     &:last-of-type{
       margin-right: 0px;
     }

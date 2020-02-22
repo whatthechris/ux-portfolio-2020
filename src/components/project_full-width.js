@@ -13,7 +13,7 @@ const FullWidth = props => (
           <ImageZoom
           image={{
             src: require('../images/' + props.image),
-            alt: '',
+            alt: props.imagealt,
             style: { width:'100%' }
           }}
           zoomMargin="0"

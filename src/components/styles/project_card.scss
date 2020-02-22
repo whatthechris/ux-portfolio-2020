@@ -11,11 +11,9 @@
     @media (max-width: $tablet){
         padding: 48px 24px;
     }
-
     h2{
         margin-bottom: 16px;
     }
-
     h4{
         color: $grey;
         margin-bottom: 16px;
@@ -23,19 +21,16 @@
 
     &:hover{
         background-color: $black;
-
+        border-color: $black;
         & h2, p{
             color: $white;
         }
-
         & h4{
             color: $grey;
         }
-
         & img{
             filter: grayscale(0%);
         }
-
         & .project-card__circle{
             transform: scale(1.2);
             transition: all .2s ease-in-out;

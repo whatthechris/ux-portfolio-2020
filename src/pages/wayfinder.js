@@ -68,6 +68,7 @@ const WayfinderPage = () => (
               heading={data.section1__heading1}
               paragraph={data.section1__paragraph1}
               image={data.section1__image1}
+              imagealt={data.section1__image1alt}
               caption={data.section1__caption1}
             />
             ))}
@@ -76,12 +77,14 @@ const WayfinderPage = () => (
               heading={data.section2__heading1}
               paragraph={data.section2__paragraph1}
               image={data.section2__image1}
+              imagealt={data.section2__image1alt}
               caption={data.section2__caption1}
             />
             ))}
             {staticdata.wayfindercontent.map(data =>(
             <FullWidth
               image={data.section3__image1}
+              imagealt={data.section3__image1alt}
               caption={data.section3__caption1}
             />
             ))}
@@ -96,10 +99,13 @@ const WayfinderPage = () => (
               heading={data.section5__heading1}
               paragraph={data.section5__paragraph1}
               image1={data.section5__image1}
+              image1alt={data.section5__image1alt}
               caption1={data.section5__caption1}
               image2={data.section5__image2}
+              image2alt={data.section5__image2alt}
               caption2={data.section5__caption2}
               image3={data.section5__image3}
+              image3alt={data.section5__image3alt}
               caption3={data.section5__caption3}
             />
             ))}

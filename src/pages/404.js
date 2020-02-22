@@ -1,5 +1,5 @@
 import React from "react"
-import { HeadProvider, Title, Meta } from 'react-head';
+import { Title, Meta } from 'react-head';
 import Menu from "../components/menu.js"
 
 const NotFoundPage = () => (

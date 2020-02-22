@@ -1,7 +1,7 @@
 @import '../../data/global_styles.scss';
 
 .motion{
-    background-color: $light-grey;
+    background-color: $medium-grey;
     &-hero{
         position: relative;
         &__content{
@@ -36,7 +36,7 @@
         }
         &__paragraph{
             margin-top: 1rem;
-            color: $light-grey !important;
+            color: $white !important;
         }
         &__play-pause{
           position: absolute;
