@@ -47,7 +47,7 @@ class IndexPage extends React.Component {
         <div className="homepage__play-pause">
           <PlayPauseButton onClick={this.pausePlayClick}/>
         </div>
-        <p className="pull-quote__global homepage__pull-quote">I’ve worked with a variety of clients including <a href="http://eqbank.ca">banks,</a> <a href="http://moneris.com">payment processors,</a> <a href="">awards shows,</a> <a href="">consumer-facing products</a> and many more. <br/><br/>Take a look at some of my favourite projects below.</p>
+        <p className="pull-quote__global homepage__pull-quote">I’ve worked with a variety of clients including <a href="http://eqbank.ca" target="_blank" rel="noopener noreferrer">banks,</a> <a href="http://moneris.com" target="_blank" rel="noopener noreferrer">payment processors,</a> <a href="" target="_blank" rel="noopener noreferrer">awards shows,</a> <a href="" target="_blank" rel="noopener noreferrer">consumer-facing products</a> and many more. <br/><br/>Take a look at some of my favourite projects below.</p>
         <div className="homepage__video-grid">
           <video ref="vidRef" muted loop autoplay="true" src={require(`../images/homepage/intro_bg.mp4`)}/>
         </div>

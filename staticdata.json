@@ -66,10 +66,12 @@
             "section4__heading1": "03 – Prehistoric and tech giants",
             "section4__paragraph1": "The initial scope of the project was to create a fully animated awards package that included title sequences for each award, the looping videos for the winners and general videos for transitional moments in the show. Working closely with the ROM's AV team, we were able to choreograph the lighting and projected contextural graphics to sync with the phases of the awards show.",
             "section4__paragraph2": "Matching the massive dinosaur skeletons in size, the graphics represented an intriguing contrast between the prehistoric and the new technological future. Overall, the environmental graphics added compelling ways to engage the attendees, spark conversation and compliment the energy of the room.",
-            "section5__embed1": "https://whatthechris.github.io",
-            "section5__caption1": "This is a prototype of the 3D projection that reacted to the music from the live band. It uses the p5 sound library to access the computer's microphone. Snap your fingers and drag the background to test it out",
-            "section6__heading1": "04 – The party’s over but there's more to celebrate",
-            "section6__paragraph1": "It was an honour to have brushed shoulders with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
+            "section5__pullquote1": "Below is a prototype of the 3D projection that reacted to the music from the live band. Snap your fingers and drag the background to test it out",
+            "section5__name1": "↓",
+            "section6__embed1": "https://whatthechris.github.io",
+            "section6__caption1": "The prototype uses the p5 sound library to access the computer's microphone. You may need to refresh the page and enable your computer's microphone to see the effect",
+            "section7__heading1": "04 – The party’s over but there's more to celebrate",
+            "section7__paragraph1": "It was an honour to have brushed shoulders with Canada's top tech leaders and to have been able to recognize their contributions to Canada’s tech community. Putting together the visuals for one of the biggest Canadian tech events of the year was a big challenge but our hard work paid off as the new revamped Canadian Innovation Awards drew in generous sponsorships and sold out all entry tickets."
         }
     ],
     "wayfindercontent": [

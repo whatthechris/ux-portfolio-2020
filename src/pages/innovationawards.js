@@ -97,15 +97,21 @@ const CIAPage = () => (
           />
           ))}
           {staticdata.awardscontent.map(data =>(
-          <FullWidth
-            embed={data.section5__embed1}
-            caption={data.section5__caption1}
+          <PullQuote
+            pullquote={data.section5__pullquote1}
+            name={data.section5__name1}
           />
           ))}
           {staticdata.awardscontent.map(data =>(
           <FullWidth
-            heading={data.section6__heading1}
-            paragraph={data.section6__paragraph1}
+            embed={data.section6__embed1}
+            caption={data.section6__caption1}
+          />
+          ))}
+          {staticdata.awardscontent.map(data =>(
+          <FullWidth
+            heading={data.section7__heading1}
+            paragraph={data.section7__paragraph1}
           />
           ))}
         </div>

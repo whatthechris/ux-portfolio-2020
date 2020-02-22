@@ -16,7 +16,7 @@ const HomepageHero = () => (
       <div className="currently__list">
         <div className="currently__item">
           <img src={require('../images/svgs/location-pin.svg')} />
-          <a href="" className="caption">Toronto, Canada</a>
+          <a href="https://www.google.ca/search?q=toronto+canada&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm3diPx-XnAhXTjp4KHWkIAagQ_AUoAnoECBoQBA&biw=1440&bih=798" className="caption" target="_blank" rel="noopener noreferrer">Toronto, Canada</a>
         </div>
         <div className="currently__item">
           <img src={require('../images/svgs/brief-case.svg')} />
