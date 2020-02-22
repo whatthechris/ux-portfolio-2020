@@ -8,6 +8,7 @@ import ProjectCard from "../components/project_card.js"
 import Footer from "../components/footer.js"
 import Menu from "../components/menu.js"
 import PlayPauseButton from "../components/play_pause_button.js"
+import { HeadProvider, Title, Meta } from 'react-head';
 
 class IndexPage extends React.Component {
   constructor(props){
@@ -38,8 +39,10 @@ class IndexPage extends React.Component {
     }
   }
   render() {
-
     return(
+    <HeadProvider>
+    <Title>Chris Wong Portfolio</Title>
+    <Meta name="robots" content="noindex, nofollow" />
     <div className="homepage">
       <Menu/>
       <HomepageHero />
@@ -78,6 +81,7 @@ class IndexPage extends React.Component {
         <Footer />
       </div>
     </div>
+    </HeadProvider>
     )
   };
 }
