@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
-import { HeadProvider, Title, Meta } from 'react-head';
+import { Title, Meta } from 'react-head';
 
 import "./styles/wayfinder.scss"
 import Menu from "../components/menu"
@@ -13,10 +13,9 @@ import FullWidth from "../components/project_full-width"
 import Footer from "../components/footer.js"
 
 const WayfinderPage = () => (
-  <HeadProvider>
-  <Title>Chris Wong – Wayfinder Web App</Title>
-  <Meta name="robots" content="noindex, nofollow" />
     <div className="wayfinder">
+      <Title>Chris Wong – Wayfinder Web App</Title>
+      <Meta name="robots" content="noindex, nofollow" />
       <Menu/>
       {staticdata.wayfindercontent.map(data =>(
         <ProjectHero
@@ -118,7 +117,6 @@ const WayfinderPage = () => (
       </div>
       <Footer />
     </div>
-    </HeadProvider>
 )
 
 export default WayfinderPage

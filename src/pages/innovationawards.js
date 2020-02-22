@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
-import { HeadProvider, Title, Meta } from 'react-head';
+import { Title, Meta } from 'react-head';
 
 import "./styles/innovationawards.scss"
 import ProjectHero from "../components/project_hero.js"
@@ -13,10 +13,9 @@ import VideosSection from "../components/project_videos-section"
 import Footer from "../components/footer.js"
 
 const CIAPage = () => (
-  <HeadProvider>
-  <Title>Chris Wong – Innovation Awards</Title>
-  <Meta name="robots" content="noindex, nofollow" />
     <div className="cia">
+      <Title>Chris Wong – Innovation Awards</Title>
+      <Meta name="robots" content="noindex, nofollow" />
       <Menu/>
       {staticdata.awardscontent.map(data =>(
         <ProjectHero
@@ -125,7 +124,6 @@ const CIAPage = () => (
       </div>
       <Footer />
     </div>
-  </HeadProvider>
 )
 
 export default CIAPage

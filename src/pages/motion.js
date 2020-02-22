@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
-import { HeadProvider, Title, Meta } from 'react-head';
+import { Title, Meta } from 'react-head';
 
 import "./styles/motion.scss"
 import MotionProject from "../components/motion_project.js"
@@ -23,10 +23,9 @@ class MotionPage extends React.Component {
   }
   render() {
     return(
-    <HeadProvider>
-    <Title>Chris Wong – Motion Projects</Title>
-    <Meta name="robots" content="noindex, nofollow" />
     <div className="motion">
+      <Title>Chris Wong – Motion Projects</Title>
+      <Meta name="robots" content="noindex, nofollow" />
       <Menu/>
       <div className="motion-hero">
         <div className="motion-hero__play-pause">
@@ -87,7 +86,6 @@ class MotionPage extends React.Component {
       </div>
       <Footer />
     </div>
-    </HeadProvider>
     )}
 }
 
