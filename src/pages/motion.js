@@ -56,6 +56,7 @@ class MotionPage extends React.Component {
             subheading={data.motion__subheading}
             embed1={data.motion__embed1}
             embed2={data.motion__embed2}
+            sidebyside={data.motion__sidebyside}
             caption={data.motion__caption}
             paragraph1={data.motion__paragraph1}
             paragraph2={data.motion__paragraph2}
@@ -77,6 +78,7 @@ class MotionPage extends React.Component {
             subheading={data.motion__subheading}
             embed1={data.motion__embed1}
             embed2={data.motion__embed2}
+            sidebyside={data.motion__sidebyside}
             caption={data.motion__caption}
             paragraph1={data.motion__paragraph1}
             paragraph2={data.motion__paragraph2}
