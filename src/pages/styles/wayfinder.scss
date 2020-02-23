@@ -1,9 +1,12 @@
 @import '../../data/global_styles.scss';
 
 .wayfinder{
-    background-color: $medium-grey;
+    background-color: $light-grey;
     &__container{
-        margin-top: -16rem !important;
+        margin-top: -12rem !important;
+        @media (max-width: $desktop){
+            margin-top: 0rem !important;
+        }
     }
     &__video-container {
         position: relative;
@@ -32,5 +35,11 @@
     &__case-study{
         background-color: $white;
         padding-top: 10rem;
+        @media (max-width: $desktop){
+            padding-top: 6rem;
+        }
+        @media (max-width: $desktop){
+            padding-top: 4rem;
+        }
     }
 }

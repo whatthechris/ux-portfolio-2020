@@ -108,6 +108,7 @@ const CIAPage = () => (
           ))}
           {staticdata.awardscontent.map(data =>(
           <FullWidth
+            prototype={true}
             embed={data.section6__embed1}
             caption={data.section6__caption1}
           />

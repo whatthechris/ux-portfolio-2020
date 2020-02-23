@@ -9,7 +9,7 @@ $black: #000000;
 $dark-grey: #2e2e2e;
 $grey: #8D8D8D;
 $medium-grey: #E4E4E4;
-$light-grey: #F8F8F8;
+$light-grey: #F0F0F0;
 $white: #FFFFFF;
 
 //brand colors variables
@@ -193,14 +193,14 @@ a{
 .section-title{
   position: sticky;
   top: 30px;
-  margin-bottom: 16rem;
+  margin-bottom: 12rem;
   margin-left: 2rem;
   @media (max-width: $wide){
     margin-left: 0rem;
   }
   @media (max-width: $tablet){
       position: static;
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
       margin-left: 1rem;
   }
   & h5{

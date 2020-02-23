@@ -3,23 +3,30 @@
 .project-highlights{
   margin-bottom: 8rem;
   position: relative;
+  @media (max-width: $desktop){
+    margin-bottom: 2rem;
+}
   &__highlight{
     display: flex;
     flex-direction: column;
-    margin-bottom: 56px;
+    margin-bottom: 0rem;
     z-index: 2;
+    @media (max-width: $desktop){
+      margin-bottom: 3rem;
+    }
     @media (max-width: $tablet){
-      margin-bottom: 32px;
+      flex-direction: row;
     }
   }
   &__icon{
     align-self: flex-start;
     flex-basis: 40px;
-    width: 24px;
-    margin-right: 24px;
+    width: 30px;
+    margin-bottom: 1rem;
     opacity: 0.8;
     @media (max-width: $tablet){
-      margin-right: 16px;
+      width: 24px;
+      margin-right: 1rem;
       flex-basis: 5%;
     }
   }
