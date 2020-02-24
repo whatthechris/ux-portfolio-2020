@@ -8,7 +8,7 @@ import ProjectCard from "../components/project_card.js"
 import Footer from "../components/footer.js"
 import Menu from "../components/menu.js"
 import PlayPauseButton from "../components/play_pause_button.js"
-import { Title, Meta } from 'react-head';
+import { Title, Meta, Link } from 'react-head';
 
 class IndexPage extends React.Component {
   constructor(props){
@@ -43,6 +43,9 @@ class IndexPage extends React.Component {
     <div className="homepage">
       <Title>Chris Wong Portfolio</Title>
       <Meta name="robots" content="noindex, nofollow" />
+      <Link rel="icon" type="image/png" sizes="16x16" href="../images/site-icon-16.png"/>
+      <Link rel="icon" type="image/png" sizes="32x32" href="../images/site-icon-32.png"/>
+      <Link rel="shortcut icon" type="image/png" href="../images/site-icon-64.png"/>
       <Menu/>
       <HomepageHero />
       <div className={this.state.hasScrolled ? "homepage__intro fixed" : "homepage__intro"}>

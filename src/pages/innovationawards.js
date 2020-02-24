@@ -1,7 +1,7 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
 import staticdata from "../../staticdata.json"
-import { Title, Meta } from 'react-head';
+import { Title, Meta, Link } from 'react-head';
 
 import "./styles/innovationawards.scss"
 import ProjectHero from "../components/project_hero.js"
@@ -16,6 +16,9 @@ const CIAPage = () => (
     <div className="cia">
       <Title>Chris Wong – Innovation Awards</Title>
       <Meta name="robots" content="noindex, nofollow" />
+      <Link rel="icon" type="image/png" sizes="16x16" href="../images/site-icon-16.png"/>
+      <Link rel="icon" type="image/png" sizes="32x32" href="../images/site-icon-32.png"/>
+      <Link rel="shortcut icon" type="image/png" href="../images/site-icon-64.png"/>
       <Menu/>
       {staticdata.awardscontent.map(data =>(
         <ProjectHero
