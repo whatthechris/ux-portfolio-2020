@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
+import Button from "./button.js"
 
 import "./styles/motion-project.scss"
 
@@ -33,6 +34,16 @@ const MotionProject = props => (
           {props.paragraph1}<br/><br/>
           {props.paragraph2}
         </p>
+      </Fade>
+      <Fade bottom distance="100px" delay="200">
+      {props.button_text &&
+          <div className="motion-project__button">
+            <Button
+              button_link={props.button_link}
+              button_text={props.button_text}
+            />
+          </div>
+        }
       </Fade>
   </div>
 )

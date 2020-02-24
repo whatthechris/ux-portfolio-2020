@@ -6,11 +6,9 @@ import "./styles/pull_quote.scss"
 const PullQuote = props => (
     <Fade bottom distance="100px">
         <div className="pull-quote grid">
-            <p className="pull-quote__global">
-                {props.pullquote}
-                <br/><br/>
-                {props.name}
-            </p>
+            <p className="pull-quote__global">{props.pullquote}</p>
+            <br/>
+            <p className="large-p pull-quote__author">{props.name}</p>
         </div>
     </Fade>
 )

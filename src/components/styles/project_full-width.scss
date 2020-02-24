@@ -114,6 +114,12 @@
         @media (max-width: $tablet){
             margin-bottom: 0rem;
         }
+        &-button{
+            margin-bottom: 2rem;
+            @media (max-width: $tablet){
+                margin-bottom: 2rem;
+            }
+        }
     }
     &__button{
         margin-bottom: 2rem;

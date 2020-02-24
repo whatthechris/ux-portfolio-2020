@@ -2,7 +2,7 @@
     "projects":[
         {
             "eyebrow": "Wayfinder Web App",
-            "heading": "Helping people save for the future",
+            "heading": "Helping people save for their future",
             "thumbnail": "wayfinder_thumb2.png",
             "link": "/wayfinder/",
             "role1": "UX/UI Design",
@@ -50,14 +50,14 @@
             "section1__image1": "cia/cia_photo3.png",
             "section1__image1alt": "Toronto's mayor John Tory on stage and speaking at a podium",
             "section1__caption1": "Toronto's mayor John Tory addressed the awards show attendees",
-            "section2__pullquote1": "\"I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups\"",
+            "section2__pullquote1": "I am excited that we have a spirit of collaboration between governments, universities, accelerator hubs and startups",
             "section2__name1": "Toronto's mayor, John Tory",
             "section3__heading2": "02 – Bigger, better, even more badass",
             "section3__paragraph2": "In 2018, the venue was upgraded to the Royal Ontario Museum and the awards needed a new look to match. Acutely aware of the geometric event space, I proposed a visual language that incorporated 3D models with a wireframe shader. The wireframe geometry mirrored the sharp angles of the crystal’s interior while the shallow depth of field and unhinged camera added a sense of exploration and mystery.",
             "section3__embed1" : "https://player.vimeo.com/video/341269351",
             "section3__caption1" : "A wireframed model animation was designed for each corresponding award providing a visual icon which could be used in the awards titles as well as projected on the walls of the reception area.",
-            "section3__button_link1" : "https://vimeo.com/341269393/38e3717cc6",
             "section3__button1" : "See all the award titles",
+            "section3__button1_link" : "https://vimeo.com/341269393/38e3717cc6",
             "section4__embed1" : "https://player.vimeo.com/video/350860713?loop=1",
             "section4__caption1" : "As the attendees were arriving, the nominees were projected on the sides of the crystal. A countdown informed the attendees when to take their seats as the show was about to begin.",
             "section4__embed2" : "https://player.vimeo.com/video/350600804?loop=1",
@@ -130,7 +130,9 @@
             "motion__embed1": "https://player.vimeo.com/video/386331414",
             "motion__caption": "Working with producers in Toronto and another designer in New York, I was in charge of art direction, illustration, animation, editing and sound design. Additionally, I helped with script writing and defining the brand's voice.",
             "motion__paragraph1": "CST Spark came to Konrad looking to create a video series that would teach Canadians about saving for their child’s post-secondary education and more importantly why they should trust CST Spark with their child’s future. As the first in the series, they needed a video that was informative but also warm and playful in a way that felt like their brand. After many requirements gathering and brand positioning meetings with their marketing team, we crafted a script using characters and a common scenario their target audience could relate to. ",
-            "motion__paragraph2": "Always referring back to the goals and tone of voice of the video, I paid special attention to how the audience would perceive the imagery and carefully considered how we were using characters. Audio plays a big role in any video project but to achieve the level of warmth that the client was going for, a larger emphasis was placed on sound design and voice actor selection. In the end everything came together harmoniously to created a video that really pulls at the audience’s heart strings."
+            "motion__paragraph2": "Always referring back to the goals and tone of voice of the video, I paid special attention to how the audience would perceive the imagery and carefully considered how we were using characters. Audio plays a big role in any video project but to achieve the level of warmth that the client was going for, a larger emphasis was placed on sound design and voice actor selection. In the end everything came together harmoniously to created a video that really pulls at the audience’s heart strings.",
+            "motion__button1": "CST Spark Learning Centre",
+            "motion__button1_link": "https://www.cstspark.ca/en/learning-centre/learning-series-video-1"
         },
         {
             "motion__id": "eq",
@@ -150,15 +152,19 @@
             "motion__sidebyside": false,
             "motion__caption": "Above is a montage of a few animated scenes that the team created. Below that is a behind the scenes look at the filming of the live action sections. I created the logo animation and provided direction for the sonic branding",
             "motion__paragraph1": "BrainStation is one of Canada’s leading educators of digital skills, offering in-person classes and online live classes. As a way to fill another untapped space, they sought out to create a self-directed learning platform for students to take courses at their own pace and on their own time. BrainStation Online was created to fill this need and the platform needed video content. Every week we learned new concepts ranging from very technical (ie. machine learning and data analytics) to more abstract (ie. user experience design and digital marketing). We then taught the concepts through motion graphics and edited them into a mix of stock video and live action footage to aid in student comprehension and recall.",
-            "motion__paragraph2": "Leading a team of four motion designers, I created a set of extensive motion guidelines and a visual language that could be used to produce a variety of visuals while maintaining an acceptable level of consistency.Over many months I collaborated with the team to solidify a process that included whiteboarding, presenting and defending ideas, peer reviewing and conducting retrospectives in a way that produced high quality videos and made every team member take ownership over their work. At the time that I left the project, we had produced over 15 courses, 540 hrs of video and 360 animated scenes. Now thousands of people around the world are learning digital skills online through the videos that my team created."
+            "motion__paragraph2": "Leading a team of four motion designers, I created a set of extensive motion guidelines and a visual language that could be used to produce a variety of visuals while maintaining an acceptable level of consistency.Over many months I collaborated with the team to solidify a process that included whiteboarding, presenting and defending ideas, peer reviewing and conducting retrospectives in a way that produced high quality videos and made every team member take ownership over their work. At the time that I left the project, we had produced over 15 courses, 540 hrs of video and 360 animated scenes. Now thousands of people around the world are learning digital skills online through the videos that my team created.",
+            "motion__button1": "BrainStation Online",
+            "motion__button1_link": "https://brainstation.io/business/online"
         },
         {
             "motion__id": "loyalty",
-            "motion__heading": "Loyalty One – Hero video",
+            "motion__heading": "Loyalty One – Website Hero Video",
             "motion__subheading": "",
             "motion__embed1": "https://player.vimeo.com/video/393313368",
             "motion__caption": "",
-            "motion__paragraph2": ""
+            "motion__paragraph2": "",
+            "motion__button1": "LoyaltyOne Website",
+            "motion__button1_link": "https://www.loyalty.com/"
         } 
     ],
     "motionfun": [
@@ -179,7 +185,7 @@
             "motion__subheading": "The time I got really excited for the new Star Wars movie",
             "motion__embed1": "https://sketchfab.com/models/cf6ff6583b044bec9db24f9b7a7ce27f/embed",
             "motion__caption": "Try exploring the 3D model by dragging and zooming. If you have a headset, you can also view it in VR.",
-            "motion__paragraph1": "In anticipation for The Force Awakens, I decided to model the new stormtrooper helmet design in Cinema 4D. The semi-rounded yet angular shapes of the helmet were a challenge but the modelling process was surprisingly therapeutic. It is incomplete in it's current state but I expect to finish it one day"
+            "motion__paragraph1": "In anticipation for The Force Awakens, I decided to model the new stormtrooper helmet design in Cinema 4D. The semi-rounded yet angular shapes of the helmet were a challenge but the modelling process was surprisingly therapeutic. It is incomplete in it's current state but I expect to finish it one day."
         }
     ]
 }

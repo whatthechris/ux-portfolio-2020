@@ -11,4 +11,11 @@
             grid-column: 1/ span 4;
         }
     }
+    &__author{
+        color: $grey;
+        margin-top: 2rem;
+        @media (max-width: $tablet){
+            margin-top: 0.5rem;
+        }
+    }
 }

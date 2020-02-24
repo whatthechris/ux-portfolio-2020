@@ -33,7 +33,7 @@ const FullWidth = props => (
     <Fade bottom distance="100px">
       <div className={"full-width__text " + (props.leftlayout ? 'full-width__text-left' : '')}>
         <h3 className="full-width__heading">{props.heading}</h3>
-        <p className="full-width__paragraph">{props.paragraph}</p>
+        <p className={"full-width__paragraph " + (props.button_text ? 'full-width__paragraph-button' : '')}>{props.paragraph}</p>
         {props.button_text &&
           <div className="full-width__button">
             <Button

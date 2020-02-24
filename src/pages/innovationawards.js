@@ -83,7 +83,7 @@ const CIAPage = () => (
             paragraph={data.section3__paragraph2}
             embed={data.section3__embed1}
             caption={data.section3__caption1}
-            button_link={data.section3__button_link1}
+            button_link={data.section3__button1_link}
             button_text={data.section3__button1}
           />
           ))}

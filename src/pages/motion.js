@@ -35,7 +35,7 @@ class MotionPage extends React.Component {
           <div className="motion-hero__text">
             <p>Communicating ideas through motion</p>
             <h1>Various Motion Projects</h1>
-            <p className="pull-quote__global motion-hero__paragraph">I have a variety of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#wise">photo parallax animations,</a> <a href="#stormtrooper">3D models,</a> <a href="#loyalty">composited videos,</a> <a href="#brainstation">motion identities,</a> <a href="#brainstation">educational video series</a> and many more in between.<br/><br/>Take a look at some of my favourite projects below.</p>
+            <p className="pull-quote__global motion-hero__paragraph">I have a 7+ years of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#wise">photo parallax animations,</a> <a href="#stormtrooper">3D models,</a> <a href="#loyalty">composited videos,</a> <a href="#brainstation">motion identities,</a> <a href="#brainstation">educational video series</a> and many more in between.</p>
           </div>
         </div>
         <div className="motion-hero__video">
@@ -60,6 +60,8 @@ class MotionPage extends React.Component {
             caption={data.motion__caption}
             paragraph1={data.motion__paragraph1}
             paragraph2={data.motion__paragraph2}
+            button_text={data.motion__button1}
+            button_link={data.motion__button1_link}
           />
           ))}
           </div>
