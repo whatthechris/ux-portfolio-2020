@@ -76,6 +76,12 @@
             & h4 {
                 color: $grey;
             }
+            & h2{
+                max-width: 500px;
+                @media (max-width: $tablet){
+                    max-width: 400px;
+                }
+            }
             @media (max-width: $wide){
                 border: solid 1px $medium-grey;
             }

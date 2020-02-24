@@ -2,7 +2,7 @@
     "projects":[
         {
             "eyebrow": "Wayfinder Web App",
-            "heading": "Helping hard working people save for the good life",
+            "heading": "Helping people save for the future",
             "thumbnail": "wayfinder_thumb2.png",
             "link": "/wayfinder/",
             "role1": "UX/UI Design",
@@ -43,10 +43,10 @@
             "highlights__heading2": "MoGraphs that get you movin’",
             "highlights__paragraph2": "On top of putting together a complete awards show package, the team created contextual environmental graphics that sparked conversation and coded reactive motion graphics that moved to the sound of the live band. ",
             "highlights__icon3": "cup.svg",
-            "highlights__heading3": "Big Brand Win",
+            "highlights__heading3": "The biggest winner of the night",
             "highlights__paragraph3": "Not only was this a big win for the Techvibes brand but the awards also drew in generous sponsorships and sold out all entry tickets. The support from the Canadian tech community was amazing!",
             "section1__heading1": "01 – Humble beginnings",
-            "section1__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success but this was only the beginning...",
+            "section1__paragraph1": "In 2010, Techvibes started the Canadian Startup Awards as a community-nominated and community-voted award program to celebrate the emerging tech innovation taking place across the country. Always with the intention of bringing the flourishing Canadian tech community together, the previously online awards were hosted in the real world for the first time at the Steam Whistle Brewery in 2017. The IRL (In Real Life) awards ceremony and after-party was a huge success, but this was only the beginning...",
             "section1__image1": "cia/cia_photo3.png",
             "section1__image1alt": "Toronto's mayor John Tory on stage and speaking at a podium",
             "section1__caption1": "Toronto's mayor John Tory addressed the awards show attendees",
@@ -85,21 +85,21 @@
             "hero__thumbnail": "wayfinder_thumb.png",
             "hero__image": "wayfinder/wayfinder_photo1.png",
             "highlights__icon1": "comment-text.svg",
-            "highlights__heading1": "Financial advice for all",
+            "highlights__heading1": "Providing financial advice for all",
             "highlights__paragraph1": "Great West Life (GWL) believes that their plan members should have the ability to accurately plan for their future no matter their net worth, financial literacy or whether they have time to actively monitor their growth. They saw this as an opportunity that would be beneficial to both their plan members and their sponsor companies.",
             "highlights__icon2": "thumbs-up.svg",
-            "highlights__heading2": "User driven design",
+            "highlights__heading2": "The power of user driven design",
             "highlights__paragraph2": "Extensive user research and testing informed the design of the Wayfinder platform which simplifies the stressful process of planning for the future by helping users set concrete and achievable financial goals. The web app then provides a personalized and market-aware plan for meeting those goals. ",
             "highlights__icon3": "shield-ok.svg",
             "highlights__heading3": "Peace of mind and reassurance",
             "highlights__paragraph3": "Wayfinder empowers users to see their future finances more clearly through informative and transparent graphs, easy to understand language and actionable context-aware recommendations, such as reminders to maximize their RESP matching benefits. If they are ever uncertain or confused, a financial advisor is just one click away.",
             "section1__heading1": "01 - That's a future me problem",
-            "section1__paragraph1": "Great West Life is one of Canada’s largest group retirement and benefit providers allowing millions of Canadians to use their employer’s benefits packages. However, they noticed that many of their plan members weren’t taking advantage of their company’s RRSP contribution matching program thereby leaving “free money” on the table. Upon future investigation this seemed to stem from a larger problem which was that many plan members either weren’t saving for their retirement or didn’t have access to good financial advice to help with their retirement planning.",
+            "section1__paragraph1": "Great West Life is one of Canada’s largest group retirement and benefit providers allowing millions of Canadians to use their employer’s benefits packages. However, they noticed that many of their plan members weren’t taking advantage of their company’s RRSP contribution matching program, thereby leaving “free money” on the table. Upon future investigation this seemed to stem from a larger problem which was that many plan members either weren’t saving for their retirement or didn’t have access to good financial advice to help with their retirement planning.",
             "section1__image1": "wayfinder/wayfinder_photo3.jpg",
             "section1__image1alt": "A man and a woman sitting at a table while conducting an interview",
             "section1__caption1": "Initial research was conducted to determine the desirability, feasibility and viability of the proposed solution.",
             "section2__heading1": "02 - Let's talk money",
-            "section2__paragraph1": "Working concurrently with Deloitte’s Doblin team, we gathered user research in two waves of plan member and sponsor interviews. In these interviews, we asked questions about how Canadians view their finances/ retirement and how they seek financial advice. We found that some were getting generic advice from their bank while others were even turned down by financial advisors because they didn’t have enough savings to be considered a worthwhile client. Alternatively, some took matters into their own hands by creating their own spreadsheets but many felt like they didn’t have time to educate themselves, do research, create a plan or shop around and compare advisors. The process of planning for their retirement seemed full of pain points so it was clear that we could design a better solution.",
+            "section2__paragraph1": "Working collaboratively with Deloitte’s Doblin team, we gathered user research in two waves of plan member and sponsor interviews. In these interviews, we asked questions about how Canadians view their finances/ retirement and how they seek financial advice. We found that some were getting generic advice from their bank while others were even turned down by financial advisors because they didn’t have enough savings to be considered a worthwhile client. Alternatively, some took matters into their own hands by creating their own spreadsheets but many felt like they didn’t have time to educate themselves, do research, create a plan or shop around and compare advisors. The process of planning for their retirement seemed very arduous so it was clear that we could design a better solution.",
             "section2__image1": "wayfinder/wayfinder_photo4.jpg",
             "section2__image1alt": "A variety of people planning their finances",
             "section3__image1" : "wayfinder/wayfinder_photo5.png",
@@ -108,7 +108,7 @@
             "section4__pullquote1" : "\"Seeing things visually over time and having a comprehensive snapshot of the impact of my decisions today and what it means in the future is helpful to see\"",
             "section4__name1" : "Danielle (H.E.N.R.Y)",
             "section5__heading1" : "03 - Like a crystal ball for your finances",
-            "section5__paragraph1" : "From our research findings, we created three user personas Normal users, Pre-Retirees and H.E.N.R.Y.s (High Earners, Not Rich Yet). After many iterations of user journey maps, user stories, information architecture, wire framing, hi-fidelity designs, user testing and collaboration with our devs to work within technological constraints, Wayfinder was born!",
+            "section5__paragraph1" : "From our research findings, we created three user personas Normal users, Pre-Retirees and H.E.N.R.Y.s (High Earners, Not Rich Yet). After many iterations of user journey maps, user stories, information architecture, wireframing, hi-fidelity designs, user testing and collaboration with our devs to work within technological constraints, Wayfinder was born!",
             "section5__image1" : "wayfinder/wayfinder_photo6.png",
             "section5__image1alt" : "Pie chart showing a potential asset distribution for a retirement portfolio",
             "section5__caption1" : "First, users are taken through a natural language onboarding process where they fill out their account information, set a retirement goal and complete an Investment Personality Questionnaire (IPQ) to determine their investment risk appetite.",
@@ -137,9 +137,9 @@
             "motion__heading": "EQ Bank - Brand Video",
             "motion__subheading": "Introducing EQ Bank to the world",
             "motion__embed1": "https://player.vimeo.com/video/212916088",
-            "motion__caption": "For this project, I was responsible for art direction, illustration and animation. I worked with a team of Costa Rican designers to execute this project",
-            "motion__paragraph1": "EQ Bank is a purely digital bank meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app that launched their business, I lead the design and animation of their brand video.",
-            "motion__paragraph2": "Working closely with the client and a producer while leading a team of designers in Costa Rica, I carried the project through initial concept, script writing, storyboarding, style frames and final animation delivery. While sticking closely to the hard numbers and benefits of banking with EQ, the video presents the information in a fun and inviting way that stays true to the brand identity."
+            "motion__caption": "For this project, I was responsible for art direction, illustration and animation. I worked with a team of designers in Costa Rica to execute this project",
+            "motion__paragraph1": "EQ Bank is a purely digital bank meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app that launched their business, I led the design and animation of their brand video.",
+            "motion__paragraph2": "Working closely with the client and a producer while leading a team of designers in Costa Rica, I carried the project through initial concept, script writing, storyboarding, style frames and final animation delivery. While sticking closely to the financial benefits of banking with EQ, the video presents the information in a fun and inviting way that stays true to the brand identity."
         },
         {
             "motion__id": "brainstation",
@@ -148,18 +148,17 @@
             "motion__embed1": "https://player.vimeo.com/video/393313111",
             "motion__embed2": "https://player.vimeo.com/video/393313013",
             "motion__sidebyside": false,
-            "motion__caption": "Above is a montage of a few animated scenes that the team created. Below that is a behind the scenes look at the filming of the live action sections",
-            "motion__paragraph1": "BrainStation is one of Canada’s leading educators of digital skills, offering in-person classes and online live classes. As a way to fill another untapped space, they sought out to create a self-directed learning platform for students to take courses at their own pace and on their own time. BrainStation Online was created to fill this need and quickly needed video content. Every week we learned new concepts ranging from very technical (ie. machine learning and data analytics) to more abstract (ie. user experience design and digital marketing). We then taught the concepts through motion graphics and edited them into a mix of stock video and live action footage to aid in student comprehension and recall.",
+            "motion__caption": "Above is a montage of a few animated scenes that the team created. Below that is a behind the scenes look at the filming of the live action sections. I created the logo animation and provided direction for the sonic branding",
+            "motion__paragraph1": "BrainStation is one of Canada’s leading educators of digital skills, offering in-person classes and online live classes. As a way to fill another untapped space, they sought out to create a self-directed learning platform for students to take courses at their own pace and on their own time. BrainStation Online was created to fill this need and the platform needed video content. Every week we learned new concepts ranging from very technical (ie. machine learning and data analytics) to more abstract (ie. user experience design and digital marketing). We then taught the concepts through motion graphics and edited them into a mix of stock video and live action footage to aid in student comprehension and recall.",
             "motion__paragraph2": "Leading a team of four motion designers, I created a set of extensive motion guidelines and a visual language that could be used to produce a variety of visuals while maintaining an acceptable level of consistency.Over many months I collaborated with the team to solidify a process that included whiteboarding, presenting and defending ideas, peer reviewing and conducting retrospectives in a way that produced high quality videos and made every team member take ownership over their work. At the time that I left the project, we had produced over 15 courses, 540 hrs of video and 360 animated scenes. Now thousands of people around the world are learning digital skills online through the videos that my team created."
         },
         {
             "motion__id": "loyalty",
             "motion__heading": "Loyalty One – Hero video",
-            "motion__subheading": "Designing educational graphics that wow, aid in comprehension and scale up",
+            "motion__subheading": "",
             "motion__embed1": "https://player.vimeo.com/video/393313368",
-            "motion__caption": "Leading a team of four motion designers, I created a set of extensive motion guidelines and a visual language that could be used to produce a variety of visuals while maintaining an acceptable level of consistency.",
-            "motion__paragraph1": "BrainStation is one of Canada’s leading educators of digital skills, offering in-person classes and online live classes. As a way to fill another untapped space, they sought out to create a self-directed learning platform for students to take courses at their own pace and on their own time. BrainStation Online was created to fill this need and quickly needed video content.",
-            "motion__paragraph2": "Every week we learned new concepts ranging from very technical (ie. machine learning and data analytics) to more abstract (ie. user experience design and digital marketing). We then taught the concepts through motion graphics and edited them into a mix of stock video and live action footage to aid in student comprehension and recall. Over many months I collaborated with the team to solidify a process that included whiteboarding, presenting and defending ideas, peer reviewing and conducting retrospectives in a way that produced high quality videos and made every team member take ownership over their work. At the time that I left the project, we had produced over 15 courses, 540 hrs of video, 360 animated scenes. Now thousands of people around the world are learning digital skills online through the videos that my team created."
+            "motion__caption": "",
+            "motion__paragraph2": ""
         } 
     ],
     "motionfun": [
@@ -171,16 +170,16 @@
             "motion__embed2": "https://player.vimeo.com/video/201760018?loop=1",
             "motion__sidebyside": true,
             "motion__caption": "The photo parallax effect is produced by breaking apart a flat image, filling in the missing background and adding camera depth by rearranging the pieces on the z-axis.",
-            "motion__paragraph1": "The photo parallax effect had always fasciated me but I'd never been able to find an appropriate client project to use it. I’ve always admired the photography of a friend of mine who goes by the alias Septemberbred so one day I proposed that we collaborate. Using his dark and moody portrait photography shot in Toronto’s Chinatown, I added the effect and timed it to an original music track produced by one of his friends.",
-            "motion__paragraph2": "At the time, Derek Wise was making a name for himself in the Canadian trap and hiphop scene and had just signed under the Weekend’s XO label. Septemberbred liked the photo parallax effect so much that when he created the art for Derek Wise’s debut album, I was commissioned to animated it for social media. The looping animated piece created excitement for the album release and it was projected at the official listening party."
+            "motion__paragraph1": "The photo parallax effect had always fascinated me but I'd never been able to find an appropriate client project to use it. I’ve always admired the photography of a friend of mine who goes by the alias Septemberbred so one day I proposed that we collaborate. Using his dark and moody portrait photography shot in Toronto’s Chinatown, I added the effect and timed it to an original music track produced by one of his friends.",
+            "motion__paragraph2": "At the time, Derek Wise was making a name for himself in the Canadian trap and hiphop scene and had just signed under the Weekend’s XO label. Septemberbred liked the photo parallax effect so much that when he created the art for Derek Wise’s debut album, I was commissioned to animate it for social media. The looping animated piece created excitement for the album release and it was projected at the official listening party."
         },
         {
             "motion__id": "stormtrooper",
             "motion__heading": "Stormtrooper Helmet 3D Model",
-            "motion__subheading": "A quick video explining the EQ Bank brand",
+            "motion__subheading": "The time I got really excited for the new Star Wars movie",
             "motion__embed1": "https://sketchfab.com/models/cf6ff6583b044bec9db24f9b7a7ce27f/embed",
-            "motion__caption": "Toronto's mayor John Tory addressed the awards show attendees",
-            "motion__paragraph1": "EQ Bank is a purely digital bank, meaning they don't have any traditional brick-and-mortar store fronts. This also means that they need to create a strong online presence in order to explain who they are and the benefits of their service. Along with creating the initial designs of their mobile banking app, I lead the design and animation of their brand video."
+            "motion__caption": "Try exploring the 3D model by dragging and zooming. If you have a headset, you can also view it in VR.",
+            "motion__paragraph1": "In anticipation for The Force Awakens, I decided to model the new stormtrooper helmet design in Cinema 4D. The semi-rounded yet angular shapes of the helmet were a challenge but the modelling process was surprisingly therapeutic. It is incomplete in it's current state but I expect to finish it one day"
         }
     ]
 }
