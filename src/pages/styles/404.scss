@@ -1,0 +1,18 @@
+@import '../../data/global_styles.scss';
+
+.missing{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__text{
+        max-width: 450px;
+        margin: 0 3rem;
+        color: $white;
+        & h2{
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+    }
+}
