@@ -8,7 +8,7 @@ const HomepageHero = () => (
     <div className="homepage-hero__intro">
       <div className="homepage-hero__hello">HELLO</div>
       <h1>I'm Chris Wong</h1>
-      <p className="homepage-hero__paragraph">I’m a designer that codes, an animator that illustrates and a life-long learner that teaches. Above all I create for people over pixels.</p>
+      <p className="homepage-hero__paragraph">I’m a designer that codes, an animator that illustrates and a life-long learner that teaches. Above all, I create for people over pixels.</p>
       <a href="#footer" className="text-link">Say Hello Back :)</a>
     </div>
     <div className="currently">

@@ -34,6 +34,7 @@ const WayfinderPage = () => (
           client={data.hero__client}
           thumbnail={data.hero__thumbnail}
           image={data.hero__image}
+          narrowheading={true}
       />
       ))}
       <div className="wayfinder__hero-bg"></div>

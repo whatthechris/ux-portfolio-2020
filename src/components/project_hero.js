@@ -6,7 +6,7 @@ const ProjectHero = props => (
     <div className="project-hero">
       <div className={'project-hero__content ' + (props.thumbnail ? '' : 'project-hero__content-nothumbnail')}>
         <div className="project-hero__text">
-          <div className="project-hero__heading">
+          <div className={'project-hero__heading ' + (props.narrowheading ? 'project-hero__heading-narrow' : '')}>
             <p>{props.eyebrow}</p>
             <h1>{props.title}</h1><br/>
           </div>
