@@ -46,7 +46,7 @@ class MotionPage extends React.Component {
           </div>
         </div>
         <div className="motion-hero__video">
-          <video ref="vidRef" muted loop autoplay="true" src={require(`../images/motion/motion_reel.mp4`)}/>
+          <video ref="vidRef" muted loop autoplay="true" src={require(`../images/motion/motion_reel.mp4`)} poster={require(`../images/motion/motion_poster.png`)}/>
         </div>
       </div>
         <div className="motion__client-section">

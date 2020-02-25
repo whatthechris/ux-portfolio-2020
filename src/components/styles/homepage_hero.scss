@@ -73,6 +73,8 @@
     height: inherit;
     overflow: hidden;
     right: 15vw;
+    opacity: 0;
+    animation: $fadein;
     @media (max-width: $wide){
       right: -10vw;
     }
