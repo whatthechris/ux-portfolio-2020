@@ -16,7 +16,7 @@ const HomepageHero = () => (
       <ul className="currently__list">
         <li className="currently__item">
           <img src={require('../images/svgs/location-pin.svg')} alt=""/>
-          <a href="https://www.google.ca/search?q=toronto+canada&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjm3diPx-XnAhXTjp4KHWkIAagQ_AUoAnoECBoQBA&biw=1440&bih=798" className="caption" target="_blank" rel="noopener noreferrer">Toronto, Canada</a>
+          <a href="https://duckduckgo.com/?q=toronto+canada&atb=v187-1&ia=images&iax=images&iai=https%3A%2F%2Fwww.clublexus.com%2Fforums%2Fattachments%2Fcar-chat%2F351235d1420404150-wait-is-over-toronto-canada-map-north-america-2.jpg" className="caption" target="_blank" rel="noopener noreferrer">Toronto, Canada</a>
         </li>
         <li className="currently__item">
           <img src={require('../images/svgs/brief-case.svg')} alt=""/>
