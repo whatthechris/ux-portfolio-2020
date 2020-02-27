@@ -16,10 +16,11 @@
         bottom: 0;
     }
     &:hover .menu__circle{
-        width: 40px;
-        height: 40px;
+        width: 45px;
+        height: 45px;
         transition: width 0.2s, height 0.2s;
         transition-timing-function: ease-in-out;
+        filter: brightness(80%);
     }
     &:focus{
         outline: none;
@@ -84,10 +85,11 @@
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: $grey;
-        width: 50px;
-        height: 50px;
+        width: 55px;
+        height: 55px;
         border-radius: 50%;
-        transition: width 0.2s, height 0.2s, background-color 1s;
+        filter: brightness(100%);
+        transition: width 0.2s, height 0.2s, filter 0.2s;
         transition-timing-function: ease-in-out;
         &-open{
             position: absolute;

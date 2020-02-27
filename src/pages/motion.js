@@ -19,7 +19,7 @@ class MotionPage extends React.Component {
     this.pausePlayClick = this.pausePlayClick.bind(this);
   }
   pausePlayClick() {
-    if (this.refs.vidRef.paused == true) {
+    if (this.refs.vidRef.paused === true) {
       this.refs.vidRef.play();
     } else {
       this.refs.vidRef.pause();

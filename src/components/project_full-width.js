@@ -21,7 +21,7 @@ const FullWidth = props => (
         }
         {props.embed &&
           <div className={"full-width__container-embed " + (props.prototype ? 'full-width__container-prototype' : '')}>
-            <iframe src={props.embed} frameborder="0" allow="autoplay; fullscreen; microphone" allowfullscreen></iframe>
+            <iframe src={props.embed} frameborder="0" allow="autoplay; fullscreen; microphone" allowfullscreen title="Project video or interactive demo"></iframe>
           </div>
         }
         <div className={"caption " + (props.leftlayout ? 'full-width__caption full-width__caption-right' : 'full-width__caption')}>

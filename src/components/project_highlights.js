@@ -1,5 +1,4 @@
 import React from "react"
-import ImageZoom from 'react-medium-image-zoom'
 import Fade from 'react-reveal/Fade'
 
 import "./styles/project_highlights.scss"

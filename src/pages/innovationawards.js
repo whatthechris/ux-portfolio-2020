@@ -129,7 +129,7 @@ const CIAPage = () => (
         </div>
       </div>
       <div className="cia__video-container">
-        <iframe src="https://player.vimeo.com/video/341249926" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/341249926" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="The Canadian Innovation Awards recap video"></iframe>
       </div>
       <Footer />
     </div>

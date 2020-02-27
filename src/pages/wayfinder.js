@@ -127,7 +127,7 @@ const WayfinderPage = () => (
           </div>
         </div>
       <div className="wayfinder__video-container">
-        <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>
       </div>
       <Footer />
     </div>

@@ -36,7 +36,7 @@ class IndexPage extends React.Component {
     }
   }
   pausePlayClick() {
-    if (this.refs.vidRef.paused == true) {
+    if (this.refs.vidRef.paused === true) {
       this.refs.vidRef.play();
     } else {
       this.refs.vidRef.pause();

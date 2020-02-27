@@ -18,7 +18,7 @@ class Menu extends React.Component {
         <button className="menu" onClick={() => this.setState(
         {isMenuOpen: !this.state.isMenuOpen})}>
             {this.state.isMenuOpen && 
-            <nav role="menu">
+            <nav>
             <ul className="menu__text">
                 {staticdata.projects.map(project =>(
                     <MenuItem
@@ -27,7 +27,7 @@ class Menu extends React.Component {
                         link={project.link}
                     />
                 ))}
-                <li className="menu__bottom-links" role="menuitem">
+                <li className="menu__bottom-links">
                     <Link><h4>Back to intro</h4></Link>
                     <div>
                         <h4>Let's grab a coffee!</h4>

@@ -14,19 +14,19 @@ const VideosSection = props => (
       </Fade>
       <Fade bottom distance="100px">
         <div className="videos-section__container videos-section__container-top">
-          <iframe src={props.embed1} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe src={props.embed1} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="First video in the section"></iframe>
           <p className="videos-section__caption caption">{props.caption1}</p>
         </div>
       </Fade>
       <Fade bottom distance="100px">
         <div className="videos-section__container videos-section__container-middle">
-          <iframe src={props.embed2} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe src={props.embed2} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Second video in the section"></iframe>
           <p className="videos-section__caption caption">{props.caption2}</p>
         </div>
       </Fade>
       <Fade bottom distance="100px">
         <div className="videos-section__container videos-section__container-bottom">
-          <iframe src={props.embed3} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+          <iframe src={props.embed3} width="640" height="852" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Third video in the section"></iframe>
           <p className="videos-section__caption caption">{props.caption3}</p>
         </div>
       </Fade>
