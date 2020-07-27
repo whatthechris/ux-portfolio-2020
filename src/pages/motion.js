@@ -10,7 +10,6 @@ import favicon64 from "../images/site-icon-64.png";
 import "./styles/motion.scss"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
-import Footer from "../components/footer.js"
 import PlayPauseButton from "../components/play_pause_button.js"
 
 class MotionPage extends React.Component {
@@ -95,7 +94,6 @@ class MotionPage extends React.Component {
           ))}
           </div>
       </div>
-      <Footer />
     </div>
     )}
 }

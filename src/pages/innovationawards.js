@@ -14,7 +14,6 @@ import Menu from "../components/menu"
 import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
 import VideosSection from "../components/project_videos-section"
-import Footer from "../components/footer.js"
 
 const CIAPage = () => (
     <div className="cia">
@@ -131,7 +130,6 @@ const CIAPage = () => (
       <div className="cia__video-container">
         <iframe src="https://player.vimeo.com/video/341249926" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="The Canadian Innovation Awards recap video"></iframe>
       </div>
-      <Footer />
     </div>
 )
 

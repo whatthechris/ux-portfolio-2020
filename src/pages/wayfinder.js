@@ -14,7 +14,6 @@ import ProjectHighlights from "../components/project_highlights.js"
 import ImageSection from "../components/project_images-section"
 import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
-import Footer from "../components/footer.js"
 
 const WayfinderPage = () => (
     <div className="wayfinder">
@@ -129,7 +128,6 @@ const WayfinderPage = () => (
       <div className="wayfinder__video-container">
         <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>
       </div>
-      <Footer />
     </div>
 )
 
