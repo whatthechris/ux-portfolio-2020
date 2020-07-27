@@ -6,7 +6,7 @@
     transition: background-color 0.2s;
     transition-timing-function: ease-in-out;
     @media (max-width: $wide){
-        border: solid 1px $medium-grey;
+        border: solid 1px $grey;
     }
     @media (max-width: $tablet){
         padding: 48px 24px;
@@ -34,7 +34,7 @@
         & .project-card__circle{
             transform: scale(1.2);
             transition: all .2s ease-in-out;
-            background-color: $dark-grey;
+            background-color: $grey;
         }
     }     
 

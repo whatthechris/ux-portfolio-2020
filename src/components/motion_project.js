@@ -9,7 +9,7 @@ const MotionProject = props => (
       <Fade bottom>
         <div className="motion-project__heading">
           <h2>{props.heading}</h2>
-          <p className="large-p">{props.subheading}</p>
+          <p>{props.subheading}</p>
         </div>
       </Fade>
       <Fade bottom distance="100px">

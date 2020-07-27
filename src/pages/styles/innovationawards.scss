@@ -1,7 +1,7 @@
 @import '../../data/global_styles.scss';
 
 .cia{
-    background-color: $light-grey;
+    background-color: $grey;
     &__container{
         margin-top: -12rem !important;
         @media (max-width: $desktop){

@@ -1,22 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Muli|Poppins:700,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Faustina:wght@500;600&family=Lato&display=swap');
 
 // font variables
-$heading-font-stack: 'Poppins', sans-serif;
-$body-font-stack: 'Muli', sans-serif;
+$heading-font-stack: 'Faustina', sans-serif;
+$body-font-stack: 'Lato', sans-serif;
 
 // neutral color variables
-$black: #000000;
-$dark-grey: #2e2e2e;
-$grey: #8D8D8D;
-$medium-grey: #E4E4E4;
-$light-grey: #F0F0F0;
-$white: #FFFFFF;
+$black: #2E2E30;
+$white: #F9F9F9;
+$grey: #E3E3E3;
 
 //brand colors variables
-$sand: #A59E86;
-$moss: #7B7A61;
-$earth: #837668;
 $yellow: #FECC01;
+$light-yellow: #FFDB47;
 
 //media queries
 $mobile:  320px;
@@ -44,7 +39,7 @@ $fadein: FadeInAnimation 1s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
 
 // typography
 body {
-  background-color: $black;
+  background-color: $white;
   font-family: $body-font-stack;
   -webkit-font-smoothing: antialiased;
   color: $black;
@@ -52,48 +47,49 @@ body {
 }
 h1{
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   font-family: $heading-font-stack;
-  font-size: 3.998rem;
-  line-height: 5rem;
+  font-size: 5.25rem;
+  line-height: 6.25rem;
 }
 
 h2{
   margin: 0;
-  font-weight: 700;
+  font-weight: 600;
   font-family: $heading-font-stack;
-  font-size: 2.827rem;
-  line-height: 3.5rem;
+  font-size: 4rem;
+  line-height: 4.75rem;
 }
 
 h3{
   margin: 0;
-  font-weight: 700;
+  font-weight: 500;
   font-family: $heading-font-stack;
-  font-size: 1.999rem;
-  line-height: 2.5rem;
+  font-size: 3rem;
+  line-height: 3.5rem;
 }
 
 h4{
   margin: 0;
-  font-weight: 700;
+  font-weight: 500;
   font-family: $heading-font-stack;
-  font-size: 1.414rem;
-  line-height: 2rem;
+  font-size: 2.25rem;
+  line-height: 2.75rem;
 }
 
 h5{
   margin:0 ;
-  font-weight: 700;
+  font-weight: 500;
   font-family: $heading-font-stack;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.75rem;
+  line-height: 2rem;
 }
 
 p{
   margin: 0;
   font-family: $body-font-stack;
-  line-height: 1.625rem;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
 }
 
 a{
@@ -113,23 +109,17 @@ a{
   margin-right: 8px;
 }
 
-.large-p{
-  font-size: 1.25rem;
-  font-family: $body-font-stack;
-  line-height: 2rem;
-}
-
 .pull-quote__global{
-  font-size: 1.999rem;
+  font-size: 2rem;
   font-family: $body-font-stack;
   line-height: 3rem;
   color: $grey;
 }
 
 .caption{
-  font-size: 0.875rem;
+  font-size: 1rem;
   font-family: $body-font-stack;
-  line-height: 1.25rem;
+  line-height: 1.5rem;
 }
 
 @media (max-width: $desktop){
@@ -161,10 +151,6 @@ a{
   .pull-quote__global{
     font-size: 1.25rem;
     line-height: 2rem;
-  }
-  .large-p{
-    font-size: 1rem;
-    line-height: 1.625rem;
   }
 }
 
