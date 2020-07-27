@@ -14,21 +14,19 @@
     text-align: left; //removes default button styling
     padding: 0px; //removes default button styling
     cursor: pointer;
+    @media (max-width: $tablet){
+        margin-right: 24px;
+        margin-bottom: 24px;
+    }
     &:hover .menu__circle{
-        width: 45px;
-        height: 45px;
+        width: 60px;
+        height: 60px;
         transition: width 0.2s, height 0.2s;
         transition-timing-function: ease-in-out;
         filter: brightness(80%);
     }
     &:focus{
         outline: none;
-    }
-    &:focus .menu__circle{
-        border: 4px solid rgba(0, 103, 244, 0.3);
-        box-shadow: 0px 0px 0px 4px rgba(0, 103, 244, 0.8);
-        width: 50px;
-        height: 50px;
     }
 
     &__icon{
@@ -40,14 +38,26 @@
 
     &__text{
         position: absolute;
-        top: -400px;
+        top: -420px;
         right: 50px;
-        width: 400px;
+        width: 420px;
         color: $white;
         list-style: none;
         display: flex;
         flex-direction: column;
         animation: $fadein;
+        @media (max-width: $tablet){
+            top: -500px;
+            width: 70vw;
+        }
+    }
+
+    &__cta{
+        margin-top: 32px;
+        & img{
+            float: left;
+            margin-right: 16px;
+        }
     }
 
     &__circle{
@@ -64,21 +74,14 @@
         transition-timing-function: ease-in-out;
         &-open{
             position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-60%, -60%);
             background-color: $black;
-            width: 1500px;
-            height: 1500px;
+            width: 1040px;
+            height: 1040px;
             border-radius: 50%;
             z-index: -1;
             transition: width 0.2s, height 0.2s, background-color 0.2s;
             transition-timing-function: ease-in-out;
-            
-            @media (max-width: $desktop){
-                width: 1300px;
-                height: 1300px;
-            }
             @media (max-width: $tablet){
                 width: 1150px;
                 height: 1150px;
