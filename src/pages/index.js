@@ -57,9 +57,6 @@ class IndexPage extends React.Component {
           <PlayPauseButton onClick={this.pausePlayClick}/>
         </div>
         <p className="pull-quote__global homepage__pull-quote">I’ve worked with a variety of clients including <a href="http://eqbank.ca" target="_blank" rel="noopener noreferrer">banks,</a> <a href="https://brainstation.io/" target="_blank" rel="noopener noreferrer">digital education companies,</a> <a href="http://moneris.com" target="_blank" rel="noopener noreferrer">payment processors,</a> <a href="https://www.borndigital.com/2018/02/23/winners-of-the-seventh-annual-canadian-innovation-awards" target="_blank" rel="noopener noreferrer">awards shows,</a> <a href="https://www.greatwestlife.com/you-and-your-family.html" target="_blank" rel="noopener noreferrer">benefits providers,</a> <a href="https://www.tweed.com" target="_blank" rel="noopener noreferrer">consumer-facing products,</a> <a href="https://www.pcoptimum.ca/" target="_blank" rel="noopener noreferrer">loyalty points programs</a> and many more. <br/><br/>Take a look at some of my favourite projects below.</p>
-        <div className="homepage__video-grid">
-          <video ref="vidRef" muted loop autoplay="true" src={require(`../images/homepage/intro_bg.mp4`)} poster={require(`../images/homepage/intro_poster.png`)}/>
-        </div>
       </div>
       <div className="homepage__card-section">     
           {staticdata.projects.map(project =>(
