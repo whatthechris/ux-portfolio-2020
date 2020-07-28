@@ -20,12 +20,11 @@ class Carousel extends React.Component {
                         this.setState({ currentslide: 0 });
                     }
                 }
-        ), 5000);
+        ), 3000);
     ;
 
     pauseCarousel = () =>
         clearInterval(this.interval);
-        
     ;
 
     componentDidMount() {
@@ -65,9 +64,9 @@ class Carousel extends React.Component {
                         onMouseLeave={this.setSlideTwo}
                     >PC Optimum</a>
                 </div>
-                <div className="carousel__progress">
-                    <div id="progress" className="carousel__progress-bar"></div>
-                </div>
+                {/* <div className="carousel__progress">
+                    <div className="carousel__progress-bar"></div>
+                </div> */}
                 <div className="carousel__more">
                     <h5>More case studies coming soon</h5>
                     <div className="homepage__dot">

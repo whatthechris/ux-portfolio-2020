@@ -2,28 +2,13 @@
 
 .project-hero{
   position: relative;
-  &__content{
-    position: absolute;
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    padding-top: 5%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-    z-index: 1;
-    &-nothumbnail{
-      height: 90vh;
-      padding: 0;
-    }
-  }
   &__text{
-    color: $white;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     width: 1100px;
     max-width: 1200px;
-    margin: 0 4rem;
+    margin: 0;
+    margin-top: 10rem;
     opacity: 0;
     animation: $fadein;
     @media (max-width: $wide){
@@ -45,35 +30,10 @@
       flex-basis: 100%;
     }
   }
-  &__details{
-    padding-top: 2rem;
-    flex-basis: 35%;
-    display: flex;
-    flex-direction: row;
-    @media (max-width: $desktop){
-      flex-basis: 100%;
-      padding-top: 0rem;
-    }
-  }
   &__list{
     padding: 0;
     margin-right: 30px;
     list-style-type: none;
-    padding: 0;
-    &:last-of-type{
-      margin-right: 0px;
-    }
-  }
-  & img{
-    max-width: 56vw;
-    opacity: 0;
-    animation: $fadein;
-    animation-delay: 0.2s;
-    @media (max-width: $tablet){
-      max-width: 50vw;
-    }
-    @media (max-width: $desktop){
-      max-width: 80vw;
-    }
+    margin-top: 32px;
   }
 }

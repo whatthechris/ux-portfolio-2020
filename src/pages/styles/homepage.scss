@@ -2,14 +2,14 @@
 
 .homepage{
     &__dot{
-        margin-top: 2rem;
+        margin-top: 1rem;
         position: relative;
         &-circle{
             position: absolute;
-            margin-left: -22px;
-            height: 16px;
-            width: 16px;
-            background-color: $grey;
+            margin-left: -10px;
+            height: 6px;
+            width: 6px;
+            background-color: $dark-grey;
             border-radius: 10px;
             animation: dotanimation 2s;
             animation-iteration-count: infinite;
@@ -55,7 +55,7 @@
 
 @keyframes dotanimation {
     0% {top: 0px;}
-    20% {top: -10px;}
+    20% {top: -6px;}
     40% {top: 0px;}
 }
 
@@ -63,7 +63,7 @@
     .homepage__dot *{
       &:nth-child(#{$i}) {
         animation-delay: 0.25s * $i;
-        left: 22px * $i;
+        left: 10px * $i;
         }
     }
   }

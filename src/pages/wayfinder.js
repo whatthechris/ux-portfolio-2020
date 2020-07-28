@@ -9,6 +9,7 @@ import favicon64 from "../images/site-icon-64.png";
 
 import "./styles/wayfinder.scss"
 import Menu from "../components/menu"
+import Logo from "../components/logo.js"
 import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
 import ImageSection from "../components/project_images-section"
@@ -17,57 +18,44 @@ import FullWidth from "../components/project_full-width"
 
 const WayfinderPage = () => (
     <div className="wayfinder">
-      <Title>Chris Wong – Wayfinder Web App</Title>
+      <Title>Chris Wong – Wayfinder</Title>
       <Meta name="robots" content="noindex, nofollow" />
       <Link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
       <Link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
       <Link rel="shortcut icon" type="image/png" href={favicon64}/>
+      <Logo/>
       <Menu/>
-      {staticdata.wayfindercontent.map(data =>(
-        <ProjectHero
-          eyebrow={data.hero__eyebrow}
-          title={data.hero__title}
-          role1={data.hero__role1}
-          role2={data.hero__role2}
-          role3={data.hero__role3}
-          client={data.hero__client}
-          thumbnail={data.hero__thumbnail}
-          image={data.hero__image}
-          narrowheading={true}
-      />
-      ))}
-      <div className="wayfinder__hero-bg"></div>
-        <div>
-          <Fade bottom>
-            <div className="section-title">
-              <h5>Project Highlights</h5>
-            </div>
-          </Fade>
-            <div className="page-container">
-              {staticdata.wayfindercontent.map(data =>(
-                <ProjectHighlights 
-                  icon1={data.highlights__icon1}
-                  heading1={data.highlights__heading1}
-                  paragraph1={data.highlights__paragraph1}
-                  icon2={data.highlights__icon2}
-                  heading2={data.highlights__heading2}
-                  paragraph2={data.highlights__paragraph2}
-                  icon3={data.highlights__icon3}
-                  heading3={data.highlights__heading3}
-                  paragraph3={data.highlights__paragraph3}
-                  image={data.highlights__image}
-                  caption={data.highlights__caption}
-                />
-              ))}
-            </div>
-        </div>
         <div className="wayfinder__case-study">
-          <Fade bottom>
-            <div className="section-title">
-              <h5>Full Case Study</h5>
-            </div>
-          </Fade>
           <div className="page-container wayfinder__container">
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectHero
+                eyebrow={data.hero__eyebrow}
+                title={data.hero__title}
+                role1={data.hero__role1}
+                role2={data.hero__role2}
+                role3={data.hero__role3}
+                client={data.hero__client}
+                thumbnail={data.hero__thumbnail}
+                image={data.hero__image}
+                narrowheading={true}
+              />
+            ))}
+            <img className="wayfinder__case-study-heroimage" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectHighlights 
+                icon1={data.highlights__icon1}
+                heading1={data.highlights__heading1}
+                paragraph1={data.highlights__paragraph1}
+                icon2={data.highlights__icon2}
+                heading2={data.highlights__heading2}
+                paragraph2={data.highlights__paragraph2}
+                icon3={data.highlights__icon3}
+                heading3={data.highlights__heading3}
+                paragraph3={data.highlights__paragraph3}
+                image={data.highlights__image}
+                caption={data.highlights__caption}
+              />
+            ))}
             {staticdata.wayfindercontent.map(data =>(
             <FullWidth
               leftlayout={true}
