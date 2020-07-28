@@ -39,7 +39,6 @@ class MotionPage extends React.Component {
         </div>
         <div className='motion-hero__content'>
           <div className="motion-hero__text">
-            <p>Communicating ideas through motion</p>
             <h1>Various Motion Projects</h1>
             <p className="pull-quote__global motion-hero__paragraph">I have 7+ years of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#wise">photo parallax animations,</a> <a href="#stormtrooper">3D models,</a> <a href="#loyalty">composited videos,</a> <a href="#brainstation">motion identities,</a> <a href="#brainstation">educational video series</a> and many more in between.</p>
           </div>

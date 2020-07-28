@@ -112,7 +112,7 @@ a{
 .text-link{
   color: $yellow;
   &:hover{
-    border-bottom: 2px solid $yellow;
+    border-bottom: 1px solid $yellow;
   }
 }
 
@@ -120,7 +120,7 @@ a{
   font-size: 2rem;
   font-family: $body-font-stack;
   line-height: 3rem;
-  color: $grey;
+  color: $white;
 }
 
 .caption{

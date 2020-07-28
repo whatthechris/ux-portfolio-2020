@@ -1,19 +1,21 @@
 @import '../../data/global_styles.scss';
 
 .pull-quote{
-    margin-bottom: 10rem;
+    margin-top: 7.25rem;
+    padding: auto 10rem;
+    background-color: #42955F;
     @media (max-width: $tablet){
         margin-bottom: 4rem;
     }
-    & p{
-        grid-column: 4/ span 9;
-        @media (max-width: $tablet){
-            grid-column: 1/ span 4;
-        }
+    &__text{
+        padding-top:10rem;
+        padding-bottom:10rem;
+        max-width: 826px;
+        margin:0 auto;
     }
     &__author{
-        color: $grey;
-        margin-top: 2rem;
+        color: $white;
+        margin-top: 3.5rem;
         @media (max-width: $tablet){
             margin-top: 0.5rem;
         }

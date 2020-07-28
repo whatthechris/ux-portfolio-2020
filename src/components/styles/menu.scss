@@ -19,11 +19,16 @@
         margin-bottom: 24px;
     }
     &:hover .menu__circle{
-        width: 60px;
-        height: 60px;
+        width: 68px;
+        height: 68px;
         transition: width 0.2s, height 0.2s;
         transition-timing-function: ease-in-out;
         filter: brightness(80%);
+    }
+    &:hover .menu__icon{
+        transform: rotate(-20deg);
+        transition: transform 0.2s;
+        transition-timing-function: ease-in-out;
     }
     &:focus{
         outline: none;
@@ -31,9 +36,11 @@
 
     &__icon{
         position: absolute;
-        top: 19px;
-        left: 15px;
+        top: 18px;
+        left: 14px;
         z-index: 20;
+        transition: transform 0.2s;
+        transition-timing-function: ease-in-out;
     }
 
     &__text{
@@ -66,8 +73,8 @@
         left: 50%;
         transform: translate(-50%, -50%);
         background-color: $grey;
-        width: 68px;
-        height: 68px;
+        width: 76px;
+        height: 76px;
         border-radius: 50%;
         filter: brightness(100%);
         transition: width 0.2s, height 0.2s, filter 0.2s;

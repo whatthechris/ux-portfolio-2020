@@ -87,12 +87,14 @@ const WayfinderPage = () => (
                 caption={data.section3__caption1}
               />
             ))}
+          </div>
             {staticdata.wayfindercontent.map(data =>(
             <PullQuote
               pullquote={data.section4__pullquote1}
               name={data.section4__name1}
             />
             ))}
+          <div className="page-container">
             {staticdata.wayfindercontent.map(data =>(
               <ProjectParagraph
               eyebrow="The Solution"
@@ -120,7 +122,7 @@ const WayfinderPage = () => (
               <ProjectFeature
                 image={data.section5__image3}
                 imagealt={data.section5__image3alt}
-                heading="Growth Projections"
+                heading="Peace of mind & reassurance"
                 paragraph={data.section5__caption3}
               />
             ))}
@@ -132,7 +134,7 @@ const WayfinderPage = () => (
               />
             ))}
         </div>
-      <div className="wayfinder__video-container">
+      <div id="wayfinder__video-container">
         <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>
       </div>
     </div>
