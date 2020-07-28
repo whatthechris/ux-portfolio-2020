@@ -1,103 +1,12 @@
 @import '../../data/global_styles.scss';
 
 .homepage{
-    &__intro{
-        position: relative;
-        height: 100vh;
-        display: flex;
-        align-items: center;
-        a{
-            color: $yellow;
-            &:hover{
-                border-bottom: 2px solid $yellow;
-            }
-        }
-    }
-    &__pull-quote{
-        padding: 0 5rem;
-        max-width: 830px;
-        color: $white !important;
-        @media (max-width: $desktop){
-            padding: 0 4rem;
-        }
-        @media (max-width: $tablet){
-            padding: 0 1.5rem;
-        }
-    }
-    &__play-pause{
-        position: absolute;
-        top: 4rem;
-        left: 4rem;
-        @media (max-width: $tablet){
-            left: auto;
-            right: 1rem;
-        }
-    }
-    &__video-grid{
-        position: absolute;
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: -1;
-        & video{
-            object-fit: cover;
-            width: 100%;
-            height: 100%;
-        }
-    }
-    &__card-section{
-        background-color: $white;
-        top: 200vh;
-        position: absolute;
-        width: 100%;
-        display: grid;
-        @media (min-width: $tablet){
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(12, 1fr);
-        }
-        @media (max-width: $tablet){
-            display: static;
-        }
-    }
-    &__card{
-        display: flex;
-        grid-column: span 1;
-        grid-row: span 6;
-        &-empty{
-            display: flex;
-            flex-direction: column;
-            text-align: center;
-            align-items: center;
-            justify-content: center;
-            padding: 10%;
-            & h4 {
-                color: $grey;
-            }
-            & h2{
-                max-width: 500px;
-                @media (max-width: $tablet){
-                    max-width: 400px;
-                }
-            }
-            @media (max-width: $wide){
-                border: solid 1px $grey;
-            }
-            @media (max-width: $tablet){
-                padding: 6rem 3rem;
-            }
-        }
-    }
     &__dot{
         margin-top: 2rem;
         position: relative;
-        display: flex;
-        justify-content: center;
-        width: 100px;
         &-circle{
             position: absolute;
+            margin-left: -22px;
             height: 16px;
             width: 16px;
             background-color: $grey;
@@ -109,11 +18,39 @@
     }
 }
 
-.fixed{
-    position: fixed;
-    top: 0;
-    width: 100%;
+.active-link{
+    opacity: 1;
+}
+
+.inactive-link{
+    opacity: 0.2;
+}
+
+#wayfinder-mockup{
+    position: absolute;
     z-index: -1;
+    top: 10%;
+    left: -20%;
+    height: 690px;
+    animation: $fadein;
+}
+
+#groupnet-mockup{
+    position: absolute;
+    z-index: -1;
+    top: 20%;
+    left: 6%;
+    height: 610px;
+    animation: $fadein;
+}
+
+#pcoptimum-mockup{
+    position: absolute;
+    z-index: -1;
+    top: 15%;
+    left: 2%;
+    height: 584px;
+    animation: $fadein;
 }
 
 @keyframes dotanimation {

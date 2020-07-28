@@ -5,6 +5,7 @@ import staticdata from "../../staticdata.json"
 import "./styles/homepage.scss"
 import Menu from "../components/menu.js"
 import Logo from "../components/logo.js"
+import Carousel from "../components/carousel.js"
 
 import { Title, Meta, Link } from 'react-head';
 import favicon16 from "../images/site-icon-16.png";
@@ -22,6 +23,7 @@ class IndexPage extends React.Component {
         <Link rel="shortcut icon" type="image/png" href={favicon64}/>
         <Logo/>
         <Menu/>
+        <Carousel/>    
       </div>
     )
   };

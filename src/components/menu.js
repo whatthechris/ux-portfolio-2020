@@ -22,7 +22,7 @@ class Menu extends React.Component {
                     <h3>Hey there!</h3>
                     <p className="caption">I’m Chris, a product designer from Toronto currently looking for remote and  over seas opportunities.<br/><br/>
                     I’m a designer who codes, an animator who illustrates and a life-long learner who teaches. I use this unique combination of skills to create exciting and thoughtful digital experiences focusing on the needs of everyday people.<br/><br/>
-                    On the side, I create <a href="" target="_blank" rel="noopener noreferrer">motion graphics</a> that move people and make <a href="https://gifmusic2.netlify.app" target="_blank" rel="noopener noreferrer">fun web projects</a> that empower others to create.
+                    On the side, I create <a href="" className="text-link" target="_blank" rel="noopener noreferrer">motion graphics</a> that move people and make <a href="https://gifmusic2.netlify.app" className="text-link" target="_blank" rel="noopener noreferrer">fun web projects</a> that empower others to create.
                     </p>
                     <div className="menu__cta">
                         <img src={require(`../images/svgs/wave-white.svg`)} alt="Hand wave icon"/>  
