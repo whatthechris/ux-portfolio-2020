@@ -1,0 +1,11 @@
+@import '../../data/global_styles.scss';
+
+.project-small-image{
+  max-width: 926px;
+  margin: 7.25rem auto 0;
+  text-align: center;
+  & p{
+    margin: 32px auto 0;
+    max-width: 530px;
+  }
+}

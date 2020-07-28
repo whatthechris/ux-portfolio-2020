@@ -12,6 +12,9 @@ import Menu from "../components/menu"
 import Logo from "../components/logo.js"
 import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
+import ProjectParagraph from "../components/project_paragraph.js"
+import ProjectSmallImage from "../components/project_small-image.js"
+import ProjectFeature from "../components/project_feature.js"
 import ImageSection from "../components/project_images-section"
 import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
@@ -33,10 +36,6 @@ const WayfinderPage = () => (
                 role1={data.hero__role1}
                 role2={data.hero__role2}
                 role3={data.hero__role3}
-                client={data.hero__client}
-                thumbnail={data.hero__thumbnail}
-                image={data.hero__image}
-                narrowheading={true}
               />
             ))}
             <img id="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
@@ -54,31 +53,39 @@ const WayfinderPage = () => (
               ))}
             </div>
             {staticdata.wayfindercontent.map(data =>(
-            <FullWidth
-              leftlayout={true}
-              small_image={true}
+              <ProjectParagraph
+              eyebrow="The Challenge"
               heading={data.section1__heading1}
               paragraph={data.section1__paragraph1}
-              image={data.section1__image1}
-              imagealt={data.section1__image1alt}
-              caption={data.section1__caption1}
-            />
+              />
             ))}
             {staticdata.wayfindercontent.map(data =>(
-            <FullWidth
+              <ProjectSmallImage
+                image={data.section1__image1}
+                imagealt={data.section1__image1alt}
+                caption={data.section1__caption1}
+              />
+            ))}
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectParagraph
+              eyebrow="The Approach"
               heading={data.section2__heading1}
               paragraph={data.section2__paragraph1}
-              image={data.section2__image1}
-              imagealt={data.section2__image1alt}
-              caption={data.section2__caption1}
-            />
+              />
             ))}
             {staticdata.wayfindercontent.map(data =>(
-            <FullWidth
-              image={data.section3__image1}
-              imagealt={data.section3__image1alt}
-              caption={data.section3__caption1}
-            />
+              <ProjectSmallImage
+                image={data.section2__image1}
+                imagealt={data.section2__image1alt}
+                caption={data.section2__caption1}
+              />
+            ))}
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectSmallImage
+                image={data.section3__image1}
+                imagealt={data.section3__image1alt}
+                caption={data.section3__caption1}
+              />
             ))}
             {staticdata.wayfindercontent.map(data =>(
             <PullQuote
@@ -87,26 +94,42 @@ const WayfinderPage = () => (
             />
             ))}
             {staticdata.wayfindercontent.map(data =>(
-            <ImageSection
+              <ProjectParagraph
+              eyebrow="The Solution"
               heading={data.section5__heading1}
               paragraph={data.section5__paragraph1}
-              image1={data.section5__image1}
-              image1alt={data.section5__image1alt}
-              caption1={data.section5__caption1}
-              image2={data.section5__image2}
-              image2alt={data.section5__image2alt}
-              caption2={data.section5__caption2}
-              image3={data.section5__image3}
-              image3alt={data.section5__image3alt}
-              caption3={data.section5__caption3}
-            />
+              />
             ))}
             {staticdata.wayfindercontent.map(data =>(
-            <FullWidth
-              leftlayout={true}
-              heading={data.section6__heading1}
-              paragraph={data.section6__paragraph1}
-            />
+              <ProjectFeature
+                image={data.section5__image1}
+                imagealt={data.section5__image1alt}
+                heading="Personalized Plans"
+                paragraph={data.section5__caption1}
+              />
+            ))}
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectFeature
+                image={data.section5__image2}
+                imagealt={data.section5__image2alt}
+                heading="Growth Projections"
+                paragraph={data.section5__caption2}
+              />
+            ))}
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectFeature
+                image={data.section5__image3}
+                imagealt={data.section5__image3alt}
+                heading="Growth Projections"
+                paragraph={data.section5__caption3}
+              />
+            ))}
+            {staticdata.wayfindercontent.map(data =>(
+              <ProjectParagraph
+                eyebrow="The Results"
+                heading={data.section6__heading1}
+                paragraph={data.section6__paragraph1}
+              />
             ))}
         </div>
       <div className="wayfinder__video-container">

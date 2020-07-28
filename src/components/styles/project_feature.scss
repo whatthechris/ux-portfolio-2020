@@ -1,0 +1,15 @@
+@import '../../data/global_styles.scss';
+
+.project-feature{
+  max-width: 926px;
+  margin: 7.25rem auto 0;
+  align-items: center;
+  display: flex;
+  &__image{
+    width: 439px;
+  }
+  &__text{
+    margin-left: 48px;
+    width: 439px;
+  }
+}
