@@ -17,7 +17,7 @@ import PullQuote from "../components/pull_quote"
 import FullWidth from "../components/project_full-width"
 
 const WayfinderPage = () => (
-    <div className="wayfinder">
+    <div>
       <Title>Chris Wong – Wayfinder</Title>
       <Meta name="robots" content="noindex, nofollow" />
       <Link rel="icon" type="image/png" sizes="16x16" href={favicon16}/>
@@ -25,8 +25,7 @@ const WayfinderPage = () => (
       <Link rel="shortcut icon" type="image/png" href={favicon64}/>
       <Logo/>
       <Menu/>
-        <div className="wayfinder__case-study">
-          <div className="page-container wayfinder__container">
+          <div className="page-container">
             {staticdata.wayfindercontent.map(data =>(
               <ProjectHero
                 eyebrow={data.hero__eyebrow}
@@ -40,22 +39,20 @@ const WayfinderPage = () => (
                 narrowheading={true}
               />
             ))}
-            <img className="wayfinder__case-study-heroimage" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
-            {staticdata.wayfindercontent.map(data =>(
-              <ProjectHighlights 
-                icon1={data.highlights__icon1}
-                heading1={data.highlights__heading1}
-                paragraph1={data.highlights__paragraph1}
-                icon2={data.highlights__icon2}
-                heading2={data.highlights__heading2}
-                paragraph2={data.highlights__paragraph2}
-                icon3={data.highlights__icon3}
-                heading3={data.highlights__heading3}
-                paragraph3={data.highlights__paragraph3}
-                image={data.highlights__image}
-                caption={data.highlights__caption}
-              />
-            ))}
+            <img id="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
+            <div id="wayfinder__highlights">
+              {staticdata.wayfindercontent.map(data =>(
+                <ProjectHighlights 
+                  icon1={data.highlights__icon1}
+                  paragraph1={data.highlights__paragraph1}
+                  icon2={data.highlights__icon2}
+                  paragraph2={data.highlights__paragraph2}
+                  icon3={data.highlights__icon3}
+                  paragraph3={data.highlights__paragraph3}
+                  image={data.highlights__image}
+                />
+              ))}
+            </div>
             {staticdata.wayfindercontent.map(data =>(
             <FullWidth
               leftlayout={true}
@@ -111,7 +108,6 @@ const WayfinderPage = () => (
               paragraph={data.section6__paragraph1}
             />
             ))}
-          </div>
         </div>
       <div className="wayfinder__video-container">
         <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>

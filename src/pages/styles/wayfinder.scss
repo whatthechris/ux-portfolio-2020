@@ -1,45 +1,18 @@
 @import '../../data/global_styles.scss';
 
-.wayfinder{
-    background-color: $grey;
-    &__container{
-        margin-top: -12rem !important;
-        @media (max-width: $desktop){
-            margin-top: 0rem !important;
-        }
+#wayfinder{
+    &__hero-image{
+        position: absolute;
+        top: 213px;
+        left: 100px;
+        width: 1318px;
+        opacity: 0;
+        animation: $fadein;
+        z-index: -1;
+        
     }
-    &__video-container {
-        position: relative;
-        height: 56.25vw; /* 16:9 */
-        iframe{
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-        }
-    }
-    &__hero-bg{
-        display: block;
-        background-image: url('../../images/wayfinder/wayfinder_photo1.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 90vh;
-        filter: brightness(20%);
-        margin-bottom: 160px;
-        @media (max-width: $desktop){
-          margin-bottom: 25vw;
-        }
-    }
-    &__case-study{
-        background-color: $white;
-        padding-top: 10rem;
-        @media (max-width: $desktop){
-            padding-top: 6rem;
-        }
-        @media (max-width: $desktop){
-            padding-top: 4rem;
-        }
+    &__highlights{
+        margin-top: 430px;
+        margin-left: 50%;
     }
 }

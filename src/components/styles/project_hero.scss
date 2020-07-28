@@ -2,13 +2,13 @@
 
 .project-hero{
   position: relative;
+  padding-top: 10rem;
   &__text{
     display: flex;
     flex-direction: column;
     width: 1100px;
     max-width: 1200px;
     margin: 0;
-    margin-top: 10rem;
     opacity: 0;
     animation: $fadein;
     @media (max-width: $wide){
@@ -28,6 +28,9 @@
     margin-right: 24px;
     @media (max-width: $desktop){
       flex-basis: 100%;
+    }
+    & h4{
+      max-width: 434px;
     }
   }
   &__list{
