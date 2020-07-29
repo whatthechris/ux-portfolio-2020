@@ -48,8 +48,8 @@ class Carousel extends React.Component {
 
     render(){
     return(
-        <div>
-            <div className="carousel">
+        <div className="carousel">
+            <div className="carousel__text">
                 <div className="carousel__links" onMouseOver={this.pauseCarousel} onMouseLeave={this.playCarousel}>
                     <a href="/wayfinder" id="wayfinder-link" className={this.state.currentslide === 0 ? 'display-heading active-link' : 'display-heading inactive-link'}
                         onMouseOver={this.setSlideZero}

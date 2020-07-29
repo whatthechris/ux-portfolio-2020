@@ -27,6 +27,7 @@ const WayfinderPage = () => (
       <Link rel="shortcut icon" type="image/png" href={favicon64}/>
       <Logo/>
       <Menu/>
+        <div className="overflow-container">
           <div className="page-container">
             {staticdata.wayfindercontent.map(data =>(
               <ProjectHero
@@ -93,6 +94,7 @@ const WayfinderPage = () => (
               name={data.section4__name1}
             />
             ))}
+          </div>
           <div className="page-container">
             {staticdata.wayfindercontent.map(data =>(
               <ProjectParagraph

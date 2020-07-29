@@ -33,6 +33,11 @@
     left: -20%;
     height: 690px;
     animation: $fadein;
+    @media (max-width: $tablet){
+        top:6%;
+        left: -50%;
+        height: 550px;
+    }
 }
 
 #groupnet-mockup{
@@ -42,6 +47,11 @@
     left: 6%;
     height: 610px;
     animation: $fadein;
+    @media (max-width: $tablet){
+        top:6%;
+        left: -10%;
+        height: 550px;
+    }
 }
 
 #pcoptimum-mockup{
@@ -51,6 +61,11 @@
     left: 2%;
     height: 584px;
     animation: $fadein;
+    @media (max-width: $tablet){
+        top:0%;
+        left: -15%;
+        height: 550px;
+    }
 }
 
 @keyframes dotanimation {

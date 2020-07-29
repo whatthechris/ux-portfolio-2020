@@ -185,6 +185,12 @@ a{
   }
 }
 
+.overflow-container{
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
 .grid{
   display: grid;
   grid-template-columns: repeat(12, 1fr);
