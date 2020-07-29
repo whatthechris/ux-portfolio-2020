@@ -15,9 +15,8 @@ import ProjectHighlights from "../components/project_highlights.js"
 import ProjectParagraph from "../components/project_paragraph.js"
 import ProjectSmallImage from "../components/project_small-image.js"
 import ProjectFeature from "../components/project_feature.js"
-import ImageSection from "../components/project_images-section"
 import PullQuote from "../components/pull_quote"
-import FullWidth from "../components/project_full-width"
+import ProjectNext from "../components/project_next.js"
 
 const WayfinderPage = () => (
     <div>
@@ -137,6 +136,15 @@ const WayfinderPage = () => (
       <div id="wayfinder__video-container">
         <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>
       </div>
+      {staticdata.wayfindercontent.map(data =>(
+              <ProjectNext
+                link="/groupnet"
+                image="homepage/groupnet_mockup.png"
+                imagealt=""
+                eyebrow="Next Project"
+                heading="GroupNet Mobile"
+              />
+      ))}
     </div>
 )
 

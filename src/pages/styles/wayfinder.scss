@@ -9,11 +9,19 @@
         opacity: 0;
         animation: $fadein;
         z-index: -1;
-        
+        @media (max-width: $tablet){
+            top: 300px;
+            left: -350px;
+            width: 928px;
+        }
     }
     &__highlights{
         margin-top: 430px;
         margin-left: 50%;
+        @media (max-width: $tablet){
+            margin-top: 60vh;
+            margin-left: -80px;
+        }
     }
     &__video-container {
         position: relative;

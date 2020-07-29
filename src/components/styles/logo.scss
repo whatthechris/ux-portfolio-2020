@@ -5,6 +5,11 @@
     margin-top: 48px;
     margin-left: 48px;
     width: 200px;
+    z-index: 100;
+    @media (max-width: $tablet){
+        margin-top: 16px;
+        margin-left: 16px;
+    }
     &__circle{
         width: 32px;
         height: 32px;
@@ -12,5 +17,9 @@
         background-color: $yellow;
         float: left;
         margin-right: 8px;
+        @media (max-width: $tablet){
+            width: 24px;
+            height: 24px;
+        }
     }
 }

@@ -129,31 +129,40 @@ a{
   line-height: 1.5rem;
 }
 
-@media (max-width: $desktop){
+@media (max-width: $tablet){
+  .display-heading{
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-bottom: 0.5rem;
+  }
   h1{
-    font-size: 3.4rem;
-    line-height: 4rem;
+    font-size: 4.25rem;
+    line-height: 5rem;
   }
   h2{
-    font-size: 1.999rem;
-    line-height: 2.5rem;
-  }
-
-  h3{
     font-size: 3rem;
+    line-height: 3.5rem;
+  }
+  h3{
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.5rem;
+  }
+  h4{
+    font-size: 1.75rem;
     line-height: 2rem;
   }
-
-  h4{
-    font-size: 1rem;
+  h5{
+    font-size: 1.25rem;
     line-height: 1.5rem;
   }
-}
-
-@media (max-width: $tablet){
-  h1{
-    font-size: 2.5rem;
-    line-height: 3rem;
+  p{
+    font-size: 1rem;
+    line-height: 1.5rem;  
+  }
+  .caption{
+    font-size: 0.875rem;
+    line-height: 1.25rem;  
   }
   .pull-quote__global{
     font-size: 1.25rem;
