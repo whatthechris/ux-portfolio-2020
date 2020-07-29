@@ -8,10 +8,17 @@
   width: 535px;
   height: 535px;
   border-radius: 50%;
+  @media (max-width: $tablet){
+    width: 450px;
+    height: 450px;
+  }
   &__text{
-  display: flex;
-  flex-direction: column;
-  width: 340px;
+    display: flex;
+    flex-direction: column;
+    width: 340px;
+    @media (max-width: $tablet){
+      width: 280px;
+    }
   }
   & h4{
     margin-bottom: 32px;
@@ -25,5 +32,8 @@
     align-self: flex-start;
     width: 32px;
     margin-right: 24px;
+    @media (max-width: $tablet){
+      margin-right: 16px;
+    }
   }
 }

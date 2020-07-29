@@ -38,7 +38,9 @@ const WayfinderPage = () => (
                 role3={data.hero__role3}
               />
             ))}
-            <img id="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
+            <div id="wayfinder__image-container">
+              <img id="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
+            </div>
             <div id="wayfinder__highlights">
               {staticdata.wayfindercontent.map(data =>(
                 <ProjectHighlights 

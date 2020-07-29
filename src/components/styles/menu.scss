@@ -54,8 +54,8 @@
         flex-direction: column;
         animation: $fadein;
         @media (max-width: $tablet){
-            top: -500px;
-            width: 70vw;
+            top: -400px;
+            width: 75vw;
         }
     }
 
@@ -90,8 +90,8 @@
             transition: width 0.2s, height 0.2s, background-color 0.2s;
             transition-timing-function: ease-in-out;
             @media (max-width: $tablet){
-                width: 1150px;
-                height: 1150px;
+                width: 1000px;
+                height: 1000px;
             }
         }
     }
