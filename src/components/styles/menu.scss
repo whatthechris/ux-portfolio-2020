@@ -23,13 +23,12 @@
         height: 68px;
         transition: width 0.2s, height 0.2s;
         transition-timing-function: ease-in-out;
-        filter: brightness(80%);
+        filter: brightness(90%);
     }
-    &:hover .menu__icon{
-        transform: rotate(-20deg);
-        transition: transform 0.2s;
-        transition-timing-function: ease-in-out;
+    &:hover .menu__icon-animation{
+        animation: WaveAnimation 0.5s forwards cubic-bezier(0.2, 0.8, 0.2, 1);
     }
+
     &:focus{
         outline: none;
     }
@@ -95,5 +94,18 @@
                 height: 1000px;
             }
         }
+    }
+}
+
+//wave animation
+@keyframes WaveAnimation {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(-20deg);
+    }
+    100%{
+        transform: rotate(0deg);
     }
 }

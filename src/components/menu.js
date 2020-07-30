@@ -34,7 +34,7 @@ class Menu extends React.Component {
             </div>
             }
             {!this.state.isMenuOpen &&
-                <img className="menu__icon" src={require(`../images/svgs/wave.svg`)} alt="Hand wave icon"/>  
+                <img className="menu__icon menu__icon-animation" src={require(`../images/svgs/wave.svg`)} alt="Hand wave icon"/>  
             }
             <div className={this.state.isMenuOpen ? "menu__circle-open" : "menu__circle"}></div>
         </button>
