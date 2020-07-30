@@ -13,7 +13,7 @@ import Logo from "../components/logo.js"
 import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
 import ProjectParagraph from "../components/project_paragraph.js"
-import ProjectSmallImage from "../components/project_small-image.js"
+import ProjectImage from "../components/project_image.js"
 import ProjectFeature from "../components/project_feature.js"
 import PullQuote from "../components/pull_quote"
 import ProjectNext from "../components/project_next.js"
@@ -38,10 +38,10 @@ const WayfinderPage = () => (
                 role3={data.hero__role3}
               />
             ))}
-            <div id="wayfinder__image-container">
-              <img id="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
+            <div className="wayfinder__hero-image-container">
+              <img className="wayfinder__hero-image" src={require(`../images/homepage/wayfinder_mockup.png`)}/>
             </div>
-            <div id="wayfinder__highlights">
+            <div className="wayfinder__highlights">
               {staticdata.wayfindercontent.map(data =>(
                 <ProjectHighlights 
                   icon1={data.highlights__icon1}
@@ -62,9 +62,11 @@ const WayfinderPage = () => (
               />
             ))}
             {staticdata.wayfindercontent.map(data =>(
-              <ProjectSmallImage
+              <ProjectImage
+                size="small"
                 image={data.section1__image1}
                 imagealt={data.section1__image1alt}
+                embed=""
                 caption={data.section1__caption1}
               />
             ))}
@@ -75,17 +77,23 @@ const WayfinderPage = () => (
               paragraph={data.section2__paragraph1}
               />
             ))}
+          </div>
             {staticdata.wayfindercontent.map(data =>(
-              <ProjectSmallImage
+              <ProjectImage
+                size="wide"
                 image={data.section2__image1}
                 imagealt={data.section2__image1alt}
+                embed=""
                 caption={data.section2__caption1}
               />
             ))}
+          <div className="page-container">
             {staticdata.wayfindercontent.map(data =>(
-              <ProjectSmallImage
+              <ProjectImage
+                size="large"
                 image={data.section3__image1}
                 imagealt={data.section3__image1alt}
+                embed=""
                 caption={data.section3__caption1}
               />
             ))}
@@ -136,18 +144,26 @@ const WayfinderPage = () => (
                 paragraph={data.section6__paragraph1}
               />
             ))}
+            <div className="video-container">
+              {staticdata.wayfindercontent.map(data =>(
+                <ProjectImage
+                  size="large"
+                  image=""
+                  imagealt=""
+                  embed="https://player.vimeo.com/video/212916369"
+                  caption=""
+                />
+              ))}
+            </div>
         </div>
-      <div id="wayfinder__video-container">
-        <iframe src="https://player.vimeo.com/video/212916369" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Wayfinder marketing video"></iframe>
-      </div>
       {staticdata.wayfindercontent.map(data =>(
-              <ProjectNext
-                link="/groupnet"
-                image="homepage/groupnet_mockup.png"
-                imagealt=""
-                eyebrow="Next Project"
-                heading="GroupNet Mobile"
-              />
+        <ProjectNext
+          link="/groupnet"
+          image="homepage/groupnet_mockup.png"
+          imagealt=""
+          eyebrow="Next Project"
+          heading="GroupNet Mobile"
+        />
       ))}
     </div>
 )

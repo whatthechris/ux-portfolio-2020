@@ -55,6 +55,7 @@
         animation: $fadein;
         @media (max-width: $tablet){
             top: -400px;
+            right: 40px;
             width: 75vw;
         }
     }
