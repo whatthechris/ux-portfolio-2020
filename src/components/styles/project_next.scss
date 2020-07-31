@@ -6,23 +6,34 @@
   width: 100vw;
   margin-top: 7.25rem;
   &__container{
-    position: relative;
     height: 330px;
     max-width: 1000px;
     margin: 0 auto;
-    overflow: hidden;
+    display: flex;
+    @media (max-width: $tablet){
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
   }
   & img{
-    position: absolute;
-    top: -60px;
-    left: 50px;
+    margin-top: -60px;
     width: 613px;
+    @media (max-width: $tablet){
+      width: 80vw;
+    }
   }
   &__text{
     height: 100%;
-    margin-left: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-left: -100px;
+    @media (max-width: $tablet){
+      margin-left:0px;
+      display: block;
+      padding-left: 16px;
+      margin-bottom: 20vw;
+    }
   }
 }

@@ -3,8 +3,8 @@ import React from "react"
 import "./styles/button.scss"
 
 const Button = props => (
-    <a href={props.button_link} className="button" target="_blank" rel="noopener noreferrer">
-        <h5>{props.button_text}</h5>
+    <a href={props.link} className="button" target="_blank" rel="noopener noreferrer">
+        <p>{props.text}</p>
     </a>
 )
 

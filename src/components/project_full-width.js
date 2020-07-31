@@ -37,8 +37,8 @@ const FullWidth = props => (
         {props.button_text &&
           <div className="full-width__button">
             <Button
-              button_link={props.button_link}
-              button_text={props.button_text}
+              link={props.button_link}
+              text={props.button_text}
             />
           </div>
         }

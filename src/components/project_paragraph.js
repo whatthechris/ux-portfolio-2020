@@ -1,5 +1,6 @@
 import React from "react"
 import Fade from 'react-reveal/Fade'
+import Button from "../components/button.js"
 
 import "./styles/project_paragraph.scss"
 
@@ -9,6 +10,14 @@ const ProjectParagraph = props => (
         <h5>{props.eyebrow}</h5>
         <h3>{props.heading}</h3>
         <p>{props.paragraph}</p>
+        {props.button_text &&
+        <div className="project-paragraph__button">
+          <Button
+            link={props.button_link}
+            text={props.button_text}
+          />
+        </div>
+        }
       </Fade>
     </div>
 )

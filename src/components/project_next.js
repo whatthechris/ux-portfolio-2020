@@ -8,7 +8,9 @@ const ProjectNext = props => (
     <div className="project-next">
       <Fade bottom distance="100px">
         <div className="project-next__container">
-          <img src={require(`../images/${props.image}`)} alt={props.imagealt}/>
+          <div className="project-next__image-container">
+            <img src={require(`../images/${props.image}`)} alt={props.imagealt}/>
+          </div>
           <div className="project-next__text">
             <h5>{props.eyebrow}</h5>
             <h2>{props.heading}</h2>

@@ -61,6 +61,8 @@ const WayfinderPage = () => (
                 eyebrow="The Challenge"
                 heading={data.section1__heading1}
                 paragraph={data.section1__paragraph1}
+                button_link=""
+                button_text=""
                 />
               ))}
               {staticdata.wayfindercontent.map(data =>(
@@ -77,6 +79,8 @@ const WayfinderPage = () => (
                 eyebrow="The Approach"
                 heading={data.section2__heading1}
                 paragraph={data.section2__paragraph1}
+                button_link=""
+                button_text=""
                 />
               ))}
             </div>
@@ -112,6 +116,8 @@ const WayfinderPage = () => (
                 eyebrow="The Solution"
                 heading={data.section5__heading1}
                 paragraph={data.section5__paragraph1}
+                button_link=""
+                button_text=""
                 />
               ))}
               {staticdata.wayfindercontent.map(data =>(
@@ -143,6 +149,8 @@ const WayfinderPage = () => (
                   eyebrow="The Results"
                   heading={data.section6__heading1}
                   paragraph={data.section6__paragraph1}
+                  button_link=""
+                  button_text=""
                 />
               ))}
               <div className="video-container">

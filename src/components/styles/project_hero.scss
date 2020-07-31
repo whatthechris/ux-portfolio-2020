@@ -3,10 +3,9 @@
 .project-hero{
   position: relative;
   padding-top: 8rem;
-  padding-bottom: 110vh;
+  padding-bottom: 120vh;
   @media (max-width: $tablet){
     padding-top: 4.5rem;
-    padding-bottom: 130vh;
   }
   &__text{
     display: flex;

@@ -1,0 +1,37 @@
+@import '../../data/global_styles.scss';
+
+.groupnet{
+    &__hero-image-container{
+        position: absolute;
+        top: 280px;
+        left: 60%; 
+        transform: translateX(-50%);
+        z-index: -1;
+        @media (max-width: $tablet){
+            top: 35vh;
+            transform: translateX(-60%);
+        }
+    }
+    &__hero-image{
+        width: 950px;
+        opacity: 0;
+        animation: $fadein;
+        @media (max-width: $tablet){
+            width: auto;
+            height: 75vh;
+        }
+    }
+    &__highlights{
+        position: absolute;
+        top: 95vh;
+        left: 15%;
+        @media (max-width: $desktop){
+            left: 35%;
+        }
+        @media (max-width: $tablet){
+            top: 90vh;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+}
