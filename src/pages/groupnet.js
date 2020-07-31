@@ -28,7 +28,7 @@ const GroupNetPage = () => (
       <Menu/>
       <Logo/>
       <div className="overflow-container">
-          <Parallax speed={-2} onMove={210,0} zIndex={200}>
+          <Parallax speed={-2}>
             <div className="groupnet__hero-image-container">
               <img className="groupnet__hero-image" src={require(`../images/homepage/groupnet_mockup.png`)}/>
               </div>
@@ -60,8 +60,15 @@ const GroupNetPage = () => (
                   eyebrow=""
                   heading="Under Construction"
                   paragraph="This case study is currently under construction but you can check out the Figma prototype below."
+                  button_link=""
+                  button_text=""
                 />
               ))}
+              <div className="groupnet__parallax">
+                <Parallax speed={-2}>
+                  <img src={require(`../images/groupnet/groupnet_dual_mock.png`)}/>
+                </Parallax>
+              </div>
               <div className="video-container">
               <ProjectImage
                   size="wide"

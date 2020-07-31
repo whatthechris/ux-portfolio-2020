@@ -2,7 +2,7 @@ import React from "react"
 import ImageZoom from 'react-medium-image-zoom'
 import Fade from 'react-reveal/Fade'
 
-import "./styles/project_small-image.scss"
+import "./styles/project-image.scss"
 
 const ProjectImage = props => (
     <div className={"project-image " + 
