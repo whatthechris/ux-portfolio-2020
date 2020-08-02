@@ -14,8 +14,15 @@ $dark-grey: #6B6B6B;
 $yellow: #FECC01;
 $light-yellow: #FFDB47;
 
+//Wayfinder colors
+$wf-green: #42955F;
+
 //GroupNet colors
+$gn-blue: #0861B4;
 $gn-green: #00D2B9;
+
+//PC Optimu colors
+$pc-red: #ee3124;
 
 //media queries
 $mobile:  320px;
@@ -251,4 +258,16 @@ a{
       }
   }
     
+}
+
+.bgcolor{
+  &-wayfinder{
+    background-color: $wf-green;
+  }
+  &-groupnet{
+    background-color: $gn-blue;
+  }
+  &-pcoptimum{
+    background-color: $pc-red;
+  }
 }

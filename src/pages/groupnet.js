@@ -18,6 +18,8 @@ import ProjectFeature from "../components/project_feature.js"
 import PullQuote from "../components/pull_quote"
 import ProjectNext from "../components/project_next.js"
 
+import ImageZoom from 'react-medium-image-zoom'
+
 const GroupNetPage = () => (
     <div>
       <Title>Chris Wong – GroupNet Mobile</Title>
@@ -36,7 +38,7 @@ const GroupNetPage = () => (
             <div className="page-container">
               {staticdata.wayfindercontent.map(data =>(
                 <ProjectHero
-                  eyebrow="Making claiming employee benefits fast and easy"
+                  eyebrow="Making employee benefit claims fast and easy"
                   title="GroupNet Mobile"
                   role1="Design Lead"
                   role2="UX/UI Design"
@@ -49,24 +51,28 @@ const GroupNetPage = () => (
                     icon1="mobile.svg"
                     paragraph1="Leveraged mobile functionalities to make the claims process easier"
                     icon2="thumbs-up.svg"
-                    paragraph2="Designed the app for one handed use while carefully considering reachability"
+                    paragraph2="Designed the app for one handed use and large mobile devices"
                     icon3="route.svg"
                     paragraph3="Incorporated motion design to hint at app functionality"
                   />
                 ))}
               </div>
-              {staticdata.wayfindercontent.map(data =>(
-                <ProjectParagraph
-                  eyebrow=""
-                  heading="Under Construction"
-                  paragraph="This case study is currently under construction but you can check out the Figma prototype below."
-                  button_link=""
-                  button_text=""
-                />
-              ))}
+              <ProjectParagraph
+                eyebrow=""
+                heading="Under Construction"
+                paragraph="This case study is currently under construction but you can check out the Figma prototype below."
+                button_link=""
+                button_text=""
+              />
               <div className="groupnet__parallax">
                 <Parallax speed={-2}>
-                  <img src={require(`../images/groupnet/groupnet_dual_mock.png`)}/>
+                <ImageZoom
+                  image={{
+                    src: require('../images/groupnet/groupnet_dual_mock.png'),
+                    alt:""
+                  }}
+                  zoomMargin="0"
+                  />
                 </Parallax>
               </div>
               <div className="video-container">
@@ -79,15 +85,14 @@ const GroupNetPage = () => (
                 />
               </div>
             </div>
-            {staticdata.wayfindercontent.map(data =>(
               <ProjectNext
-                link="/wayfinder"
-                image="homepage/wayfinder_mockup.png"
+                link="/pcoptimum"
+                image="homepage/pcoptimum_mockup.png"
                 imagealt=""
-                eyebrow="Next Project"
-                heading="Wayfinder"
+                heading="PC Optimum"
+                subheading="Leveling up Loblaw's loyalty points game"
+                bgcolor="bgcolor-pcoptimum"
               />
-            ))}
       </div>
     </div>
 )

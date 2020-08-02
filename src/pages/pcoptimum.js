@@ -70,8 +70,9 @@ const PCOptimumPage = () => (
                 link="/wayfinder"
                 image="homepage/wayfinder_mockup.png"
                 imagealt=""
-                eyebrow="Next Project"
                 heading="Wayfinder"
+                subheading="Helping people save for their future"
+                bgcolor="bgcolor-wayfinder"
               />
             ))}
       </div>

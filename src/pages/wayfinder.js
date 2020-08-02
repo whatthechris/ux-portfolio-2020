@@ -170,8 +170,9 @@ const WayfinderPage = () => (
                 link="/groupnet"
                 image="homepage/groupnet_mockup.png"
                 imagealt=""
-                eyebrow="Next Project"
                 heading="GroupNet Mobile"
+                subheading="Making employee benefit claims fast and easy"
+                bgcolor="bgcolor-groupnet"
               />
             ))}
       </div>
