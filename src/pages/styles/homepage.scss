@@ -18,10 +18,17 @@
     }
 }
 
-.active-link{
-    opacity: 1;
+@keyframes dotanimation {
+    0% {top: 0px;}
+    20% {top: -6px;}
+    40% {top: 0px;}
 }
 
-.inactive-link{
-    opacity: 0.2;
-}
+@for $i from 1 through 3 {
+    .homepage__dot *{
+      &:nth-child(#{$i}) {
+        animation-delay: 0.25s * $i;
+        left: 10px * $i;
+        }
+    }
+  }

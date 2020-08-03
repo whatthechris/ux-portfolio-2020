@@ -27,11 +27,16 @@
     &__progress{
         width: 80px;
         background-color: $grey;
-        margin-top:48px;
+        margin-top:32px;
         &-bar{
             height: 3px;
-            width: 20%;
+            width: 0%;
             background-color: $black;
+        }
+        &-animation{
+            animation: progressanimation 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function:linear;
         }
     }
     &__more{
@@ -40,6 +45,14 @@
             margin-top: 20px;
         }
     }
+}
+
+.active-link{
+    opacity: 1;
+}
+
+.inactive-link{
+    opacity: 0.2;
 }
 
 #wayfinder-mockup{
@@ -100,17 +113,8 @@
     }
 }
 
-@keyframes dotanimation {
-    0% {top: 0px;}
-    20% {top: -6px;}
-    40% {top: 0px;}
+@keyframes progressanimation {
+    0% {width: 0%;}
+    99% {width: 100%;}
+    100%{width: 0%;}
 }
-
-@for $i from 1 through 3 {
-    .homepage__dot *{
-      &:nth-child(#{$i}) {
-        animation-delay: 0.25s * $i;
-        left: 10px * $i;
-        }
-    }
-  }

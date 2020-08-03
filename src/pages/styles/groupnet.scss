@@ -46,12 +46,11 @@
         }
         & img{
             position: absolute;
-            top: -500px;
+            top: -700px;
             left: 50%;
             transform: translateX(-50%);
             width: 786px;
             @media (max-width: $tablet){
-                top: -300px;
                 width: 456px;
             }
         }

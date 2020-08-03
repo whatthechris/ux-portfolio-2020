@@ -9,10 +9,11 @@ class Carousel extends React.Component {
         this.state = {
           currentslide: 0,
           totalslides: 3,
+          progress: true,
         };
       }
 
-    playCarousel = () =>
+    playCarousel = () => {
         this.interval = setInterval(() => 
             this.setState({ currentslide: this.state.currentslide + 1},
                 () => {
@@ -20,11 +21,15 @@ class Carousel extends React.Component {
                         this.setState({ currentslide: 0 });
                     }
                 }
-        ), 3000);
+        ), 5000);
+        this.setState({ progress: true }); 
+        } 
     ;
 
-    pauseCarousel = () =>
-        clearInterval(this.interval);
+    pauseCarousel = () => {
+        clearInterval(this.interval)
+        this.setState({ progress: false });    
+        }
     ;
 
     componentDidMount() {
@@ -64,16 +69,16 @@ class Carousel extends React.Component {
                         onMouseLeave={this.setSlideTwo}
                     >PC Optimum</a>
                 </div>
-                {/* <div className="carousel__progress">
-                    <div className="carousel__progress-bar"></div>
-                </div> */}
+                <div className="carousel__progress">
+                    <div className={this.state.progress == false ? 'carousel__progress-bar' : 'carousel__progress-bar carousel__progress-animation'}></div>
+                </div>
                 <div className="carousel__more">
                     <h5>More case studies coming soon</h5>
-                    <div className="homepage__dot">
-                    <div className="homepage__dot-circle"></div>
-                    <div className="homepage__dot-circle"></div>
-                    <div className="homepage__dot-circle"></div>
-                    </div>
+                    {/* <div className="homepage__dot">
+                        <div className="homepage__dot-circle"></div>
+                        <div className="homepage__dot-circle"></div>
+                        <div className="homepage__dot-circle"></div>
+                    </div> */}
                 </div>
             </div>
             {this.state.currentslide === 0 &&

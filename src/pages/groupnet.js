@@ -95,7 +95,7 @@ const GroupNetPage = () => (
               </div>
               <div className="page-container">
               <ProjectParagraph
-                eyebrow="The Approach"
+                eyebrow="The Solution"
                 heading="More usable and understandable"
                 paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
                 button_link=""
@@ -109,6 +109,29 @@ const GroupNetPage = () => (
                 paragraph=""
               />
               ))}
+              {staticdata.wayfindercontent.map(data =>(
+              <ProjectFeature
+                image={data.section5__image1}
+                imagealt={data.section5__image1alt}
+                heading="Personalized Plans"
+                paragraph=""
+              />
+              ))}
+              {staticdata.wayfindercontent.map(data =>(
+              <ProjectFeature
+                image={data.section5__image1}
+                imagealt={data.section5__image1alt}
+                heading="Personalized Plans"
+                paragraph=""
+              />
+              ))}
+              <ProjectParagraph
+                eyebrow="The Results"
+                heading="More usable and understandable"
+                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                button_link=""
+                button_text=""
+              />
               <div className="video-container">
                 <ProjectImage
                     size="wide"
