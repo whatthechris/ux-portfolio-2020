@@ -16,6 +16,7 @@ import ProjectParagraph from "../components/project_paragraph.js"
 import ProjectImage from "../components/project_image.js"
 import ProjectFeature from "../components/project_feature.js"
 import PullQuote from "../components/pull_quote"
+import ProjectCompare from "../components/project_compare.js"
 import ProjectNext from "../components/project_next.js"
 
 import ImageZoom from 'react-medium-image-zoom'
@@ -58,12 +59,29 @@ const GroupNetPage = () => (
                 ))}
               </div>
               <ProjectParagraph
-                eyebrow=""
-                heading="Under Construction"
-                paragraph="This case study is currently under construction but you can check out the Figma prototype below."
+                eyebrow="The Challenge"
+                heading="Held back by the past"
+                paragraph="Thousands of employees across Canada use Great West Life’s GrouptNet web app daily to submit and track their benefit claims. I was tasked with designing the corresponding mobile app using the Great West Life brand guidelines and UX design patterns. Although comprehensive, the guidelines and design patterns weren’t well adapted for mobile app design. Furthermore, the backend of the legacy GroupNet platform dictated the formatting and flow of user information which wasn’t the best experience for users. After the launch, I redesigned the app as a personal project."
                 button_link=""
                 button_text=""
               />
+              <ProjectCompare
+                image1="groupnet/groupnet_compare_mock1.png"
+                image1alt=""
+                bgcolor1="bgcolor-gn-green"
+                image2="groupnet/groupnet_compare_mock2.png"
+                image2alt=""
+                bgcolor2="bgcolor-gn-blue"
+                caption="V1 and v2 of the GroupNet mobile app. Click or tap the images to zoom in."
+              />
+              <ProjectParagraph
+                eyebrow="The Approach"
+                heading="More usable and understandable"
+                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                button_link=""
+                button_text=""
+              />
+              </div>
               <div className="groupnet__parallax">
                 <Parallax speed={-2}>
                 <ImageZoom
@@ -75,16 +93,32 @@ const GroupNetPage = () => (
                   />
                 </Parallax>
               </div>
+              <div className="page-container">
+              <ProjectParagraph
+                eyebrow="The Approach"
+                heading="More usable and understandable"
+                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                button_link=""
+                button_text=""
+              />
+              {staticdata.wayfindercontent.map(data =>(
+              <ProjectFeature
+                image={data.section5__image1}
+                imagealt={data.section5__image1alt}
+                heading="Personalized Plans"
+                paragraph=""
+              />
+              ))}
               <div className="video-container">
-              <ProjectImage
-                  size="wide"
-                  image=""
-                  imagealt=""
-                  embed="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7yXGCy4hP4iayvtl6B8nB9%2FJupiter-Mobile-New-Designs%3Fnode-id%3D71%253A1729%26viewport%3D656%252C168%252C0.21991567313671112%26scaling%3Dscale-down&chrome=DOCUMENTATION"
-                  caption=""
-                />
+                <ProjectImage
+                    size="wide"
+                    image=""
+                    imagealt=""
+                    embed="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7yXGCy4hP4iayvtl6B8nB9%2FJupiter-Mobile-New-Designs%3Fnode-id%3D71%253A1729%26viewport%3D656%252C168%252C0.21991567313671112%26scaling%3Dscale-down&chrome=DOCUMENTATION"
+                    caption=""
+                  />
+                </div>
               </div>
-            </div>
               <ProjectNext
                 link="/pcoptimum"
                 image="homepage/pcoptimum_mockup.png"

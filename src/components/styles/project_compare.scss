@@ -1,0 +1,23 @@
+@import '../../data/global_styles.scss';
+
+.project-compare{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 7.25rem;
+  &__image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    flex-basis: 50%;
+    @media (max-width: $tablet){
+      height: 400px;
+    }
+    & img{
+      height: 80%;
+    }
+    @media (max-width: $tablet){
+    flex-basis: 100%;
+    }
+  }
+}
