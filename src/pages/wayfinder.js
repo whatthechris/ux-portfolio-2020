@@ -172,7 +172,7 @@ const WayfinderPage = () => (
                 imagealt=""
                 heading="GroupNet Mobile"
                 subheading="Making employee benefit claims fast and easy"
-                bgcolor="bgcolor-groupnet"
+                bgcolor="bgcolor-gn-blue"
               />
             ))}
       </div>

@@ -11,6 +11,7 @@ import "./styles/motion.scss"
 import MotionProject from "../components/motion_project.js"
 import Menu from "../components/menu"
 import PlayPauseButton from "../components/play_pause_button.js"
+import Logo from "../components/logo.js"
 
 class MotionPage extends React.Component {
   constructor(props){
@@ -33,6 +34,7 @@ class MotionPage extends React.Component {
       <Link rel="icon" type="image/png" sizes="32x32" href={favicon32}/>
       <Link rel="shortcut icon" type="image/png" href={favicon64}/>
       <Menu/>
+      <Logo color="light" />
       <div className="motion-hero">
         <div className="motion-hero__play-pause">
           <PlayPauseButton onClick={this.pausePlayClick}/>

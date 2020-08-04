@@ -105,7 +105,7 @@ const GroupNetPage = () => (
               <ProjectFeature
                 image={data.section5__image1}
                 imagealt={data.section5__image1alt}
-                heading="Personalized Plans"
+                heading="Benefits within reach"
                 paragraph=""
               />
               ))}
