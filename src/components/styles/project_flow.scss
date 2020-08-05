@@ -1,0 +1,35 @@
+@import '../../data/global_styles.scss';
+
+.project-flow{
+  margin: 7.25rem auto 0;
+  text-align: center;
+    @media (max-width: $tablet){
+      margin: 4.5rem auto 0;
+    }
+  &__image{
+    width: 305px;
+    margin-right: 32px;
+    @media (max-width: $tablet){
+      margin-right: 16px;
+    }
+    &-container{
+      position: relative;
+      display: flex;
+      justify-content: center;
+      max-width: 100%;
+    }
+  }
+  &__bgimage{
+    position: absolute;
+    z-index: -1;
+    width: 150%;
+    bottom: 4px;
+  }
+  &__caption{
+    margin: 32px auto 0;
+    max-width: 530px;
+    @media (max-width: $tablet){
+      margin: 1rem auto 0;
+    }
+  }
+}

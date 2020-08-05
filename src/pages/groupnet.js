@@ -15,8 +15,8 @@ import ProjectHighlights from "../components/project_highlights.js"
 import ProjectParagraph from "../components/project_paragraph.js"
 import ProjectImage from "../components/project_image.js"
 import ProjectFeature from "../components/project_feature.js"
-import PullQuote from "../components/pull_quote"
 import ProjectCompare from "../components/project_compare.js"
+import ProjectFlow from "../components/project_flow.js"
 import ProjectNext from "../components/project_next.js"
 
 import ImageZoom from 'react-medium-image-zoom'
@@ -55,7 +55,7 @@ const GroupNetPage = () => (
                     icon2="thumbs-up.svg"
                     paragraph2="Designed the app for one handed use and large mobile devices"
                     icon3="route.svg"
-                    paragraph3="Referred to usability heuristics to enhance the experience"
+                    paragraph3="Improved the app experience with usability heuristics"
                   />
                 ))}
               </div>
@@ -126,6 +126,16 @@ const GroupNetPage = () => (
                 paragraph="Users frequently check the status of their claims so making them more glanceable was important. Additionally, a more forgiving claims process was designed for users that wish to correct their submitted information or cancel actions."
               />
               ))}
+              <ProjectFlow
+                image1="groupnet/groupnet_flow1.png"
+                image1alt=""
+                image2="groupnet/groupnet_flow2.png"
+                image2alt=""
+                image3="groupnet/groupnet_flow3.png"
+                image3alt=""
+                bgimage="groupnet/groupnet_flow_bg.png"
+                caption="Originally a web view in v1 of the app, I redesigned and condensed the Make a Claim flow for a more consistent and streamlined process"
+              />
               <ProjectParagraph
                 eyebrow="The Results"
                 heading="A better benefits experience for all"
