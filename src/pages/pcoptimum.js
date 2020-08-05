@@ -46,10 +46,10 @@ const PCOptimumPage = () => (
               <div className="pcoptimum__highlights">
                 {staticdata.wayfindercontent.map(data =>(
                   <ProjectHighlights 
-                    icon1="mobile.svg"
-                    paragraph1="Leveraged mobile functionalities to make the claims process easier"
-                    icon2="thumbs-up.svg"
-                    paragraph2="Designed the app for one handed use while carefully considering reachability"
+                    icon1="code.svg"
+                    paragraph1="Worked with the engineering team and contributed to the codebase"
+                    icon2="pencil.svg"
+                    paragraph2="Designed and built features by working closely with product managers"
                     icon3="route.svg"
                     paragraph3="Incorporated motion design to hint at app functionality"
                   />

@@ -97,7 +97,7 @@ const GroupNetPage = () => (
               <div className="page-container">
               <ProjectParagraph
                 eyebrow="The Solution"
-                heading="Levelling up the app experience"
+                heading="Leveling up the app experience"
                 paragraph="Along with the enhancements below, user information was grouped and sequenced for better practicality and the UX copy was aligned to match words, phrases and concepts that are familiar to users. On the visual side, a higher contrast type scale allowed the information to be more easily discerned and vector illustrations were incorporated to keep the visuals more unified and consistent. Since accessibility and inclusive design are important (especially in Canada) the new design is also WCAG 2.0 Level AA compliant."
                 button_link=""
                 button_text=""
