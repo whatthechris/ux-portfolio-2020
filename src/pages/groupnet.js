@@ -149,7 +149,7 @@ const GroupNetPage = () => (
                     size="wide"
                     image=""
                     imagealt=""
-                    embed="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7yXGCy4hP4iayvtl6B8nB9%2FJupiter-Mobile-New-Designs%3Fnode-id%3D71%253A1729%26viewport%3D656%252C168%252C0.21991567313671112%26scaling%3Dscale-down&chrome=DOCUMENTATION"
+                    embed="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fec6CU7RA1kuS4RsaQDaqck%2FGroupNet-Mobile-New-Designs%3Fnode-id%3D75%253A1425%26viewport%3D545%252C152%252C0.04620787873864174%26scaling%3Dscale-down&chrome=DOCUMENTATION"
                     caption=""
                   />
                 </div>
@@ -157,7 +157,7 @@ const GroupNetPage = () => (
               <div className="groupnet__prototype-link">
                 <Button
                   text="View the Prototype"
-                  link="https://www.figma.com/proto/7yXGCy4hP4iayvtl6B8nB9/GroupNet-Mobile-New-Designs?node-id=71%3A1729&viewport=666%2C728%2C0.24213911592960358&scaling=min-zoom"
+                  link="https://www.figma.com/proto/ec6CU7RA1kuS4RsaQDaqck/GroupNet-Mobile-New-Designs?node-id=75%3A1425&viewport=545%2C152%2C0.04620787873864174&scaling=scale-down"
                 />
               </div>
             </div>
