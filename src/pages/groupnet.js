@@ -62,7 +62,7 @@ const GroupNetPage = () => (
               <ProjectParagraph
                 eyebrow="The Challenge"
                 heading="A dated and slow process"
-                paragraph="Thousands of employees across Canada use Great West Life’s GrouptNet web app daily to submit and track their benefit claims. Originally, I was tasked with designing the corresponding mobile app using the Great West Life brand guidelines and UX design patterns. Although comprehensive, the guidelines and design patterns weren’t well adapted for mobile app design. Furthermore, the backend of the legacy GroupNet platform dictated the formatting and flow of user information which wasn’t the best experience for plan members. After the launch, I redesigned the app as a personal project."
+                paragraph="Thousands of employees across Canada use Great West Life’s GroupNet web app daily to submit and track their benefit claims. Originally, I was tasked with designing the corresponding mobile app using the Great West Life brand guidelines and UX design patterns. Although comprehensive, the guidelines and design patterns weren’t well adapted for mobile app design. Furthermore, the backend of the legacy GroupNet platform dictated the formatting and flow of user information which wasn’t the best experience for plan members. After the launch, I redesigned the app as a personal project."
                 button_link=""
                 button_text=""
               />

@@ -13,9 +13,6 @@ import Logo from "../components/logo.js"
 import ProjectHero from "../components/project_hero.js"
 import ProjectHighlights from "../components/project_highlights.js"
 import ProjectParagraph from "../components/project_paragraph.js"
-import ProjectImage from "../components/project_image.js"
-import ProjectFeature from "../components/project_feature.js"
-import PullQuote from "../components/pull_quote"
 import ProjectNext from "../components/project_next.js"
 
 const PCOptimumPage = () => (
@@ -34,7 +31,6 @@ const PCOptimumPage = () => (
               </div>
             </Parallax>
             <div className="page-container">
-              {staticdata.wayfindercontent.map(data =>(
                 <ProjectHero
                   eyebrow="Leveling up Loblaw's loyalty points game"
                   title="PC Optimum"
@@ -42,9 +38,7 @@ const PCOptimumPage = () => (
                   role2="Interaction Design"
                   role3="Motion Design"
                 />
-              ))}
               <div className="pcoptimum__highlights">
-                {staticdata.wayfindercontent.map(data =>(
                   <ProjectHighlights 
                     icon1="code.svg"
                     paragraph1="Worked with the engineering team and contributed to the codebase"
@@ -53,9 +47,7 @@ const PCOptimumPage = () => (
                     icon3="route.svg"
                     paragraph3="Incorporated motion design to hint at app functionality"
                   />
-                ))}
               </div>
-              {staticdata.wayfindercontent.map(data =>(
                 <ProjectParagraph
                   eyebrow=""
                   heading="Under Construction"
@@ -63,9 +55,7 @@ const PCOptimumPage = () => (
                   button_link="https://pcoptimum.ca"
                   button_text="PC Optimum site"
                 />
-              ))}
             </div>
-            {staticdata.wayfindercontent.map(data =>(
               <ProjectNext
                 link="/wayfinder"
                 image="homepage/wayfinder_mockup.png"
@@ -74,7 +64,6 @@ const PCOptimumPage = () => (
                 subheading="Helping people save for their future"
                 bgcolor="bgcolor-wayfinder"
               />
-            ))}
       </div>
     </div>
 )
