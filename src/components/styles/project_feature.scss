@@ -13,15 +13,18 @@
     width: 439px;
     @media (max-width: $tablet){
     width: 100%;
+    margin-top: 1.5rem;
+    order: 2;
     }
   }
   &__text{
     margin-left: 48px;
     width: 439px;
     @media (max-width: $tablet){
-      margin-top: 1.5rem;
       margin-left: 0px;
+      margin-bottom: 1.5rem;
       width: 100%;
+      order: 1;
     }
   }
 }

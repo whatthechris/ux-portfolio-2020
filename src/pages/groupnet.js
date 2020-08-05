@@ -20,6 +20,7 @@ import ProjectCompare from "../components/project_compare.js"
 import ProjectNext from "../components/project_next.js"
 
 import ImageZoom from 'react-medium-image-zoom'
+import Button from "../components/button";
 
 const GroupNetPage = () => (
     <div>
@@ -54,14 +55,14 @@ const GroupNetPage = () => (
                     icon2="thumbs-up.svg"
                     paragraph2="Designed the app for one handed use and large mobile devices"
                     icon3="route.svg"
-                    paragraph3="Incorporated motion design to hint at app functionality"
+                    paragraph3="Referred to usability heuristics to enhance the experience"
                   />
                 ))}
               </div>
               <ProjectParagraph
                 eyebrow="The Challenge"
-                heading="Held back by the past"
-                paragraph="Thousands of employees across Canada use Great West Life’s GrouptNet web app daily to submit and track their benefit claims. I was tasked with designing the corresponding mobile app using the Great West Life brand guidelines and UX design patterns. Although comprehensive, the guidelines and design patterns weren’t well adapted for mobile app design. Furthermore, the backend of the legacy GroupNet platform dictated the formatting and flow of user information which wasn’t the best experience for users. After the launch, I redesigned the app as a personal project."
+                heading="A dated and slow process"
+                paragraph="Thousands of employees across Canada use Great West Life’s GrouptNet web app daily to submit and track their benefit claims. Originally, I was tasked with designing the corresponding mobile app using the Great West Life brand guidelines and UX design patterns. Although comprehensive, the guidelines and design patterns weren’t well adapted for mobile app design. Furthermore, the backend of the legacy GroupNet platform dictated the formatting and flow of user information which wasn’t the best experience for plan members. After the launch, I redesigned the app as a personal project."
                 button_link=""
                 button_text=""
               />
@@ -76,8 +77,8 @@ const GroupNetPage = () => (
               />
               <ProjectParagraph
                 eyebrow="The Approach"
-                heading="More usable and understandable"
-                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                heading="Usability always top of mind"
+                paragraph="Unrestrained by the GWL design guidelines and legacy platform, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. A usability heuristics audit was conducted to identify areas for improvement. Drawing from the main pain points, the app redesign focused on creating more visual hierarchy and interest, designing for one handed use and organizing the user’s information in a more understandable way."
                 button_link=""
                 button_text=""
               />
@@ -96,44 +97,45 @@ const GroupNetPage = () => (
               <div className="page-container">
               <ProjectParagraph
                 eyebrow="The Solution"
-                heading="More usable and understandable"
-                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                heading="Levelling up the app experience"
+                paragraph="Along with the enhancements below, user information was grouped and sequenced for better practicality and the UX copy was aligned to match words, phrases and concepts that are familiar to users. On the visual side, a higher contrast type scale allowed the information to be more easily discerned and vector illustrations were incorporated to keep the visuals more unified and consistent. Since accessibility and inclusive design are important (especially in Canada) the new design is also WCAG 2.0 Level AA compliant."
                 button_link=""
                 button_text=""
               />
               {staticdata.wayfindercontent.map(data =>(
               <ProjectFeature
-                image={data.section5__image1}
+                image="groupnet/groupnet_feature1.png"
                 imagealt={data.section5__image1alt}
-                heading="Benefits within reach"
-                paragraph=""
+                heading="Built for users on the go"
+                paragraph="Many plan members like to submit their benefits claims right after visiting their service provider or making a reimbursable purchase. In order to accommodate these use cases, quick sign in with Touch ID was implemented and receipt scanning for quick form input was added to the claims flow."
               />
               ))}
               {staticdata.wayfindercontent.map(data =>(
               <ProjectFeature
-                image={data.section5__image1}
+                image="groupnet/groupnet_feature2.png"
                 imagealt={data.section5__image1alt}
-                heading="Personalized Plans"
-                paragraph=""
+                heading="All within reach"
+                paragraph="Keeping one-handed use and large phones in mind, reachability was carefully considered when placing elements and designing interactions. Swipe gestures were implemented where appropriate to reduce the need for users to shift their phone grip."
               />
               ))}
               {staticdata.wayfindercontent.map(data =>(
               <ProjectFeature
-                image={data.section5__image1}
+                image="groupnet/groupnet_feature3.png"
                 imagealt={data.section5__image1alt}
-                heading="Personalized Plans"
-                paragraph=""
+                heading="Transparent and forgiving"
+                paragraph="Users frequently check the status of their claims so making them more glanceable was important. Additionally, a more forgiving claims process was designed for users that wish to correct their submitted information or cancel actions."
               />
               ))}
               <ProjectParagraph
                 eyebrow="The Results"
-                heading="More usable and understandable"
-                paragraph="Unrestrained by the project constraints, the goal was to improve the usability design patterns and make the app more appealing while retaining the core functionalities. The main pain points that I focused on included creating more visual hierarchy, designing for one handed use and organizing the user’s information in a more understandable way."
+                heading="A better benefits experience for all"
+                paragraph="The improvements in usability, visual design and practicality all contribute to an easier and more seamless plan member experience. Try it out for yourself in the interactive prototype below."
                 button_link=""
                 button_text=""
               />
-              <div className="video-container">
-                <ProjectImage
+              <div className="groupnet__prototype">
+                <div className="video-container">
+                  <ProjectImage
                     size="wide"
                     image=""
                     imagealt=""
@@ -142,14 +144,21 @@ const GroupNetPage = () => (
                   />
                 </div>
               </div>
-              <ProjectNext
-                link="/pcoptimum"
-                image="homepage/pcoptimum_mockup.png"
-                imagealt=""
-                heading="PC Optimum"
-                subheading="Leveling up Loblaw's loyalty points game"
-                bgcolor="bgcolor-pcoptimum"
-              />
+              <div className="groupnet__prototype-link">
+                <Button
+                  text="View the Prototype"
+                  link="https://www.figma.com/proto/7yXGCy4hP4iayvtl6B8nB9/GroupNet-Mobile-New-Designs?node-id=71%3A1729&viewport=666%2C728%2C0.24213911592960358&scaling=min-zoom"
+                />
+              </div>
+            </div>
+        <ProjectNext
+          link="/pcoptimum"
+          image="homepage/pcoptimum_mockup.png"
+          imagealt=""
+          heading="PC Optimum"
+          subheading="Leveling up Loblaw's loyalty points game"
+          bgcolor="bgcolor-pcoptimum"
+        />
       </div>
     </div>
 )
