@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby"
 import "./styles/carousel.scss"
+import ProgressiveImage from "react-progressive-image";
 
 import {motion} from 'framer-motion';
 
@@ -31,7 +32,7 @@ const item = {
         }
     },
     exit:{ 
-        x: 40, 
+        x: 80, 
         opacity: 0,
         transition: {
             duration: 0.5, ease: "easeIn"
@@ -102,76 +103,97 @@ class Carousel extends React.Component {
                         >PC Optimum</Link>
                     </motion.div>
                 </div>
-                <motion.div className="carousel__progress" variants={item}>
+                <motion.div className="carousel__progress" exit={{opacity:0}}>
                     <div className={this.state.progress == false ? 'carousel__progress-bar' : 'carousel__progress-bar carousel__progress-animation'}></div>
                 </motion.div>
-                <motion.div className="carousel__more" variants={item}>
+                <motion.div className="carousel__more" exit={{opacity:0}}>
                     <h5>More case studies coming soon</h5>
                 </motion.div>
             </motion.div>
             {this.state.currentslide === 0 &&
-                <motion.img 
-                    id="wayfinder-mockup" 
+                <ProgressiveImage
                     src={require(`../images/homepage/wayfinder_mockup.png`)}
-                    initial={{
-                        y: 20,
-                        opacity: 0,
-                    }}
-                    animate={{
-                        y: 0,
-                        opacity: 1,
-                    }}
-                    exit={{
-                        top: '160px',
-                        left: '50%',
-                        x: '-50%',
-                        height: '100vh',
-                    }}
-                    transition={transition}
-                />
+                    placeholder={require(`../images/homepage/wayfinder_mockup_compressed.webp`)}
+                >
+                    {(src) => (
+                        <motion.img 
+                            id="wayfinder-mockup" 
+                            src={src}
+                            initial={{
+                                y: 20,
+                                opacity: 0,
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1,
+                            }}
+                            exit={{
+                                top: '160px',
+                                left: '50%',
+                                x: '-50%',
+                                height: '100vh',
+                            }}
+                            transition={transition}
+                        />
+                    )}
+                </ProgressiveImage>
             }
             {this.state.currentslide === 1 &&
-                <motion.img 
-                    id="groupnet-mockup" 
+                <ProgressiveImage
                     src={require(`../images/homepage/groupnet_mockup.png`)}
-                    initial={{
-                        y: 20,
-                        opacity: 0,
-                    }}
-                    animate={{
-                        y: 0,
-                        opacity: 1,
-                    }}
-                    exit={{
-                        top: '260px',
-                        left: '55%',
-                        x: '-45%',
-                        height: '100vh',
-                    }}
-                    transition={transition}
-                />
+                    placeholder={require(`../images/homepage/groupnet_mockup_compressed.webp`)}
+                >
+                    {(src) => (
+                        <motion.img 
+                            id="groupnet-mockup" 
+                            src={src}
+                            initial={{
+                                y: 20,
+                                opacity: 0,
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1,
+                            }}
+                            exit={{
+                                top: '260px',
+                                left: '55%',
+                                x: '-45%',
+                                height: '100vh',
+                            }}
+                            transition={transition}
+                        />
+                    )}
+                </ProgressiveImage>
             }
             {this.state.currentslide === 2 &&
-                <motion.img 
-                    id="pcoptimum-mockup" 
+                <ProgressiveImage
                     src={require(`../images/homepage/pcoptimum_mockup.png`)}
-                    initial={{
-                        y: 20,
-                        opacity: 0,
-                    }}
-                    animate={{
-                        y: 0,
-                        opacity: 1,
-                    }}
-                    exit={{
-                        top: '230px',
-                        left: '55%',
-                        x: '-45%',
-                        height: '85vh',
-                        transition: {...transition},
-                    }}
-                    transition={transition}
-                />
+                    placeholder={require(`../images/homepage/pcoptimum_mockup_compressed.webp`)}
+                >
+                    {(src) => (
+                        <motion.img 
+                            id="pcoptimum-mockup" 
+                            src={src}
+                            initial={{
+                                y: 20,
+                                opacity: 0,
+                            }}
+                            animate={{
+                                y: 0,
+                                opacity: 1,
+                            }}
+                            exit={{
+                                top: '230px',
+                                left: '55%',
+                                x: '-45%',
+                                height: '85vh',
+                                transition: {...transition},
+                            }}
+                            transition={transition}
+                        />
+                    )}
+                </ProgressiveImage>
             }
         </div>
     )

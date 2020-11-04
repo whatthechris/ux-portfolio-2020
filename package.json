@@ -22,6 +22,7 @@
     "react-head": "^3.4.0",
     "react-medium-image-zoom": "^3.1.2",
     "react-medium-zoom": "^1.0.0",
+    "react-progressive-image": "^0.6.0",
     "react-rellax": "^1.0.3",
     "react-reveal": "^1.2.2",
     "react-spring": "^8.0.27"
