@@ -3,29 +3,13 @@
 .groupnet{
     &__hero-image-container{
         position: absolute;
-        top: 280px;
-        left: 60%; 
-        transform: translateX(-50%);
+        top: 260px;
+        left: 55%; 
+        transform: translateX(-45%);
         z-index: -1;
-        @media (max-width: $desktop){
-            top: 320px;
-        }
-        @media (max-width: $tablet){
-            top: 45vh;
-            transform: translateX(-40%);
-        }
     }
     &__hero-image{
-        width: 950px;
-        opacity: 0;
-        animation: $fadein;
-        @media (max-width: $desktop){
-            width: auto;
-            height: 80vh;
-        }
-        @media (max-width: $tablet){
-            height: 60vh;
-        }
+        height: 100vh;
     }
     &__highlights{
         position: absolute;

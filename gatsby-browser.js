@@ -3,5 +3,10 @@
  *
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
+const React = require("react")
+const Layout = require("./src/components/layout").default
 
-// You can delete this file if you're not using it
+// Wraps every page in a component
+exports.wrapPageElement = ({ element}) => {
+  return <Layout>{element}</Layout>
+}

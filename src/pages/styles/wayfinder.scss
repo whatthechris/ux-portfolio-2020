@@ -7,19 +7,9 @@
         left: 50%; 
         transform: translateX(-50%);
         z-index: -1;
-        @media (max-width: $tablet){
-            top: 25vh;
-            transform: translateX(-60%);
-        }
     }
     &__hero-image{
-        width: 1450px;
-        opacity: 0;
-        animation: $fadein;
-        @media (max-width: $tablet){
-            width: auto;
-            height: 85vh;
-        }
+        height: 100vh;
     }
     &__highlights{
         position: absolute;

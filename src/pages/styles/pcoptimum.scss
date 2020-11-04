@@ -4,22 +4,12 @@
     &__hero-image-container{
         position: absolute;
         top: 230px;
-        left: 60%; 
-        transform: translateX(-50%);
+        left: 55%; 
+        transform: translateX(-45%);
         z-index: -1;
-        @media (max-width: $tablet){
-            top: 25vh;
-            transform: translateX(-60%);
-        }
     }
     &__hero-image{
-        width: 935px;
-        opacity: 0;
-        animation: $fadein;
-        @media (max-width: $tablet){
-            width: auto;
-            height: 85vh;
-        }
+        height: 85vh;
     }
     &__highlights{
         position: absolute;
