@@ -7,7 +7,7 @@ $body-font-stack: 'Lato', sans-serif;
 // neutral color variables
 $black: #2E2E30;
 $white: #F9F9F9;
-$grey: #E3E3E3;
+$grey: #EAEAE8;
 $dark-grey: #6B6B6B;
 
 //brand colors variables
@@ -230,41 +230,6 @@ a{
       width: 100%;
       height: 100%;
   }
-}
-
-.section-title{
-  position: sticky;
-  top: 30px;
-  margin-bottom: 12rem;
-  margin-left: 2rem;
-  @media (max-width: $wide){
-    margin-left: 0rem;
-  }
-  @media (max-width: $tablet){
-      position: static;
-      margin-bottom: 2rem;
-      margin-left: 1rem;
-  }
-  & h5{
-      text-align: right;
-      color: $grey;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      word-spacing: 3px;
-      position: absolute;
-      width: 205px;
-      -webkit-transform-origin: 50% 390%;
-      transform-origin: 50% 390%;
-      -webkit-transform: rotate(270deg);
-      transform: rotate(270deg);
-      @media (max-width: $tablet){
-          -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-          position: static;
-          text-align: left;
-      }
-  }
-    
 }
 
 .bgcolor{

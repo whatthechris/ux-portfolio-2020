@@ -36,7 +36,7 @@
         }
         &__paragraph{
             margin-top: 1rem;
-            color: $white !important;
+            color: $white;
         }
         &__play-pause{
           position: absolute;
@@ -67,12 +67,6 @@
       @media (max-width: $tablet){
         padding: 2rem 0rem 0.5rem 0rem;
         margin-bottom: 4rem;
-      }
-    }
-    &__container{
-      margin-top: -16rem !important;
-      @media (max-width: $tablet){
-      margin-top: 0rem !important;
       }
     }
 }

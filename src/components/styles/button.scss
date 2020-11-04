@@ -14,11 +14,11 @@
         color: $white;
     }
     &:focus{
-        background-color: $light-yellow;
-        color: $black;
+        background-color: $dark-grey;
+        color: $white;
     }
     &:active{
-        background-color: $light-yellow;
-        color: $black;
+        background-color: $dark-grey;
+        color: $white;
     }
 }

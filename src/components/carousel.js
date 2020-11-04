@@ -184,7 +184,7 @@ class Carousel extends React.Component {
                                 opacity: 1,
                             }}
                             exit={{
-                                top: '230px',
+                                top: '250px',
                                 left: '55%',
                                 x: '-45%',
                                 height: '85vh',

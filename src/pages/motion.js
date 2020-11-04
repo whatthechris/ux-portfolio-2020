@@ -41,7 +41,7 @@ class MotionPage extends React.Component {
         </div>
         <div className='motion-hero__content'>
           <div className="motion-hero__text">
-            <h1>Various Motion Projects</h1>
+            <h1>Motion Projects</h1>
             <p className="pull-quote__global motion-hero__paragraph">I have 7+ years of experience creating <a href="#eq">2D motion graphics,</a> <a href="#spark">character animations,</a> <a href="#wise">photo parallax animations,</a> <a href="#stormtrooper">3D models,</a> <a href="#loyalty">composited videos,</a> <a href="#brainstation">motion identities,</a> <a href="#brainstation">educational video series</a> and many more in between.</p>
           </div>
         </div>
@@ -50,11 +50,6 @@ class MotionPage extends React.Component {
         </div>
       </div>
         <div className="motion__client-section">
-          <Fade bottom>
-            <div className="section-title">
-              <h5>Client Work</h5>
-            </div>
-          </Fade>
           <div className="page-container motion__container">
           {staticdata.motionclients.map(data =>(
           <MotionProject
@@ -74,11 +69,6 @@ class MotionPage extends React.Component {
           </div>
         </div>
         <div>
-          <Fade bottom>
-            <div className="section-title">
-              <h5>Personal Projects</h5>
-            </div>
-          </Fade>
           <div className="page-container">
           {staticdata.motionfun.map(data =>(
           <MotionProject
