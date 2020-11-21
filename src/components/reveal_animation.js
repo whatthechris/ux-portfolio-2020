@@ -14,7 +14,7 @@ const customAnimation = keyframes`
 `;
 
 const RevealAnimation = ({children}) => (
-    <Reveal keyframes={customAnimation}>
+    <Reveal keyframes={customAnimation} triggerOnce>
       {children}
     </Reveal>
   )
