@@ -1,12 +1,12 @@
 import React from "react"
 import ImageZoom from 'react-medium-image-zoom'
-import Fade from 'react-reveal/Fade'
+import RevealAnimation from "./reveal_animation"
 
 import "./styles/project_flow.scss"
 
 const ProjectFlow = props => (
     <div className="project-flow">
-      <Fade bottom distance="100px">
+      <RevealAnimation>
         <div className="project-flow__image-container">
           <div className="project-flow__image">
             <ImageZoom
@@ -41,7 +41,7 @@ const ProjectFlow = props => (
           <img className="project-flow__bgimage" src={require(`../images/`+ props.bgimage)}/>
         </div>
         <p className="project-flow__caption caption">{props.caption}</p>
-      </Fade>
+      </RevealAnimation>
     </div>
 )
 

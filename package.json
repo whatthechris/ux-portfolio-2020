@@ -18,13 +18,13 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^16.14.0",
+    "react-awesome-reveal": "^3.5.1",
     "react-dom": "^16.14.0",
     "react-head": "^3.4.0",
     "react-medium-image-zoom": "^3.1.2",
     "react-medium-zoom": "^1.0.0",
     "react-progressive-image": "^0.6.0",
     "react-rellax": "^1.0.3",
-    "react-reveal": "^1.2.2",
     "react-spring": "^8.0.27"
   },
   "devDependencies": {

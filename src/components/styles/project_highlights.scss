@@ -8,6 +8,7 @@
   width: 535px;
   height: 535px;
   border-radius: 50%;
+  animation: $fadein;
   @media (max-width: $tablet){
     width: 450px;
     height: 450px;
