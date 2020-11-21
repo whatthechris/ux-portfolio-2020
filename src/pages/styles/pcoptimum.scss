@@ -24,4 +24,33 @@
             transform: translateX(-50%);
         }
     }
+    &__parallax{
+        position: relative;
+        margin-top: 7.25rem;
+        overflow: hidden;
+        background-color: $grey;
+        height: 550px;
+        @media (max-width: $tablet){
+            margin-top: 4rem;
+            height: 300px;
+        }
+        & img{
+            position: absolute;
+            top: -1900px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 786px;
+            @media (max-width: $tablet){
+                width: 456px;
+            }
+        }
+    }
+    &__caption{
+        text-align: center;
+        margin: 32px auto 0;
+        max-width: 630px;
+        @media (max-width: $tablet){
+            margin: 1rem auto 0;
+        }
+    }
 }

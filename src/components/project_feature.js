@@ -19,6 +19,11 @@ const ProjectFeature = props => (
             />
           </div>
         }
+        {props.embed &&
+          <div className="project-feature__image">
+            <iframe src={props.embed} width="439" height="439" frameborder="0" allow="autoplay; fullscreen" allowfullscreen title="Project video or interactive demo"></iframe>
+          </div>
+        }
         <div className="project-feature__text">
           <h4>{props.heading}</h4>
           <p>{props.paragraph}</p>
