@@ -55,7 +55,7 @@ const PCOptimumPage = () => (
                 <ProjectParagraph
                   eyebrow="The Challenge"
                   heading="Two points programs, one web app"
-                  paragraph="In the largest Canadian retail acquisition in recent history, Loblaws Companies Limited looked to merge it's loyalty points program, PC Plus, with Shopper's Drug Mart's Optimum program. The benefit of merging the two programs was that millions of existing members would soon be able to collect and spend their points at over 2,500 Loblaws, Shoppers, No Frills and Real Canadian Super Stores nation-wide under one points system, PC Optimum.  The first step was to build a web app which would allow existing members to transfer their legacy points and manage them. Some new features included the ability for members to pool their points with other members of their household,  inquire about any point discrepancies and even donate points to charities."
+                  paragraph="In the largest Canadian retail acquisition in recent history, Loblaws Companies Limited looked to merge its loyalty points program, PC Plus, with Shopper's Drug Mart's Optimum program. The benefit of merging the two programs was that millions of existing members would soon be able to collect and spend their points at over 2,500 Loblaws, Shoppers, No Frills and Real Canadian Super Stores nation-wide under one points system, PC Optimum.  The first step was to build a web app which would allow existing members to transfer their legacy points and manage them. Some new features included the ability for members to pool their points with other members of their household,  inquire about any point discrepancies and even donate points to charities."
                   button_link=""
                   button_text=""
                 />
@@ -83,7 +83,7 @@ const PCOptimumPage = () => (
                 <ProjectParagraph
                   eyebrow="Project Contributions"
                   heading="Get to the points!"
-                  paragraph="I helped build the front-end of the web app on a React, Javascript and Sass tech stack and used best practices such as semantic HTML and BEM naming conventions. In order to reach as many Canadians as possible, the web app needed to be able to toggle between English and French languages and meet WCAG AA accessibility compliance standards. Below are some of the components and features that I designed and built."
+                  paragraph="I helped build the front-end of the web app on a React, JavaScript and SASS tech stack and used best practices such as semantic HTML and BEM naming conventions. In order to reach as many Canadians as possible, the web app needed to be able to toggle between English and French languages and meet WCAG AA accessibility compliance standards. Below are some of the components and features that I designed and built."
                   button_link=""
                   button_text=""
                 />
@@ -92,21 +92,14 @@ const PCOptimumPage = () => (
                   imagealt=""
                   embed="https://player.vimeo.com/video/479997898?autoplay=1&loop=1"
                   heading="Collect and redeem"
-                  paragraph="Many plan members like to submit their benefits claims right after visiting their service provider or making a reimbursable purchase. In order to accommodate these use cases, quick sign in with Touch ID was implemented and receipt scanning for quick form input was added to the claims flow."
+                  paragraph="Although members can managing points their points through the web app, it was important for them to be able to find relevant stores where they could take advantage of offers and redeem their points for products. I built the stores map and the store details pages while accounting for both desktop and mobile interactions."
                 />
                 <ProjectFeature
                   image=""
                   imagealt=""
-                  embed="https://player.vimeo.com/video/479997898?autoplay=1&loop=1"
-                  heading="Responsive Page Layouts"
-                  paragraph="Many plan members like to submit their benefits claims right after visiting their service provider or making a reimbursable purchase. In order to accommodate these use cases, quick sign in with Touch ID was implemented and receipt scanning for quick form input was added to the claims flow."
-                />
-                <ProjectFeature
-                  image=""
-                  imagealt=""
-                  embed="https://player.vimeo.com/video/479997898?autoplay=1&loop=1"
+                  embed="https://player.vimeo.com/video/482401958?autoplay=1&loop=1"
                   heading="It's all in the details"
-                  paragraph="Many plan members like to submit their benefits claims right after visiting their service provider or making a reimbursable purchase. In order to accommodate these use cases, quick sign in with Touch ID was implemented and receipt scanning for quick form input was added to the claims flow."
+                  paragraph="Fetching content, images, videos and other data from the server can take a couple seconds even on a fast internet connection. In order to make sure the user receives timely feedback, I designed, animated and built various page loaders, content placeholders and inner button loaders."
                 />
                 <div className="pcoptimum__parallax">
                   <Parallax speed={-2}>
