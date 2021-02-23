@@ -25,7 +25,7 @@ const ProjectImage = props => (
         {props.embed &&
           <RevealAnimation>
             <div>
-              <iframe src={props.embed} frameborder="0" allow="autoplay; fullscreen; microphone" allowfullscreen title="Project video or interactive demo"></iframe>
+              <iframe style={{border: "0px"}} src={props.embed} frameborder="0" allow="autoplay; fullscreen; microphone" title="Project video or interactive demo"></iframe>
             </div>
           </RevealAnimation>
         }

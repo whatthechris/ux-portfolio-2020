@@ -145,13 +145,7 @@ const GroupNetPage = () => (
               />
               <div className="groupnet__prototype">
                 <div className="video-container">
-                  <ProjectImage
-                    size="wide"
-                    image=""
-                    imagealt=""
-                    embed="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fec6CU7RA1kuS4RsaQDaqck%2FGroupNet-Mobile-New-Designs%3Fnode-id%3D75%253A1425%26viewport%3D545%252C152%252C0.04620787873864174%26scaling%3Dscale-down&chrome=DOCUMENTATION"
-                    caption=""
-                  />
+                  <iframe style={{border:"0px"}} width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fec6CU7RA1kuS4RsaQDaqck%2FGroupNet-Mobile-Prototype%3Fnode-id%3D431%253A87%26viewport%3D398%252C88%252C0.13060487806797028%26scaling%3Dscale-down" allowfullscreen></iframe>
                 </div>
               </div>
               <div className="groupnet__prototype-link">

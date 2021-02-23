@@ -154,15 +154,7 @@ const WayfinderPage = () => (
                 />
               ))}
               <div className="video-container">
-                {staticdata.wayfindercontent.map(data =>(
-                  <ProjectImage
-                    size="large"
-                    image=""
-                    imagealt=""
-                    embed="https://player.vimeo.com/video/212916369"
-                    caption=""
-                  />
-                ))}
+                <iframe src="https://player.vimeo.com/video/212916369" width="100%" height="100%" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
             </div>
           {staticdata.wayfindercontent.map(data =>(
